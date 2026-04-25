@@ -19,6 +19,34 @@ _HEADERS = {
 
 _school_id_cache: dict[str, str] = {}
 
+_DEPT_MAP = {
+    "ITCS": "Computer Science",
+    "ITIS": "Computer Science",
+    "ITSC": "Computer Science",
+    "MATH": "Mathematics",
+    "STAT": "Statistics",
+    "CHEM": "Chemistry",
+    "PHYS": "Physics",
+    "PSYC": "Psychology",
+    "ENGL": "English",
+    "UWRT": "English",
+    "BIOL": "Biology",
+    "ECON": "Economics",
+    "COMP": "Computer Science",
+    "CSC":  "Computer Science",
+    "MA":   "Mathematics",
+    "ST":   "Statistics",
+    "CH":   "Chemistry",
+    "PY":   "Physics",
+    "EC":   "Economics",
+    "ENG":  "English",
+}
+
+
+def get_department_for_code(course_code: str) -> str:
+    prefix = course_code.strip().split()[0].upper() if course_code.strip() else ""
+    return _DEPT_MAP.get(prefix, prefix)
+
 
 def _decode_id(encoded_id: str) -> str:
     """Decode base64 RMP node ID to numeric string. 'VGVhY2hlci0xMjM0' → '1234'."""
@@ -107,12 +135,8 @@ def search_professor(school_id: str, professor_name: str) -> dict | None:
     }
 
 
-def get_professors_for_course(school_name: str, course_code: str, limit: int = 5) -> list[dict]:
-    """Search RMP for professors who have been rated for a specific course code.
-
-    Strategy: search for professors at the school whose ratings include the course code.
-    Use the teacher search with the course code as the query, then verify matches.
-    """
+def get_department_professors(school_name: str, department_query: str, limit: int = 20) -> list[dict]:
+    """Search RMP teachers by department query. Returns up to limit professors sorted by num_ratings desc."""
     try:
         school_id = get_rmp_school_id(school_name)
     except ValueError as e:
@@ -121,7 +145,7 @@ def get_professors_for_course(school_name: str, course_code: str, limit: int = 5
 
     query = {
         "query": (
-            f'{{ newSearch {{ teachers(query: {{text: "{course_code}", schoolID: "{school_id}"}}) '
+            f'{{ newSearch {{ teachers(query: {{text: "{department_query}", schoolID: "{school_id}"}}) '
             f'{{ edges {{ node {{ id firstName lastName avgRating avgDifficulty '
             f'numRatings wouldTakeAgainPercent department }} }} }} }} }}'
         )
@@ -130,7 +154,7 @@ def get_professors_for_course(school_name: str, course_code: str, limit: int = 5
     try:
         resp = requests.post(_GRAPHQL_URL, json=query, headers=_HEADERS, timeout=_TIMEOUT)
     except requests.exceptions.RequestException as e:
-        logger.warning("RMP course search failed: %s", e)
+        logger.warning("RMP department search failed: %s", e)
         return []
 
     if not resp.ok:
@@ -144,20 +168,46 @@ def get_professors_for_course(school_name: str, course_code: str, limit: int = 5
     professors = []
     for edge in edges[:limit]:
         node = edge.get("node", {})
-        prof = {
-            "id":               node.get("id", ""),
-            "name":             f"{node.get('firstName', '')} {node.get('lastName', '')}".strip(),
-            "rating":           node.get("avgRating"),
-            "difficulty":       node.get("avgDifficulty"),
-            "num_ratings":      node.get("numRatings", 0),
-            "department":       node.get("department", ""),
-            "would_take_again": node.get("wouldTakeAgainPercent"),
-        }
-        if prof["id"]:
-            prof["reviews"] = get_professor_reviews(prof["id"])
-            professors.append(prof)
+        if node.get("id"):
+            professors.append({
+                "id":               node.get("id", ""),
+                "name":             f"{node.get('firstName', '')} {node.get('lastName', '')}".strip(),
+                "rating":           node.get("avgRating"),
+                "difficulty":       node.get("avgDifficulty"),
+                "num_ratings":      node.get("numRatings", 0),
+                "department":       node.get("department", ""),
+                "would_take_again": node.get("wouldTakeAgainPercent"),
+            })
 
+    professors.sort(key=lambda p: p["num_ratings"] or 0, reverse=True)
     return professors
+
+
+def get_professors_for_course(
+    school_name: str,
+    course_code: str,
+    department_query: str,
+    limit: int = 5,
+) -> list[dict]:
+    """Find professors who have been rated for course_code by fetching department professors
+    and filtering their reviews to 2023+ reviews for this course."""
+    candidates = get_department_professors(school_name, department_query, limit=20)
+
+    normalized_code = course_code.replace(" ", "").upper()
+
+    matched: list[dict] = []
+    for prof in candidates:
+        reviews = get_professor_reviews(prof["id"])
+        recent_course_reviews = [
+            r for r in reviews
+            if r["class_name"].replace(" ", "").upper() == normalized_code
+            and r.get("date", "")[:4] >= "2023"
+        ]
+        if recent_course_reviews:
+            matched.append({**prof, "reviews": recent_course_reviews})
+
+    matched.sort(key=lambda p: p["num_ratings"] or 0, reverse=True)
+    return matched[:limit]
 
 
 def get_professor_reviews(professor_id: str, limit: int = 10) -> list[dict]:

@@ -162,8 +162,9 @@ def get_course_insights(school: str, code: str) -> dict:
     # Primary: RMP course search finds professors who actually teach this course
     professors: list[dict] = []
     try:
+        department_query = rmp_client.get_department_for_code(course_code)
         professors = rmp_client.get_professors_for_course(
-            school_data["rmp_school_name"], course_code, limit=5,
+            school_data["rmp_school_name"], course_code, department_query, limit=5,
         )
     except Exception as e:
         logger.warning("RMP course search failed: %s", e)

@@ -56,6 +56,9 @@ Rules:
 fields.
 - Output ONLY a valid JSON object. No preamble, no markdown fences, no explanation.
 - Every one of the 9 fields must be present in the output.
+- Reviews and posts have dates. Prioritize patterns from 2023 onwards. If older evidence \
+contradicts recent evidence, weight recent evidence more heavily. If all evidence is old \
+(pre-2023), note this explicitly in the summary.
 """
 
 _WORKLOAD_SHAPE_VALUES = {"front_loaded", "back_loaded", "steady", None}

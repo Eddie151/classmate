@@ -12,7 +12,7 @@ _SEARCH_URL  = "https://www.reddit.com/r/{subreddit}/search.json"
 
 def fetch_reddit_posts(subreddit: str, query: str, limit: int = 20) -> list[dict]:
     url     = _SEARCH_URL.format(subreddit=subreddit)
-    params  = {"q": query, "restrict_sr": 1, "sort": "relevance", "limit": limit}
+    params  = {"q": query, "restrict_sr": 1, "sort": "relevance", "limit": limit, "t": "year"}
     headers = {"User-Agent": _USER_AGENT}
 
     try:
