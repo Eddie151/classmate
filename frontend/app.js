@@ -250,10 +250,7 @@ function makeChip(text, fullText = null) {
   return chip;
 }
 
-function renderCard(data, courseCode) {
-  clearResults();
-  setStatus("");
-
+function renderCard(data, courseCode, professorName = null, rating = null, numRatings = null) {
   const card = document.createElement("div");
   card.className = "card";
 
@@ -263,8 +260,10 @@ function renderCard(data, courseCode) {
   const h2 = document.createElement("h2");
   h2.textContent = courseCode;
   const prof = document.createElement("div");
-  prof.className   = "professor";
-  prof.textContent = "Dr. Alex Chen";
+  prof.className = "professor";
+  let profLabel = professorName ?? "Dr. Alex Chen";
+  if (rating !== null) profLabel += ` · ${rating}★ (${numRatings} ratings)`;
+  prof.textContent = profLabel;
   header.appendChild(h2);
   header.appendChild(prof);
   card.appendChild(header);
@@ -362,7 +361,22 @@ async function fetchInsights(school, code) {
       return;
     }
 
-    renderCard(data, code);
+    clearResults();
+    setStatus("");
+
+    if (data.professors) {
+      if (data.source === "mock") {
+        const banner = document.createElement("p");
+        banner.className   = "mock-banner";
+        banner.textContent = "⚠️ Showing demo data — real data unavailable right now.";
+        resultsEl.appendChild(banner);
+      }
+      data.professors.forEach(prof =>
+        renderCard(prof.insights, code, prof.name, prof.rating, prof.num_ratings)
+      );
+    } else {
+      renderCard(data, code, "Dr. Alex Chen (mock data)", null, null);
+    }
   } catch (err) {
     setStatus(err.message, true);
   }

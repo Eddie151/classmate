@@ -382,6 +382,17 @@ button[type="submit"]:disabled { opacity: 0.6; cursor: not-allowed; }
   color: #888;
 }
 
+/* ── Mock data banner ───────────────────────────────────────── */
+.mock-banner {
+  font-size: 0.85rem;
+  color: #856404;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 6px;
+  padding: 0.5rem 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
 /* ── Footer ─────────────────────────────────────────────────── */
 .disclaimer {
   font-size: 0.78rem;
