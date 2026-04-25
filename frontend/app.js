@@ -1,10 +1,21 @@
 const API_BASE = "https://classmate-m8aj.onrender.com";
 
-const schoolSelect = document.getElementById("school-select");
-const courseInput  = document.getElementById("course-input");
-const searchForm   = document.getElementById("search-form");
-const statusEl     = document.getElementById("status");
-const resultsEl    = document.getElementById("results");
+// ── DOM refs ──────────────────────────────────────────────────
+const stepSchool     = document.getElementById("step-school");
+const stepCourse     = document.getElementById("step-course");
+const schoolCardsEl  = document.getElementById("school-cards");
+const backBtn        = document.getElementById("back-btn");
+const selectedNameEl = document.getElementById("selected-school-name");
+const searchForm     = document.getElementById("search-form");
+const courseInput    = document.getElementById("course-input");
+const suggestionsEl  = document.getElementById("suggestions");
+const statusEl       = document.getElementById("status");
+const resultsEl      = document.getElementById("results");
+
+// ── State ─────────────────────────────────────────────────────
+let selectedSchool = null;   // {slug, display_name, primary_color}
+let courseCatalog  = [];     // [{code, title}, ...]
+let activeSuggIdx  = -1;
 
 // ── Utilities ────────────────────────────────────────────────
 
@@ -35,21 +46,146 @@ async function apiFetch(path, options = {}) {
   return res.json();
 }
 
-// ── Bootstrap ────────────────────────────────────────────────
+// ── Step management ───────────────────────────────────────────
+
+function showStep1() {
+  stepSchool.hidden = false;
+  stepCourse.hidden = true;
+  selectedSchool    = null;
+  courseCatalog     = [];
+  courseInput.value = "";
+  hideSuggestions();
+  clearResults();
+  setStatus("");
+}
+
+function showStep2(school) {
+  selectedSchool             = school;
+  selectedNameEl.textContent = school.display_name;
+  stepSchool.hidden          = true;
+  stepCourse.hidden          = false;
+  courseInput.focus();
+  loadCourseCatalog(school.slug);
+}
+
+// ── School cards ──────────────────────────────────────────────
 
 async function loadSchools() {
   try {
     const schools = await apiFetch("/schools");
     schools.forEach(s => {
-      const opt = document.createElement("option");
-      opt.value       = s.slug;
-      opt.textContent = s.display_name;
-      schoolSelect.appendChild(opt);
+      const card = document.createElement("button");
+      card.className = "school-card";
+      card.type      = "button";
+      card.style.setProperty("--accent", s.primary_color);
+
+      const name = document.createElement("span");
+      name.className   = "school-card-name";
+      name.textContent = s.display_name;
+
+      card.appendChild(name);
+      card.addEventListener("click", () => showStep2(s));
+      schoolCardsEl.appendChild(card);
     });
   } catch (err) {
-    setStatus(err.message, true);
+    schoolCardsEl.textContent = err.message;
+    schoolCardsEl.style.color = "#c0392b";
   }
 }
+
+// ── Autocomplete ──────────────────────────────────────────────
+
+async function loadCourseCatalog(slug) {
+  try {
+    courseCatalog = await apiFetch(`/courses/${slug}`);
+  } catch {
+    courseCatalog = [];
+  }
+}
+
+function getMatches(query) {
+  if (!query) return [];
+  const q = query.toLowerCase();
+  return courseCatalog
+    .filter(c => c.code.toLowerCase().includes(q) || c.title.toLowerCase().includes(q))
+    .slice(0, 6);
+}
+
+function showSuggestions(matches) {
+  suggestionsEl.innerHTML = "";
+  activeSuggIdx = -1;
+
+  if (!matches.length) {
+    suggestionsEl.hidden = true;
+    return;
+  }
+
+  matches.forEach(c => {
+    const li = document.createElement("li");
+    li.className = "suggestion-item";
+    li.setAttribute("role", "option");
+
+    const code = document.createElement("strong");
+    code.textContent = c.code;
+    const title = document.createElement("span");
+    title.textContent = c.title;
+
+    li.appendChild(code);
+    li.appendChild(title);
+    li.addEventListener("mousedown", e => {
+      e.preventDefault();
+      pickSuggestion(c);
+    });
+    suggestionsEl.appendChild(li);
+  });
+
+  suggestionsEl.hidden = false;
+}
+
+function hideSuggestions() {
+  suggestionsEl.hidden = true;
+  activeSuggIdx = -1;
+}
+
+function pickSuggestion(course) {
+  courseInput.value = course.code;
+  hideSuggestions();
+  fetchInsights(selectedSchool.slug, course.code);
+}
+
+function updateActiveItem() {
+  const items = suggestionsEl.querySelectorAll(".suggestion-item");
+  items.forEach((item, i) => item.classList.toggle("suggestion-active", i === activeSuggIdx));
+}
+
+courseInput.addEventListener("input", () => {
+  showSuggestions(getMatches(courseInput.value.trim()));
+});
+
+courseInput.addEventListener("keydown", e => {
+  const items = suggestionsEl.querySelectorAll(".suggestion-item");
+  if (!items.length) return;
+
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    activeSuggIdx = Math.min(activeSuggIdx + 1, items.length - 1);
+    updateActiveItem();
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    activeSuggIdx = Math.max(activeSuggIdx - 1, -1);
+    updateActiveItem();
+  } else if (e.key === "Enter" && activeSuggIdx >= 0) {
+    e.preventDefault();
+    const matches = getMatches(courseInput.value.trim());
+    if (matches[activeSuggIdx]) pickSuggestion(matches[activeSuggIdx]);
+  } else if (e.key === "Escape") {
+    hideSuggestions();
+  }
+});
+
+courseInput.addEventListener("blur", () => {
+  setTimeout(hideSuggestions, 150);
+});
 
 // ── Canonical code check ──────────────────────────────────────
 
@@ -234,16 +370,15 @@ async function fetchInsights(school, code) {
 
 async function handleSubmit(e) {
   e.preventDefault();
+  hideSuggestions();
 
-  const school = schoolSelect.value;
-  const raw    = courseInput.value.trim();
-
-  if (!school || !raw) return;
+  const raw = courseInput.value.trim();
+  if (!raw || !selectedSchool) return;
 
   clearResults();
 
   if (looksCanonical(raw)) {
-    await fetchInsights(school, raw);
+    await fetchInsights(selectedSchool.slug, raw);
     return;
   }
 
@@ -253,14 +388,14 @@ async function handleSubmit(e) {
     const resolved = await apiFetch("/resolve", {
       method:  "POST",
       headers: { "Content-Type": "application/json" },
-      body:    JSON.stringify({ school, input: raw }),
+      body:    JSON.stringify({ school: selectedSchool.slug, input: raw }),
     });
 
     if (resolved.status === "matched") {
-      await fetchInsights(school, resolved.code);
+      await fetchInsights(selectedSchool.slug, resolved.code);
     } else if (resolved.status === "ambiguous") {
       setStatus("");
-      renderCandidates(resolved.candidates, school);
+      renderCandidates(resolved.candidates, selectedSchool.slug);
     } else {
       setStatus(
         "No matching course found. Try entering the course code directly (e.g., ITCS 1213).",
@@ -274,5 +409,6 @@ async function handleSubmit(e) {
 
 // ── Init ─────────────────────────────────────────────────────
 
+backBtn.addEventListener("click", showStep1);
 searchForm.addEventListener("submit", handleSubmit);
 loadSchools();

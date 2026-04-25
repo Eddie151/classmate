@@ -14,26 +14,43 @@
   </header>
 
   <main>
-    <form id="search-form" novalidate>
-      <div class="field">
-        <label for="school-select">School</label>
-        <select id="school-select" required></select>
-      </div>
-      <div class="field">
-        <label for="course-input">Course</label>
-        <input
-          id="course-input"
-          type="text"
-          placeholder="e.g., 'Intro to CS 2' or 'ITCS 1213'"
-          autocomplete="off"
-          required
-        />
-      </div>
-      <button type="submit">Search</button>
-    </form>
 
-    <div id="status" role="status" aria-live="polite"></div>
-    <div id="results"></div>
+    <!-- Step 1: School selection -->
+    <section id="step-school">
+      <p class="step-prompt">Choose your school</p>
+      <div id="school-cards"></div>
+    </section>
+
+    <!-- Step 2: Course search -->
+    <section id="step-course" hidden>
+      <div class="step2-header">
+        <button id="back-btn" type="button">← Change school</button>
+        <h2 id="selected-school-name"></h2>
+      </div>
+
+      <form id="search-form" novalidate>
+        <div class="field">
+          <label for="course-input">Course</label>
+          <div class="autocomplete-wrapper">
+            <input
+              id="course-input"
+              type="text"
+              placeholder="e.g., 'Intro to CS 2' or 'ITCS 1213'"
+              autocomplete="off"
+              aria-autocomplete="list"
+              aria-controls="suggestions"
+              required
+            />
+            <ul id="suggestions" role="listbox" hidden></ul>
+          </div>
+        </div>
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="status" role="status" aria-live="polite"></div>
+      <div id="results"></div>
+    </section>
+
   </main>
 
   <footer>

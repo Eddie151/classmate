@@ -29,6 +29,14 @@ except FileNotFoundError:
 except json.JSONDecodeError as e:
     raise RuntimeError(f"schools.json is invalid JSON: {e}")
 
+try:
+    with open(_BASE / "courses.json") as f:
+        _COURSES: dict[str, list[dict]] = json.load(f)
+except FileNotFoundError:
+    raise RuntimeError("courses.json not found — cannot start.")
+except json.JSONDecodeError as e:
+    raise RuntimeError(f"courses.json is invalid JSON: {e}")
+
 _SCHOOLS_BY_SLUG: dict[str, dict] = {s["slug"]: s for s in _SCHOOLS}
 
 # ---------- App ----------
@@ -63,6 +71,7 @@ class SchoolInfo(BaseModel):
     slug: str
     display_name: str
     subreddit: str
+    primary_color: str
 
 
 class ResolveRequest(BaseModel):
@@ -80,8 +89,23 @@ async def health() -> HealthResponse:
 @app.get("/schools", response_model=list[SchoolInfo])
 async def get_schools() -> list[SchoolInfo]:
     return [
-        SchoolInfo(slug=s["slug"], display_name=s["display_name"], subreddit=s["subreddit"])
+        SchoolInfo(
+            slug=s["slug"],
+            display_name=s["display_name"],
+            subreddit=s["subreddit"],
+            primary_color=s["primary_color"],
+        )
         for s in _SCHOOLS
+    ]
+
+
+@app.get("/courses/{school}")
+async def get_courses(school: str) -> list[dict]:
+    if school not in _SCHOOLS_BY_SLUG:
+        raise HTTPException(status_code=404, detail=f"School not found: {school!r}")
+    return [
+        {"code": c["code"], "title": c["title"]}
+        for c in _COURSES.get(school, [])
     ]
 
 
