@@ -7,3 +7,4 @@ test_key.py
 *.log
 .pytest_cache/
 backend/validate_schools.py
+backend/faculty_cache.json

@@ -211,7 +211,7 @@ def get_professors_for_course(
 
 
 def get_professor_reviews(professor_id: str, limit: int = 10) -> list[dict]:
-    """Fetch reviews by scraping the RMP professor page and parsing __NEXT_DATA__."""
+    """Fetch reviews by scraping the RMP professor page and parsing window.__RELAY_STORE__."""
     numeric_id = _decode_id(professor_id)
     url = f"https://www.ratemyprofessors.com/professor/{numeric_id}"
 
@@ -231,26 +231,45 @@ def get_professor_reviews(professor_id: str, limit: int = 10) -> list[dict]:
         )
         return []
 
-    try:
-        soup   = BeautifulSoup(resp.text, "html.parser")
-        script = soup.find("script", {"id": "__NEXT_DATA__"})
-        if not script:
-            logger.warning("__NEXT_DATA__ not found on professor page (id=%s)", numeric_id)
-            return []
-        edges = json.loads(script.string)["props"]["pageProps"]["teacher"]["ratings"]["edges"]
-    except (KeyError, ValueError, TypeError, AttributeError) as e:
-        logger.warning("Failed to parse RMP professor page (id=%s): %s", numeric_id, e)
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    relay_text: str | None = None
+    for script in soup.find_all("script"):
+        text = script.string or ""
+        if "__RELAY_STORE__" in text:
+            relay_text = text
+            logger.debug("Found __RELAY_STORE__ script (id=%s, len=%d)", numeric_id, len(text))
+            break
+
+    if not relay_text:
+        logger.debug("__RELAY_STORE__ not found on professor page (id=%s)", numeric_id)
         return []
 
+    try:
+        # Strip the "window.__RELAY_STORE__ = " prefix then raw_decode handles trailing JS
+        json_str = relay_text.strip()
+        json_str = json_str[json_str.index("{"):]
+        store, _ = json.JSONDecoder().raw_decode(json_str)
+        logger.debug("Parsed __RELAY_STORE__ with %d keys (id=%s)", len(store), numeric_id)
+    except (ValueError, json.JSONDecodeError) as e:
+        logger.warning("Failed to parse __RELAY_STORE__ (id=%s): %s", numeric_id, e)
+        return []
+
+    ratings = [
+        v for v in store.values()
+        if isinstance(v, dict) and v.get("__typename") == "Rating"
+    ]
+    logger.debug("Found %d Rating records (id=%s)", len(ratings), numeric_id)
+
     reviews = []
-    for edge in edges[:limit]:
-        node = edge.get("node", {})
+    for node in ratings[:limit]:
+        date_raw = node.get("date", "")
         reviews.append({
             "rating":      node.get("helpfulRating") or node.get("clarityRating"),
-            "difficulty":  node.get("difficultyRating") or node.get("difficultyRatingRounded"),
+            "difficulty":  node.get("difficultyRating"),
             "review_text": node.get("comment", ""),
             "class_name":  node.get("class", ""),
-            "date":        node.get("date", ""),
+            "date":        date_raw[:10],  # "2024-01-15 19:34:39 +0000 UTC" → "2024-01-15"
         })
 
     return reviews

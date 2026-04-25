@@ -40,6 +40,17 @@ except FileNotFoundError:
 except json.JSONDecodeError as e:
     raise RuntimeError(f"courses.json is invalid JSON: {e}")
 
+try:
+    with open(_BASE / "faculty_cache.json") as f:
+        _FACULTY_CACHE: dict = json.load(f)
+    logger.info("Faculty cache loaded: %d schools", len(_FACULTY_CACHE))
+except FileNotFoundError:
+    logger.warning("faculty_cache.json not found — cache lookups will miss. Run: python -m backend.faculty_scraper")
+    _FACULTY_CACHE = {}
+except json.JSONDecodeError as e:
+    logger.warning("faculty_cache.json invalid JSON: %s — using empty cache", e)
+    _FACULTY_CACHE = {}
+
 _SCHOOLS_BY_SLUG: dict[str, dict] = {s["slug"]: s for s in _SCHOOLS}
 
 # ---------- App ----------
@@ -158,20 +169,28 @@ def get_course_insights(school: str, code: str) -> dict:
 
     course_code = resolved["code"]
     school_data = _SCHOOLS_BY_SLUG[school]
+    department  = rmp_client.get_department_for_code(course_code)
 
-    # Primary: RMP course search finds professors who actually teach this course
+    # Primary: faculty cache lookup (instant — no live RMP calls)
     professors: list[dict] = []
-    try:
-        department_query = rmp_client.get_department_for_code(course_code)
-        professors = rmp_client.get_professors_for_course(
-            school_data["rmp_school_name"], course_code, department_query, limit=5,
-        )
-    except Exception as e:
-        logger.warning("RMP course search failed: %s", e)
+    dept_faculty = _FACULTY_CACHE.get(school, {}).get(department, [])
+    professors   = [p for p in dept_faculty if course_code in p.get("courses_taught", [])]
+    if professors:
+        logger.info("Cache hit: %d professor(s) for %s / %s", len(professors), school, course_code)
+    else:
+        logger.info("Cache miss for %s / %s — trying live RMP", school, course_code)
 
-    # Fallback: extract names from Reddit posts and match on RMP
+    # First fallback: live RMP course search
     if not professors:
-        logger.info("RMP course search returned nothing — falling back to Reddit/matcher")
+        try:
+            professors = rmp_client.get_professors_for_course(
+                school_data["rmp_school_name"], course_code, department, limit=5,
+            )
+        except Exception as e:
+            logger.warning("RMP course search failed: %s", e)
+
+    # Second fallback: Reddit name extraction + RMP matcher
+    if not professors:
         try:
             reddit_posts = reddit_client.get_professor_posts(
                 school_data["subreddit"], course_code, course_code, limit=15,
