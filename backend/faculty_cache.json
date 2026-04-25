@@ -1,0 +1,2082 @@
+{
+  "uncc": {
+    "Computer Science": [
+      {
+        "name": "Nadia Najjar",
+        "rmp_id": "VGVhY2hlci0yMTg1NTcx",
+        "rating": 2.8,
+        "difficulty": 3.3,
+        "num_ratings": 118,
+        "department": "Computer Science",
+        "would_take_again": 46.6102,
+        "courses_taught": [
+          "ITCS 1212"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Labeled as an introductory class though most assignments require you to have previous coding experience. She has a hard time teaching; she is full of knowledge but fails to express it to her students effectively. Her lectures are hard to follow and she tends to make several last minute changes to her assignments and their due dates. ",
+            "class_name": "ITCS1212",
+            "date": "2026-03-17"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Professor Najjar is pretty nice/calm overall, but it is hard to keep up during lectures as she stumbles over her words a lot, lots of pauses and stuttering. It is pretty frustrating trying to understand and follow along. She also makes lots of mistakes, typos and things. TAs also expect you to know the material when you need their help. ",
+            "class_name": "ITCS1212",
+            "date": "2026-02-27"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Barely made it out with a B. lucky to not have an F. massive difficulty jump from test 1 to 2. Her teaching is like a middle schoolers who can't teach. ",
+            "class_name": "ITCS1212",
+            "date": "2026-01-03"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Dr. Najjar makes computer science very accessible for beginners who want to learn. 60% of the grade comes from three exams and a final, the grading structure has enough flexibility that one bad test won't ruin your grade. There's a big jump in difficulty after test 2, so stay engaged. Attend labs, put in some effort, and an A is very achievable.",
+            "class_name": "ITCS1212",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Take this class if you can self teach the concepts to yourself and rely only on the textbook. You go into the labs and the TA's expects you to know what you read on the textbook. If you are not good in coding  I do not recommend Prof. Najjar. It is not really an introductory course with this professor. No opportunities of extra credit or retakes.",
+            "class_name": "ITCS1212",
+            "date": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "name": "Dale-Marie Wilson",
+        "rmp_id": "VGVhY2hlci0xMDgyNTQ5",
+        "rating": 3,
+        "difficulty": 2.6,
+        "num_ratings": 113,
+        "department": "Computer Science",
+        "would_take_again": 51.7647,
+        "courses_taught": [
+          "ITCS 1213",
+          "ITCS 2214"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Avoid if possible. Practice quizzes don't align with actual exam material, making prep difficult. Feedback is extremely slow; grades went unposted for two months, leaving me unsure of my standing between an A or a C. It was a discouraging experience because the instructor provided very little helpful guidance throughout the term.",
+            "class_name": "ITSC2214",
+            "date": "2026-04-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Dr. Wilson is the greatest professor I have ever taken at UNC Charlotte. She always does their best to support students wherever they can. Super often she (or her TAs) lets students turn assignments in late if they need to, and she's always super understanding. Labs are kinda unorganized but super helpful if you pay attention. ",
+            "class_name": "ITSC2214",
+            "date": "2026-03-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "This class was not good. I couldn't find any time to focus on my other courses and most of the learning was conceptual, not practical. She mostly just shows you some slides, has you do a quiz, then sends you out to do code and projects without truly understanding it. The Course Canvas is also unorganized. I will say the TAs were good. ",
+            "class_name": "ITSC2214",
+            "date": "2026-02-26"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "she great-kisses",
+            "class_name": "ITCS1213",
+            "date": "2026-02-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Terrible. Time wasted in class forcing participation, no real study material for tests, no learning material(she posts two videos at the start of the week made by another professor) never reviews this material in class. Tests contain content never seen or discussed in class. TA's making a fraction of her salary are more beneficial to my learning. ",
+            "class_name": "ITSC2214",
+            "date": "2025-09-23"
+          }
+        ]
+      },
+      {
+        "name": "Taghi Mostafavi",
+        "rmp_id": "VGVhY2hlci05OTM5",
+        "rating": 1.8,
+        "difficulty": 4.3,
+        "num_ratings": 84,
+        "department": "Computer Science",
+        "would_take_again": 21.7391,
+        "courses_taught": [
+          "ITCS 3181",
+          "ITCS 6166"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "For the majority of the class, you will be presenting and watching others present slides in groups made based on articles you can just find online. There is also a term project with confusing requirements, told to choose something you are passionate about and would interest him. You can do all of this without taking the class and spending tuition.",
+            "class_name": "ITCS6166",
+            "date": "2026-04-06"
+          },
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "Professor has a habit of walking up to students and bothering them, oftentimes when they're trying to work. This semester he is also incredibly late on our final grades. The due date for grades was supposed to be May 12 and we still have not gotten the grades for our final projects. This class is quite easy, but this professor will annoy you.",
+            "class_name": "3112",
+            "date": "2025-05-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Pretty good professor. He is an older guy, so his style can be a bit out of touch but if you really pay attention it shouldn't be too hard. Kind of bad at explaining any problems you have though, but will also push you to try and achieve more than you thought, and pushes you to go further outside the class. Very nice and understanding.",
+            "class_name": "3112",
+            "date": "2025-04-15"
+          }
+        ]
+      },
+      {
+        "name": "Lijuan Cao",
+        "rmp_id": "VGVhY2hlci0yMTg0MTQy",
+        "rating": 4,
+        "difficulty": 3,
+        "num_ratings": 83,
+        "department": "Computer Science",
+        "would_take_again": 78.3133,
+        "courses_taught": [
+          "ITIS 4166"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "For backend software engineering, you will definitely learn a lot. Her lecture videos are posted on canvas and are very easy to follow. The assignments are just challenging enough to build your proficiency with Node.js and Layered Architecture, without being overwhelming. She also clearly cares about her students and is very nice to talk to.",
+            "class_name": "ITIS4166",
+            "date": "2026-01-14"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Professor Cao does not play. ",
+            "class_name": "ITIS4166",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Video lectures are long and excessive with very little teachings. The final project criteria was excessive and unrealistic regarding how deliverables should be contributed to.",
+            "class_name": "ITIS4166",
+            "date": "2025-12-06"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Professor is pretty bad at her video lectures. Don't take her if you already have no interest in the topic. ",
+            "class_name": "ITIS4166",
+            "date": "2025-09-20"
+          },
+          {
+            "rating": 3,
+            "difficulty": 1,
+            "review_text": "I signed up for this course over the summer, even though she wasn't the instructor for my section. The canvas videos were all made by her. This course was laid out as an end to end tutorial which is bad in my opinion, there is no critical thinking in this course. Probably the easiest A ive ever had. That being said, she does explain things well.",
+            "class_name": "ITIS4166",
+            "date": "2025-08-11"
+          }
+        ]
+      },
+      {
+        "name": "Qiong Cheng",
+        "rmp_id": "VGVhY2hlci0yNDA1Mzkw",
+        "rating": 3.7,
+        "difficulty": 2.9,
+        "num_ratings": 83,
+        "department": "Computer Science",
+        "would_take_again": 66.2651,
+        "courses_taught": [
+          "ITCS 3190",
+          "ITCS 6114",
+          "ITCS 6160"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Class is incredibly disorganized, and accent is difficult to understand. Lectures are all over the place and she never finishes on time. Assignments are kinda random and vary a lot in time/difficulty. 1 midterm that was only worth 10% of the grade. She grades attendance but it's not worth a ton. ",
+            "class_name": "ITCS3190",
+            "date": "2026-04-06"
+          },
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Shes not a bad professor but her class needs more clarity, it is often disorganized. She has so many little things to cover everyday but never actually finish in class. She will randomly make assignments optional. The course content is good and useful, though the delivery isnt very good. The assignments also very alot in terms of difficulty.",
+            "class_name": "ITCS3190",
+            "date": "2025-12-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "A lot of assignments that can get annoying. That being said the absolute best prof for this class. The beginning is hard but later on it gets a lot easier. Class is 5x harder with any other prof. She re-teaches the basics of DSA so don't feel like you will get lost in advanced stuff (basically dsa 1.5 not really 2.0)",
+            "class_name": "ITCS6114",
+            "date": "2025-12-08"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "This course focuses on Databases, primarily using SQL. While there were several HWs due each week, the instructions and grading were very straight forward. Lectures did not typically last long, and often times ended with her helping with HW assignments. The workload in the class was more than many of my others, but the difficulty was low.",
+            "class_name": "ITCS6160",
+            "date": "2025-06-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "She is hands down the worst professor here at UNC Charlotte. Do not take this class if you actually want to learn something. This class has felt like a scam since day 1. Her accent is also extremely thick and if you are unfamiliar with it you likely will have a hard time understanding her. Poor wording on most of if not all tests/quizzes.",
+            "class_name": "ITCS3190",
+            "date": "2025-05-06"
+          }
+        ]
+      },
+      {
+        "name": "Mohsen Dorodchi",
+        "rmp_id": "VGVhY2hlci0xOTY0NDI4",
+        "rating": 2.2,
+        "difficulty": 3.2,
+        "num_ratings": 82,
+        "department": "Computer Science",
+        "would_take_again": 26.5625,
+        "courses_taught": [
+          "ITCS 3155"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "PTA's grade harsh, they are not great at feedback, and don't answer questions in any helpful way. Grading is very slow, so for the amount of homework, you're often repeating mistakes because you haven't gotten a grade for similar assignments back. If I took this in person with a different professor, I don't think it would be this bad. ",
+            "class_name": "ITCS3155",
+            "date": "2025-11-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Great professor. He is very aware of current trends and practical skills in software engineering. Classwork was not overly difficult but was conducive to learning. ",
+            "class_name": "ITSC3155",
+            "date": "2025-11-01"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "the professor is really nice and the class so far has been easier than i thought. i was worried because he had such a low rating on here, but i think they changed the curriculum because the course hasn't been super difficult at all or work heavy, and i'm still learning a lot. overall would absolutely recommend this professor!",
+            "class_name": "ITSC3155",
+            "date": "2025-10-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Bunch of extra credit. he is a chill prof. TAs do the grading and half the labs are already done for you. This guy on zoom is so free. The concepts are light and the prof dosen't care for most things which is lit haha. Attendence is taken like once a month and is a quiz where you put the word he said out loud. Freest section you can take for 3155",
+            "class_name": "ITSC3155",
+            "date": "2025-03-13"
+          },
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Took this class online during the summer. Had zero interaction with the professor, the TAs do all the grading. The course however is basically all slideshows with a brief introduction to software engineering topics. Several quizzes and an assignment due every week. The group project was sort of disorganized, easy A regardless.",
+            "class_name": "ITSC3155",
+            "date": "2024-08-13"
+          }
+        ]
+      },
+      {
+        "name": "Lipsa Sahoo",
+        "rmp_id": "VGVhY2hlci0yOTY1MjU2",
+        "rating": 4.7,
+        "difficulty": 3.8,
+        "num_ratings": 81,
+        "department": "Information Technology",
+        "would_take_again": 92.5926,
+        "courses_taught": [
+          "ITCS 2175",
+          "ITIS 3135",
+          "ITIS 4390"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "My grandmother mother has been really sick. Dr. Sahoo has been really caring, helpful and supportive. I have 4 more classes this semester. No other professors has been such supportive. She is a great human being, listens to your problems and find out a way to help you succeed. She has deep command over the material. Great class",
+            "class_name": "ITIS4390",
+            "date": "2026-03-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "Very caring and understanding professor. I am having some personal issues, she has been consistently supportive. Lecture are brief and amazing. She mentions interview questions in classroom discussions which is really helpful. Take her if you can ",
+            "class_name": "ITIS3135",
+            "date": "2026-03-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "I just had couple of classes with her, what an absolute pleasure to learn from her! In the first class of learning, I was not able to figure out few things, she sat with me, explaining me each steps patiently. I have never had such experience in CLT. Next class, again I observed her going over the steps with some folks diligently. Rare to find! ",
+            "class_name": "ITCS2175",
+            "date": "2026-01-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Honestly one of the better professors I've had. Explains concepts clearly and actually cares if students understand, not just memorize. Lectures are structured, organized, and make hard topics feel manageable.\n\nWorkload is fair . you have to put in effort, but it's never busywork. Exams are reasonable if you keep up with class and practice.",
+            "class_name": "ITCS2175",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Very approachable and supportive. Will help if you ask questions and genuinely wants students to succeed. Also flexible and understanding when life happens (rare but appreciated).\n\nIf you show up for code review pay attention, and do the work, you'll be fine. Would recommend 100%.",
+            "class_name": "ITIS3135",
+            "date": "2025-12-17"
+          }
+        ]
+      },
+      {
+        "name": "Adam Whaley",
+        "rmp_id": "VGVhY2hlci0yNDc4NDUz",
+        "rating": 3.4,
+        "difficulty": 2.9,
+        "num_ratings": 75,
+        "department": "Computer Science",
+        "would_take_again": 64,
+        "courses_taught": [
+          "ITCS 1212",
+          "ITCS 1213"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "1213 is a HUGE class, so you will only interact with Professor Whaley if you put in the effort to do so. Caring professor, confusing class structure. I had to guesstimate my grade the entire semester using RapidTables. Easy exams but you have to put in the work to self-learn.",
+            "class_name": "ITSC1213",
+            "date": "2026-01-01"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Mr. Whaley mostly leads the online lectures once a week and leaves the labs to the TAs, so there isn't as much interaction with him. Although you don't interact with him as much, his online lectures are very entertaining, and he's very lenient with homework. The assignments themselves are not too hard, especially with previous knowledge of Java",
+            "class_name": "ITSC1213",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Good professor and made it relatively easy to do well in the class. He provides extra credit opportunities and options to retake exams. I didn't do well on all of the exams, but found my grade to still stand at an A. Make sure to do the textbook assignments, show up to labs/lectures + TA review sessions, and do the module quizzes as MCQ prep!",
+            "class_name": "ITSC1213",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Professor offers little real help and his online explanations feel random and unorganized. If you rely on your instructor to actually teach, don't take this class. The TAs are the only real support. The course is very confusing at the start, even experienced students struggle. I do not recommend. Save yourself the stress and choose wisely.\n",
+            "class_name": "ITSC1213",
+            "date": "2025-12-03"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "He is willing to help students if that is necessary like if you have technical issues but he's a professor you hardly see but he is there and he also cares about making sure you can do well in the class.",
+            "class_name": "ITSC1212",
+            "date": "2025-05-13"
+          }
+        ]
+      },
+      {
+        "name": "Marlon Mejias",
+        "rmp_id": "VGVhY2hlci0yMzk1NjI4",
+        "rating": 1.7,
+        "difficulty": 3.3,
+        "num_ratings": 71,
+        "department": "Computer Science",
+        "would_take_again": 18.0556,
+        "courses_taught": [
+          "ITCS 3146",
+          "ITCS 3155"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "Absolutely appalling that this professor is still allowed to \"teach\", if you can even call it that. Zero lectures, Zero reading, just stolen content from youtube. Vague, confusing, and boring assignments that we were forced to use AI on because he taught us the programming language that the assignments were supposed to be done in.",
+            "class_name": "ITCS3155",
+            "date": "2026-04-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "Each project has an outdated and poor outline of every step that has to be taken to complete it. Prerequisites don't cover what has to be known and he doesn't go over it. He is also very strict on attendance even though he never teaches. He would VERY reluctantly open a poll everywhere for another 15 seconds if you miss the narrow window it's open.",
+            "class_name": "ITCS3155",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "To say he teaches is an overstatement that would make even Peter Molyneux blush. This professor does not teach you how to do anything, he instead opts to just give you 8 pages of instructions and let you figure it out. He responds to genuine issues with sarcasm, and he does not even seem like he wants to be there. Pass.",
+            "class_name": "ITSC3155",
+            "date": "2026-04-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I have taken a few courses with Dr. Mejias and he consistently sets clear expectations with regards to due dates, what will be on tests, and where students may get stuck on assignments and how to overcome those issues.\n\nHe has a good grasp of the material. And also provides test reviews prior to exams.",
+            "class_name": "ITSC3146",
+            "date": "2026-01-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "This class was a joke. We were told first day that we \"weren't going to be doing any coding\" in a software development class... He then assigned us 5 projects, the last one consisting of 4 parts, and that was basically the whole class. But he would give us answers to literally everything except the final (you can use AI). Easiest A I've ever had.",
+            "class_name": "ITSC3155",
+            "date": "2025-12-16"
+          }
+        ]
+      },
+      {
+        "name": "Bill Chu",
+        "rmp_id": "VGVhY2hlci04MTQ2OQ==",
+        "rating": 2.1,
+        "difficulty": 3.9,
+        "num_ratings": 54,
+        "department": "Computer Science",
+        "would_take_again": 18.1818,
+        "courses_taught": [
+          "ITIS 3261",
+          "ITIS 4221",
+          "ITIS 5221"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "I took this class in the Fall and the professor is great. His accent is good, and he understands the subject. He strictly adheres to this book - \"Neal Davis - AWS Practice Questions\" (kindle version). for all questions. He really wants his students to get the AWS certification (CLF-02 exam). I would recommend taking him for THIS course atleast.",
+            "class_name": "ITIS3261",
+            "date": "2026-03-31"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Great at lecturing, but the exams are full of &#8220;gotcha&#8221; questions (mean: 61, median: 64). In the last few weeks he ran out of material, so class turned into watching student presentations at 1.5x speed. We still didn't get through everyone, and it cost us our entire final review session. It's obvious his heart is in research rather than teaching.",
+            "class_name": "4260",
+            "date": "2026-01-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Requires HTB access code ($300) for class and won't budge. HTB is managed by TAs who consistently let you down. Independent HTB done prior as a student doesn't count towards this grade, he said the only reason was because of the deal he's got with HTB. Very little guidance offered, but the class content itself is very interesting.",
+            "class_name": "ITIS4221",
+            "date": "2025-12-24"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Professor relies heavily on an outdated Google Doc syllabus that is very hard to navigate. Lectures consist of 2 hrs of boring content and sometimes explaining assignments. Textbook is a $300 HTB subscription that is weighted more than other assignments. Exams are alright but not much content to study. Great guy and knowledgeable not good teacher.",
+            "class_name": "4260",
+            "date": "2025-12-09"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "I had a good experience with this professor.  The projects are not too difficult, and he will demo the solution or most of the solution in class before the project is due.  He is a little disorganized, but everything is present on the syllabus.  The midterm and final are really difficult and do not line up well with the quizzes and projets.",
+            "class_name": "ITIS5221",
+            "date": "2024-05-26"
+          }
+        ]
+      },
+      {
+        "name": "Mohamed Shehab",
+        "rmp_id": "VGVhY2hlci0xNjY1MDQz",
+        "rating": 4.1,
+        "difficulty": 3.8,
+        "num_ratings": 54,
+        "department": "Computer Science",
+        "would_take_again": 75,
+        "courses_taught": [
+          "ITCS 4180",
+          "ITCS 5180",
+          "ITIS 5180"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "This demanding course required building about two mobile apps per week and watching lectures. It focused on Android and iOS, letting students choose their platform. Industry-focused assignments supported self-paced learning and helped me build a strong app portfolio that performed well in internship interviews.",
+            "class_name": "ITCS5180",
+            "date": "2026-01-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "This course was very demanding, requiring me to build about two mobile apps per week and spend time watching the instructor's YouTube lectures. The workload was intense but rewarding. I learned a lot and have done well in internship interviews by showcasing a strong portfolio of apps built in this class.",
+            "class_name": "ITCS4180",
+            "date": "2026-01-16"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "The class was on mobile development with a focus on Java and XML languages. The workload is extensive with up to 2 assignments per week, however they are not difficult. The lectures are all online, while class time is spent working on homework assignments. The tests and assignments are all similar to his lecture videos. ",
+            "class_name": "ITCS5180",
+            "date": "2025-12-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Shehab is an outstanding educator who integrates his software development expertise into the classroom. I appreciated his YouTube videos and the active learning methods he employed during lessons. Be prepared to put in the effort and master coding skills.",
+            "class_name": "ITCS5180",
+            "date": "2025-01-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "Professor is an exceptional instructor with a hands-on teaching approach and excellent instructional videos that make complex concepts easy to grasp. His focus on real-world applications has been invaluable in my day-to-day job as a software engineer. The projects I completed in his class helped me build a portfolio that led to my summer internship",
+            "class_name": "ITIS5180",
+            "date": "2024-12-05"
+          }
+        ]
+      },
+      {
+        "name": "Yonghong Yan",
+        "rmp_id": "VGVhY2hlci0yNTc2MDUy",
+        "rating": 4,
+        "difficulty": 4,
+        "num_ratings": 52,
+        "department": "Computer Science",
+        "would_take_again": 75,
+        "courses_taught": [
+          "ITCS 2181"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "There are surprise attendance checks and pop quizzes. Besides that, he is a good instructor, kind of funny, and is very open to helping however he can. Also a semi-heavy accent.",
+            "class_name": "ITSC2181",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The professor is kind, but the class organization was all over the place. Easily the most disorganized course I've ever taken. No one I know who has taken 2181 has had a good experience. If you have to take this course for your major, good luck.",
+            "class_name": "ITSC2181",
+            "date": "2026-01-12"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Heavy accent but good professor. He cares and will help",
+            "class_name": "ITSC2181",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Flipped-style classroom, with slideshows gone over again in class. He is very open to re-explaining topics and truly wants his students to succeed. This class is not light in work, but there are plenty of lecture videos, coding videos, samples, and slides you can refer to. Great teacher!",
+            "class_name": "ITSC2181",
+            "date": "2025-10-21"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "The tests are difficult since they're all hand-written, and I often cut it pretty close to the timer even coming in with a lot of experience and studying beforehand. You definitely need to know your stuff, but Dr. Yan gives you plenty of resources and opportunities to learn it and his lectures are great. Definitely recommend.",
+            "class_name": "ITSC2181",
+            "date": "2025-08-28"
+          }
+        ]
+      },
+      {
+        "name": "Min Shin",
+        "rmp_id": "VGVhY2hlci04MTQ3Mw==",
+        "rating": 3.4,
+        "difficulty": 3.7,
+        "num_ratings": 43,
+        "department": "Computer Science",
+        "would_take_again": 75,
+        "courses_taught": [
+          "ITCS 2214",
+          "ITCS 3134",
+          "ITCS 6134"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I really enjoyed this class and thought Professor Shin was an excellent teacher. Nothing about the class was particularly difficult, however there are a lot of assignments to keep up with every week. Seems like he cares about his students and really enjoys teaching cs.",
+            "class_name": "ITCS2214",
+            "date": "2025-12-02"
+          }
+        ]
+      },
+      {
+        "name": "Lina Zhou",
+        "rmp_id": "VGVhY2hlci0yNDYyNzIz",
+        "rating": 1.7,
+        "difficulty": 4.2,
+        "num_ratings": 42,
+        "department": "Information Systems",
+        "would_take_again": 16.6667,
+        "courses_taught": [
+          "INFO 3130",
+          "INFO 3236"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "Honestly, the most boring lecture I've ever had at university.",
+            "class_name": "INFO3236",
+            "date": "2026-02-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "This lady sucks, she cheated on all the good reviews. Stay away from her folks!!! ",
+            "class_name": "INFO3236",
+            "date": "2026-01-01"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "All these reviews blow these classes way out of proportion. There is not THAT much work. If you attend class you will do just fine. Easy B if you go to classes and do the projects.",
+            "class_name": "INFO3236",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Do not listen to the person below me, she is not qualified to teach any class. Doesn't explain anything nor help you. No study guide. Respondus lockdown browser IN CLASS, no notes to look at. Every person who has taken this class had withdrawn because of how terrible she is as a professor. Save yourself the trouble and take Barzuna instead. ",
+            "class_name": "INFO3130",
+            "date": "2025-06-10"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "I was scared by the reviews, but I thought she was a great instructor. Participation is strongly recommended as most of the exams come from lectures, and in class assignments are often given. There was somewhat of a language barrier at times, but she was always willing to clarify when needed. Large group project, so choose group members wisely.",
+            "class_name": "INFO3130",
+            "date": "2025-06-06"
+          }
+        ]
+      },
+      {
+        "name": "Jason Karp",
+        "rmp_id": "VGVhY2hlci0yMTc2MjI3",
+        "rating": 4,
+        "difficulty": 2,
+        "num_ratings": 39,
+        "department": "Computer Science",
+        "would_take_again": 75,
+        "courses_taught": [
+          "ITCS 1501",
+          "ITCS 3688"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Easy class with almost no work. All your work is done in assigned groups so if you get a group you don't like, it might be tougher. The professor is very laid back but he expects you to try. He genuinely wants you to succeed but expects you to put in a little work. ",
+            "class_name": "ITCS3688",
+            "date": "2026-04-22"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "This professor was very engaging and wanted us to succeed since public speaking is an important skill to master. As for the work, it's not difficult since the majority of it is group work. You are graded on very few things, so make sure to submit the best version you have, since, in my case, a bad grade will bring your grade down.",
+            "class_name": "ITSC3688",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Most of the work in the class is done in predetermined groups so if you get stuck with people who don't show up or care to participate you are screwed. Showing up on time and participating is the majority of the grade. If you get a bad group it will drag your grade down as he does group grades not individual. ",
+            "class_name": "ITCS3688",
+            "date": "2025-12-09"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "The professor was very hands-off, didn't really teach anything, you just do discussions/papers/power points, which are based on a vague prompt you have to research on your own. It was a gen-ed, so I guess that's a good thing. Very easy class if you don't mind writing a lot.",
+            "class_name": "ITSC1501",
+            "date": "2025-12-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "His class is an interesting one . Be ready since attendance is mandatory \nThe class is competitive and requires interaction with classmates since there's a project given to groups the beginning of the class so does what you do the whole semester.\nIt's a great class .",
+            "class_name": "ITCS3688",
+            "date": "2025-12-01"
+          }
+        ]
+      },
+      {
+        "name": "Harini Ramaprasad",
+        "rmp_id": "VGVhY2hlci0yMDk0MDAy",
+        "rating": 4.1,
+        "difficulty": 3.5,
+        "num_ratings": 37,
+        "department": "Computer Science",
+        "would_take_again": 76.4706,
+        "courses_taught": [
+          "ITCS 3146"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Loved the class structure, and her teaching is the best I've had in the CS department. Class is somewhat hard, but just do the work and study for the tests. Tests 1&2 are harder, whereas 3&4 are easier. Offers make up exam for the final exam that allows you to recover a lot of missed points. ",
+            "class_name": "ITSC3146",
+            "date": "2026-02-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "If you take ITSC 3146 with her, watch the video lectures carefully, as all key information is covered there. She explains concepts very clearly. Attend every lecture since polls are used for attendance. Tests are based on the exercises and modules. I would take her class again..",
+            "class_name": "ITSC3146",
+            "date": "2026-01-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The course jumps to C++ directly from (ITSC - 2181). You will basically not have any introduction to C++, but you are expected to work on exercise and labs straight up. While there are some recorded videos in the module section, professor does not teach during an hour and 15 minutes class. Also, PollEv quizzes would hurt your grades.",
+            "class_name": "ITSC3146",
+            "date": "2025-09-11"
+          },
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "The professor is kind, but the class is absolutely miserable. Code is hardly taught during the course, you'll be tested on it anyways. Test study guides are vague, oftentimes you will find out the questions on the tests aren't intuitive to what you've been learning. Test scores are locked and hidden, hard to learn from mistakes.",
+            "class_name": "ITSC3146",
+            "date": "2025-06-16"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "We jumped from c to c++ directly. She didn't teach, we were supposed to learn and know it during the first week itself. Test 1 and 2 is c++ heavy and hard, test 3 is easy and test 4 was hard. She does pollev for credit everyday, attendance matters!!! No extra credit!!! ",
+            "class_name": "ITCS3146",
+            "date": "2025-05-13"
+          }
+        ]
+      },
+      {
+        "name": "Laurel Powell",
+        "rmp_id": "VGVhY2hlci0yMTc2NjQw",
+        "rating": 2.6,
+        "difficulty": 3.1,
+        "num_ratings": 36,
+        "department": "Computer Science",
+        "would_take_again": 47.2222,
+        "courses_taught": [
+          "ITCS 2175",
+          "ITCS 3166"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Overall really bad. around 75 percent of us failed a test bc she didn't prepare us for it said their were different questions on it then what their actually were,and didn't give us a practice test until two days before I know 75 percent of us failed bc she gives us a class grade breakdown She also wouldn't curve the grade DO NOT TAKE her class",
+            "class_name": "ITSC2175",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "This is not an easy elective. You have to learn a lot of vocabulary and there are too many readings on ZyBooks that you must memorize for in-person quizzes. The teacher is alright, but it's just too much homework. Cheat sheets could make up for all the memorization though.",
+            "class_name": "ITSC3166",
+            "date": "2026-01-27"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "she was a good professor and gave great extra credit at the end of the semester. she has a few problems with her speech but it didn't matter too much. i think if i studied more i could've gotten a higher grade but i still ended with an A and didn't really put a lot of effort in.",
+            "class_name": "ITSC3166",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "She is flexible on attendance and grades but there are a lot of presentations and Labs she stutters a bit at times. As long as you complete the labs, discussion post, and final project on time this class will be fairly easy to understand The midterm and final were a bit long but she does give an option for a cheat sheet DONT skip a lab assignment",
+            "class_name": "ITSC3166",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "flexible. lots of presentations. lowkey had an annoying voice. the midterm and final were easy ! the project was fairly easy. just lots of really tedious labs and lectures weren't helpful. gave extensions if needed",
+            "class_name": "ITSC3166",
+            "date": "2025-06-09"
+          }
+        ]
+      },
+      {
+        "name": "David Wilson",
+        "rmp_id": "VGVhY2hlci0yNTM3Nzk=",
+        "rating": 2.9,
+        "difficulty": 3.6,
+        "num_ratings": 36,
+        "department": "Computer Science",
+        "would_take_again": 42.3077,
+        "courses_taught": [
+          "ITIS 4350",
+          "ITIS 4358",
+          "ITIS 5350"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "online class but lots of group works and group projects. in-class and prep work is worth most of grade. assigns the same amount of readings and prep for grads and undergrads, so if your undergrad, it feels like this class is much more of my week then my other normal undergrad classes. Also only offered at night. ",
+            "class_name": "ITIS4350",
+            "date": "2026-03-18"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Physical Computing is probably my favorite course so far and Dr. Wilson is def 1 of my favorite profs! Take his class if you want to make neat stuff! There's a decent amount of work and it's hard to catch up if you fall behind, but Dr. Wilson is very helpful with questions if you struggle with a concept. Idk why the bad reviews, he's a great prof! ",
+            "class_name": "ITIS4358",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "The professor was pleasant, but this class was effectively teaching you to use the worst possible tool for a given task. We would spend hours building low-fidelity, inefficient artifacts that would probably get you fired from a workplace if you got caught building on the clock. You complete dozens of assignments to produce unimpressive products. ",
+            "class_name": "ITIS4350",
+            "date": "2025-10-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Only thing I like about this class: During group assignments, you're only responsible for your portion. This week I have a project, quiz prep work 3x, and in-class work. It's the same thing EVERY week, besides the project and prep work is usually 2-1x. He hides your overall grade. Acting like I don't have 4 other classes. Very time-consuming :/",
+            "class_name": "5350",
+            "date": "2025-10-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I absolutely loved this course and, though there is a lot of group projects and work, I felt like I learned a lot from it all that I'm still using today. His class is also very well-organized and was just a lot of fun. I would absolutely take a class with him again!",
+            "class_name": "ITIS5350",
+            "date": "2025-09-07"
+          }
+        ]
+      },
+      {
+        "name": "Julio Bahamon",
+        "rmp_id": "VGVhY2hlci0yNTU3NTg3",
+        "rating": 2.8,
+        "difficulty": 3.9,
+        "num_ratings": 32,
+        "department": "Computer Science",
+        "would_take_again": 45.4545,
+        "courses_taught": [
+          "ITCS 2181",
+          "ITCS 3160",
+          "ITCS 4230",
+          "ITCS 5230"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "I am in my third year at this university and this has been the worst class I have ever taken. Get ready to teach yourself because the professor and the TAs will not reply to emails. I sent an email regarding a command that did not work and the professor simply said \"the command did not work\". The TAs also took days to respond. ",
+            "class_name": "ITSC3160",
+            "date": "2026-04-25"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "Grading felt unclear and inconsistent. TAs handled most grading, and regrade requests went back to the same grader, so there was no fresh review. I would have preferred more professor involvement and clearer feedback. Students who value transparency just stay away.",
+            "class_name": "ITCS5230",
+            "date": "2026-01-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Great professor who makes the class fun and interesting. It can get overwhelming near the end with an essay, test and final game project, but staying on top of the work keeps it manageable. Highly recommended for future game devs. He gives a lot of extra credit. The tests are the hardest part but with the test reviews the TAs run, it makes it easy.",
+            "class_name": "ITCS4230",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Bahamon is a great lecturer, the tests were very hard though and he didn't really give any specific study guide, they had a lot of vocabulary that you just need to study for straight up. He's very understanding though, if you talk to him about something, he'll be up front about it.",
+            "class_name": "ITCS4230",
+            "date": "2024-12-07"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Decent professor who cares about his students. That being said, the tests are hard and he puts a lot of weight on them. ",
+            "class_name": "ITSC2181",
+            "date": "2024-12-04"
+          }
+        ]
+      },
+      {
+        "name": "Dewan Ahmed",
+        "rmp_id": "VGVhY2hlci0xOTkzNDA4",
+        "rating": 3.8,
+        "difficulty": 3.7,
+        "num_ratings": 31,
+        "department": "Computer Science",
+        "would_take_again": 69.5652,
+        "courses_taught": [
+          "ITCS 6114",
+          "ITCS 6166"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I loved having Dr Ahmed for Artificial Intelligence (6150) and for Data Structures (6114). If you are trying to float through the class do not take him. He is very passionate about helping his students learn and is very purposeful with the way he teaches and the way he gives activities. Very hands on course work and many opportunities to succeed!",
+            "class_name": "ITCS6114",
+            "date": "2026-01-14"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "you will get sure A+ if you have access to his old questions. And his TAs are always indians, I saw they help the students who are indian in their own language during exams and i did not like that. anyways the grading was easy if you did everything right in assignments and projects.",
+            "class_name": "ITCS6114",
+            "date": "2025-08-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "ITCS 6114 is a data structures and algorithms based class. While no coding is conducted in the class, well over 30 different algorithms are discussed in great detail. The workload in the class is not heavy, There were not many HW assignments, test, or projects. However grading was very strict, and failing 1 assignment or test could lead to failing ",
+            "class_name": "ITCS6114",
+            "date": "2025-06-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Him being part of the class is a waste of time. The lectures is just reading off of slides verbatim. Class project is just busy work and strung together so badly that you are left confused as to what you have to do. Really needs to update his material it is severely outdated. Probably just another research professor who does not care. 100% avoid.",
+            "class_name": "ITCS6166",
+            "date": "2025-06-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Does not teach well if at all. Just reads the slides. A good idea of how he lectures:\nThis is our problem, now this is how to solve it, *clicks slide* there thats how we did it.\nDoes not explain anything well and I'm not even sure he is doing some things right. I saw his same problem on youtube and they both had different answers. Stay away.",
+            "class_name": "ITCS6114",
+            "date": "2024-07-20"
+          }
+        ]
+      },
+      {
+        "name": "Heather Lipford",
+        "rmp_id": "VGVhY2hlci0xMzc3Mjcx",
+        "rating": 3,
+        "difficulty": 2.9,
+        "num_ratings": 24,
+        "department": "Information Systems",
+        "would_take_again": 44.4444,
+        "courses_taught": [
+          "ITIS 3130",
+          "ITIS 3140",
+          "ITIS 4214",
+          "ITIS 4420"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Technically, it is required attendance, but Poll Everywhere can just be completed from home. There are a lot of readings and group projects, and due to a decline in attendance, you usually get bum groupmates. Lipford lectures for the class, but also provides input to them. Not super great, not super bad. Take her if you just want someone to teach.",
+            "class_name": "ITIS4214",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "She was an extremely poor professor and easily one of the worst graders I have ever had. Expectations were unclear, feedback was misleading, and communication was inconsistent. I would ask for help, change based on feedback, and still receive very low grades. I strongly do not recommend her. Avoid if you can.",
+            "class_name": "ITIS3140",
+            "date": "2025-12-21"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "this is for 4214. class is waste of lecture time and has 4 group projects that are a ton of writing. midterm and final are like 15% each and the exam reviews are useless. lectures are long slides and is the most useless information to ever learn. have prep work and in class activity and is almost impossible to get a 100 sometimes. waste of time imo",
+            "class_name": "ITIS4420",
+            "date": "2025-04-29"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I loved the professor, really nice and test are easy! ",
+            "class_name": "ITIS3130",
+            "date": "2025-03-31"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Grades were wrong for the entire semester due to grade weighting being off. \"Fixed\" 2 days before LDOC, dropped my grade 5 points after being in the high 90s all semester. Nothing can be done about it now. I can't imagine how many students it screwed over. Interesting topic made dull as dirt through mundane lectures. Professor can be weirdly rude.",
+            "class_name": "ITIS3130",
+            "date": "2024-12-06"
+          }
+        ]
+      },
+      {
+        "name": "Zachary Wartell",
+        "rmp_id": "VGVhY2hlci01OTk3NTc=",
+        "rating": 2.1,
+        "difficulty": 4.1,
+        "num_ratings": 22,
+        "department": "Computer Science",
+        "would_take_again": 0,
+        "courses_taught": [
+          "ITCS 3120",
+          "ITCS 4122"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Homework assignments are long, tedious, and don't really teach you anything.",
+            "class_name": "ITCS4122",
+            "date": "2026-03-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "DO NOT TAKE THIS CLASS!!!! \n\nIf you can wait another semester to take it or you have a second option take that and don't look back. \n\nHis homework is extremely complicated (even his TAs get confused), he doesn't go over any of the coding in class - just rambles about unrelated stuff\n\nThis is easily the worst professor/class I have ever had at UNCC",
+            "class_name": "ITCS4122",
+            "date": "2026-02-07"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Nice man. Terrible class. This was by far one of the worst and hardest classes I have ever taken. The material in this class is so unnecessary and so confusing. Instructions are unclear and confusing. This class is basically in a foreign language.",
+            "class_name": "ITCS3120",
+            "date": "2024-05-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Professor Wartell is an awful professor, he left the class a halfway through the semester and had another professor teach his class. He had no TA and had trouble trying to grade our first assignments. We never received any of our grades for the assignments until we had to bombard the TA of the other professor for grades. This class is unnecessary",
+            "class_name": "ITCS3120",
+            "date": "2023-12-08"
+          }
+        ]
+      },
+      {
+        "name": "Jacob Krevat",
+        "rmp_id": "VGVhY2hlci0yNzg0MjU3",
+        "rating": 4.4,
+        "difficulty": 3.6,
+        "num_ratings": 21,
+        "department": "Computer Science",
+        "would_take_again": 76.1905,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "There are 2 entries referring to the same guy on here. Hands down, best prof/mentor I've had. Gives great lectures and relevant advice to CS students pursuing dev careers. Yes, he goes fast but he records everything so if you miss something just watch the video (duh)? Absolutely take any course he teaches if you actually want a future in tech.",
+            "class_name": "itsc-3155",
+            "date": "2024-11-20"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "He teaches at a very fast pace, which makes it impossible to follow along during in-class demos.  The code that he teaches is not in the lecture slides and there is no textbook.  If you did not write down the code in class, you must either page through the entire recorded lecture video, or look it up online.  There is a huge push to teach yourself.",
+            "class_name": "itsc-3155",
+            "date": "2024-05-26"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Krevart is okay but he lacks compassion, badly. Every week, he teaches you something new and expects you to have complete mastery over it. So either you do an assignment \"right\" or a HUGE chunk of your grade disappears, courtesy of his TAs who are very eager to take points off for minor mistakes. If you learn by trial and error, then avoid him.",
+            "class_name": "itsc-3155",
+            "date": "2024-05-10"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Great professor, teaches well and actually gives real life examples. Can tell he cares about students and wants to set them up for success.",
+            "class_name": "itsc-3155",
+            "date": "2024-04-23"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Easily the best professor in the CCI department at UNCC. It's not even a competition. The final project for this class forces you to make a project using the same skills and tools used by full-stack devs in the industry. It could also help boost your resume. The TAs are also incredibly skilled and knowledgeable about the class. ",
+            "class_name": "itsc-3155",
+            "date": "2023-10-14"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Jugan",
+        "rmp_id": "VGVhY2hlci0yMjYwNjMx",
+        "rating": 4.7,
+        "difficulty": 1.9,
+        "num_ratings": 20,
+        "department": "Computer Science",
+        "would_take_again": 95,
+        "courses_taught": [
+          "ITCS 3112",
+          "ITCS 3153",
+          "ITCS 3160",
+          "ITCS 4236"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "By far the easiest class I have taken at UNC Charlotte. It was very self-directed and self-taught but the content wasn't challenging. Because everything was online (including test + final) and attendance was not taken you could easily pass this class with an A without ever showing up. ",
+            "class_name": "ITSC3160",
+            "date": "2026-01-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Professor Jugan is easy-going, straightforward, and informative. Attendance is optional and he even takes the courtesy of recording the lectures. This course has few assignments that aren't difficult at all, but it still feels like I learned a lot. A big plus of professor Jugan is that he's easy to reach outside of class!",
+            "class_name": "ITCS3112",
+            "date": "2024-05-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I took this class on Zoom, attendance is optional and lectures are recorded. This is a project based course, you get to decide what you make. Since you decide, he doesn't give much guidance but is available for questions during class or office hours. There is very minimal work with this class, it's an easy technical elective. ",
+            "class_name": "ITCS3112",
+            "date": "2024-05-10"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Professor Jugan is a really good professor. He helps you understand the concept of unity and how to code a game from scratch. He is a leineit grader and he is very helpful. We had 4 homework assignments that stacked each time and we had the final game to present as our final.",
+            "class_name": "ITCS4236",
+            "date": "2023-12-08"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "He's a good choice for intro to AI. Super knowledgeable in the games industry and talks a lot about his experience. The study guides he provides are extremely helpful for the midterm and the final. There are 3 projects in the course. Attend class or watch the class recordings to get good insight on how to do them. ",
+            "class_name": "ITCS3153",
+            "date": "2023-06-15"
+          }
+        ]
+      },
+      {
+        "name": "Aidong LU",
+        "rmp_id": "VGVhY2hlci0xMTg0ODI3",
+        "rating": 1.3,
+        "difficulty": 3.5,
+        "num_ratings": 19,
+        "department": "Computer Science",
+        "would_take_again": 0,
+        "courses_taught": [
+          "ITCS 4122",
+          "ITCS 4123",
+          "ITCS 6114"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Don't recommend at all, especially online. Lectures are near incomprehensible and very difficult to follow, and usually never line up with the projects you are working on. You are expected to be good at C# and Unity, or have AI do all the coding. Midterm was set up to be near impossible. Not nearly enough time to complete any of it. ",
+            "class_name": "ITCS4123",
+            "date": "2025-11-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "No clear instructions, difficulty in communication, terrible grading, no teaching, 0 understanding. \nYou won't learn anything, arbitrary grading, no clear rubric followed while grading assignments. You will waste your time, better take difficult class than wasting your time on this. If the university is listening, please get rid of such classes.",
+            "class_name": "ITCS6114",
+            "date": "2024-05-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "An easy A at the cost of your sanity ",
+            "class_name": "ITCS4122",
+            "date": "2023-12-18"
+          }
+        ]
+      },
+      {
+        "name": "Siddharth Krishnan",
+        "rmp_id": "VGVhY2hlci0yNDY1Nzgy",
+        "rating": 2.5,
+        "difficulty": 4.2,
+        "num_ratings": 18,
+        "department": "Computer Science",
+        "would_take_again": 44.4444,
+        "courses_taught": [
+          "DSBA 6156",
+          "DSBA 6162",
+          "ITCS 3162"
+        ],
+        "reviews": []
+      },
+      {
+        "name": "Albert Park",
+        "rmp_id": "VGVhY2hlci0yNDkzMzc0",
+        "rating": 1.1,
+        "difficulty": 4.7,
+        "num_ratings": 17,
+        "department": "Computer Science",
+        "would_take_again": 0,
+        "courses_taught": [
+          "ITIS 3130"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "The Prof. was absent the entire semester. I feel like the TAs ran the class most of the time. The material was not too difficult to learn. If you don't have a good team, you will have to work extra hard to get an A. The class is writing intensive. You don't do front-end design in this class but you learn how/why you should design in certain ways. ",
+            "class_name": "ITIS3130",
+            "date": "2023-01-04"
+          }
+        ]
+      },
+      {
+        "name": "Zbigniew Ras",
+        "rmp_id": "VGVhY2hlci0yNTM1Mg==",
+        "rating": 3.8,
+        "difficulty": 3.1,
+        "num_ratings": 17,
+        "department": "Computer Science",
+        "would_take_again": 42.8571,
+        "courses_taught": [
+          "DSBA 6163",
+          "ITCS 6162"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. Ras is very knowledgeable and very kind to students. Unfortunately he is just not a good lecturer. Students used to pack the room when his TA showed up for exam reviews. He is accessible during office hours and will give you a chance to make up for mistakes if you participate regularly. Only 2-3 exams will make up your entire grade.",
+            "class_name": "ITCS6162",
+            "date": "2024-11-12"
+          }
+        ]
+      },
+      {
+        "name": "Weichao Wang",
+        "rmp_id": "VGVhY2hlci0xNzAzMTQ0",
+        "rating": 4.4,
+        "difficulty": 2.5,
+        "num_ratings": 17,
+        "department": "Information Technology",
+        "would_take_again": 87.5,
+        "courses_taught": [
+          "ITCS 2214",
+          "ITIS 6167",
+          "ITIS 6200"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I took 3 classes with him and his teaching is amazing. He's really good at explaining complex topics in a simple way with real-world examples. His classes and even recorded lectures are engaging. He encourages participation, invites industry speakers, and is very kind and supportive during class and exams. He is my favorite professor in uncc.",
+            "class_name": "ITIS6200",
+            "date": "2026-04-21"
+          }
+        ]
+      },
+      {
+        "name": "Srijan Das",
+        "rmp_id": "VGVhY2hlci0yODI3Mzg4",
+        "rating": 2,
+        "difficulty": 4.1,
+        "num_ratings": 16,
+        "department": "Computer Science",
+        "would_take_again": 25,
+        "courses_taught": [
+          "ITCS 4152"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The professor receives more criticism than deserved. He is very knowledgeable about the material and has a great sense of humor that makes lectures engaging. He encourages students to ask questions and is happy to clarify concepts. The class is enjoyable and rewarding if you stay focused and put in the effort. ",
+            "class_name": "ITCS4152",
+            "date": "2026-01-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Overall class is on visual optics using AI. Homework and projects are all coded in Python. He gives plenty of extra credit, and chances to make up grades. Bonus points were on almost all quizes, and the ability to re-do assignments were always available. No final, but a final group project is assigned ",
+            "class_name": "ITCS4152",
+            "date": "2025-12-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Just avoid the class. Dr Das is knowledgeable but has weird sense of humor and god complex attitude.",
+            "class_name": "ITCS4152",
+            "date": "2025-12-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "A profoundly confusing structure that meets homework wholly unrelated to what's taught in class. If you have taken Intro to ML get ready to relearn it for half the course instead of what you signed up for. The class has no actual rigor and can easily be completed, but don't expect to actually get the intuition behind the topic from the classroom.",
+            "class_name": "ITCS4152",
+            "date": "2025-12-08"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Amazing professor that really enjoys teaching students. He really cares about students understanding what he is teaching and makes complex topics really easy to understand. Above all he is really knowledgeable in computer vision and knows well beyond the course work. If you he the chance to take his class ignore all other reviews and go for it!",
+            "class_name": "ITCS4152",
+            "date": "2025-12-02"
+          }
+        ]
+      },
+      {
+        "name": "Pu Wang",
+        "rmp_id": "VGVhY2hlci0yNDU1ODY1",
+        "rating": 1.8,
+        "difficulty": 3.1,
+        "num_ratings": 15,
+        "department": "Computer Science",
+        "would_take_again": 13.3333,
+        "courses_taught": [
+          "ITCS 3166"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "bro is the king of yapping, most poorly ran class i've ever been in, it was a joke",
+            "class_name": "ITCS3166",
+            "date": "2024-01-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "One of the worst course experiences I have ever had. It was so unorganized and basically run by the TAs. The teacher would come run a Pol everywhere quiz and leave or lecture in a super monotone hard to understand or comprehend voice than leave and have a TA do a lab or something. My final grade was also suited incorrectly and had to get it fixed. ",
+            "class_name": "ITCS3166",
+            "date": "2023-12-19"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "I swear every positive review was written by him. Professor consistently posts materials last minute, didn't teach/lecture until after midterms when whole class complained, only give quizzes and yaps over them. Extra credit and open book open note means you can get an easy A, but he does not care about this class at all. Grades come out super late.",
+            "class_name": "ITCS3166",
+            "date": "2023-12-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "He does not cover any material in class, just posts a PowerPoint that you are expected to review before class for the in class quiz. Extremely disorganized and often does not post material in a time for students to review. The TAs did most of the actual teaching in this class.",
+            "class_name": "ITCS3166",
+            "date": "2023-12-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "We learned more from a TA during one zoom call than we did with the professor. He would be in class for the quiz and then leave before we started doing assignments. He would leave a TA's in charge and gave her no instructions. He posted the solution to the practice tests the day of the test leaving us no time to understand how to do the problems.",
+            "class_name": "ITCS3166",
+            "date": "2023-12-04"
+          }
+        ]
+      },
+      {
+        "name": "Yaorong Ge",
+        "rmp_id": "VGVhY2hlci0yMTMwMDY4",
+        "rating": 4.4,
+        "difficulty": 2.4,
+        "num_ratings": 14,
+        "department": "Information Systems",
+        "would_take_again": 85.7143,
+        "courses_taught": [
+          "HCIP 6100",
+          "ITIS 3135"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "His lectures were clear and well&#8209;structured. He set fair expectations, outlined grading criteria upfront, and was very understanding. He encouraged questions, provided timely feedback, and fostered an inclusive, supportive atmosphere. Highly recommended!",
+            "class_name": "itis3135",
+            "date": "2025-05-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Ge knows what he is capable of when he demonstrates to the students HTML, CSS, JS, JSON, and AJAX. Overall, this class will require the skills of all of the programming languages that you will encounter. Follow the In-Class Activity instructions, the instructions of the Project you have to work on. Other than that, great professor, easy A.",
+            "class_name": "itis3135",
+            "date": "2025-05-01"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Overall fine. Synchronous online lectures very boring. One large project over course of semester(building website), and lots of zybook readings. In class activities are your \"attendance\" grades and he gives plenty of time and instruction for those during class sessions. Very nice and willing to help. TA's too. Don't procrastinate, do work early on",
+            "class_name": "itis3135",
+            "date": "2025-04-24"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "found class difficult bc I didn't take a ML class, if you haven't taken ML, I would advise not taking it. The coding projects are very vague and his provided code would not work. Attendance should be mandatory, bc barely anyone showed up, therefore it was kinda sad. His canvas is a bit unorganized so pay attention to the announcements.",
+            "class_name": "HCIP6100",
+            "date": "2025-01-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Dr. Ge is an ok professor but tends to get on tangents with his teaching. Sometimes he doesnt know what he is doing and it can be hard to communicate with him because of his accent. Expects 30 mins worth of work in 5 minutes and can be stressful. Semester long project isnt difficult. Theres 1 part for each month. I would recommend another professor",
+            "class_name": "itis3135",
+            "date": "2024-03-20"
+          }
+        ]
+      },
+      {
+        "name": "Jinpeng Wei",
+        "rmp_id": "VGVhY2hlci0yMjU4NTg4",
+        "rating": 2.5,
+        "difficulty": 3.1,
+        "num_ratings": 14,
+        "department": "Information Systems",
+        "would_take_again": 35.7143,
+        "courses_taught": [
+          "ITIS 6200"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "I took this as a mandatory class with Dr. Wei; he uses a textbook from 2004, doesn't reply to email within even 3-5 business days, uses old videos from either himself or other professors and doesn't actually teach. If you have a background in the material you'll do just fine but the class itself is a waste of time and money.",
+            "class_name": "ITIS6200",
+            "date": "2023-10-03"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Wei is an amazing professor. I am not sure why his ratings are low. His video lectures are very good, I took some time to get adjusted to his accent. His grading rubrics are very good. He provides very good practical knowledge. I learned a lot about basic of cyber-security. Overall, one of the best professors in UNCC, one must take his class. ",
+            "class_name": "ITIS6200",
+            "date": "2023-02-01"
+          }
+        ]
+      },
+      {
+        "name": "Xiang Zhang",
+        "rmp_id": "VGVhY2hlci0yODQ1ODI1",
+        "rating": 3.9,
+        "difficulty": 3.1,
+        "num_ratings": 14,
+        "department": "Computer Science",
+        "would_take_again": 71.4286,
+        "courses_taught": [
+          "ITCS 5356"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Had the class do a closed-note pop quiz with no prior notice, then cancelled the final project and replaced it with a math quiz based on the results of said pop quiz. You'll be shocked to know that students will tend to perform poorly on pop quizzes when given no indication that pop quizzes will be given. Just one of numerous issues.",
+            "class_name": "ITCS5356",
+            "date": "2026-03-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "If you want to actually learn ML, I would advise against this professor. He admits that he makes the class very easy so that students don't fail, with no exams or in-person quizzes, and labs that are basically fill-in-the-blank with no thinking required. He doesn't lecture very well and doesn't really understand how to answer questions. ",
+            "class_name": "ITCS5356",
+            "date": "2026-01-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "He's a great professor. The class is very manageable as long as you keep up with the labs and the capstone project. The best part is that he uploads all the lab assignments at once, so you can work on them at your own pace instead of waiting week by week. Overall, very organized and easy to follow, and you'll do well if you put in the effort.",
+            "class_name": "ITCS5356",
+            "date": "2025-11-29"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I really enjoyed taking this class, Lectures, assignments and labs were super straight forward and all the content of the lectures were on canvas day 1 of class so you can go at your own pace",
+            "class_name": "ITCS5356",
+            "date": "2025-11-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Well paced assignments that keep you involved, good lectures. Not overly difficult, well balanced class.",
+            "class_name": "ITCS5356",
+            "date": "2025-11-27"
+          }
+        ]
+      },
+      {
+        "name": "Jing Yang",
+        "rmp_id": "VGVhY2hlci0xNjIzMjU2",
+        "rating": 3,
+        "difficulty": 2.9,
+        "num_ratings": 13,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ITCS 3160",
+          "ITCS 4122"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "MANY opportunities for extra credit, mostly based on how good your projects are. The course is project heavy, with three presentations on your dashboards. There's a decent amount of homework toward the beginning but less as the semester goes on. Dr. Yang is lenient when grading projects, gives great feedback, and she's very caring. No tests. ",
+            "class_name": "ITCS4122",
+            "date": "2024-04-24"
+          }
+        ]
+      },
+      {
+        "name": "Chenglong Fu",
+        "rmp_id": "VGVhY2hlci0yODM4MDg2",
+        "rating": 4.1,
+        "difficulty": 4.3,
+        "num_ratings": 12,
+        "department": "Computer Science",
+        "would_take_again": 83.3333,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "This class is a lot; the difficulty rating is more for the class than Fu. Do not underestimate it, regardless of professor. Fu isn't great, but is knowledgeable and will assist students. But he does not respond to emails, is sometimes unprepared for lectures, difficult to understand via Zoom, and has office hours only once outside of class days.",
+            "class_name": "4221",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Can be a lot of homework in my opinion. Not coming from a cybersecurity background made this class a little more intimidating and I think that 3200 should be the only pre req for this class to prepare students. I do think this is a useful class. Lectures could've been more engaging or maybe 1 session could've been a lab session instead. ",
+            "class_name": "5221",
+            "date": "2025-12-05"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "This class is extremely hard the projects suck. You aren't given a lot of information to go off of so your doing tons of research. He uses HTB for homework and as your learning resource. Do not procrastinate in this class your grade will reflect it. However, he will push back deadlines because he knows the class is hard.",
+            "class_name": "4221",
+            "date": "2025-11-20"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The work can be difficult so it's recommended to start on assignments early, but definitely one of the most useful class you can take. Professor Fu is very passionate about cybersecurity and caring regarding students. He also extends deadlines as necessary so students can get work done on time.",
+            "class_name": "4221",
+            "date": "2025-11-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Fu is a caring and generous professor who wants his students to succeed. He's willing to work with you if you put in the effort. A minor drawback of his class is that some assignment instructions reused from past semesters can be outdated, and new assignments may feel a bit experimental. Overall, his class is fair, enjoyable, and worth taking.",
+            "class_name": "4221",
+            "date": "2024-12-22"
+          }
+        ]
+      },
+      {
+        "name": "Cynthia Gibas",
+        "rmp_id": "VGVhY2hlci0xODY3ODkw",
+        "rating": 2,
+        "difficulty": 3.7,
+        "num_ratings": 12,
+        "department": "Computer Science",
+        "would_take_again": 12.5,
+        "courses_taught": [
+          "BINF 2111",
+          "BINF 6203"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "She will never respond to her emails, doesn't care about her students and you will not learn anything from her class. NEVER TAKE ANY OF HER CLASSES",
+            "class_name": "BINF6203",
+            "date": "2024-12-13"
+          }
+        ]
+      },
+      {
+        "name": "Yongge Wang",
+        "rmp_id": "VGVhY2hlci0xNTEyMzY4",
+        "rating": 3.3,
+        "difficulty": 3.1,
+        "num_ratings": 12,
+        "department": "Information Technology",
+        "would_take_again": 50,
+        "courses_taught": [
+          "ITIS 6240",
+          "ITIS 6320"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I took his course . Biggest mistake I have ever done",
+            "class_name": "ITIS6240",
+            "date": "2024-05-07"
+          }
+        ]
+      },
+      {
+        "name": "Srinivas Akella",
+        "rmp_id": "VGVhY2hlci0yMjI1NDM0",
+        "rating": 4.1,
+        "difficulty": 4,
+        "num_ratings": 11,
+        "department": "Computer Science",
+        "would_take_again": 81.8182,
+        "courses_taught": [
+          "ITCS 6110",
+          "ITCS 6114"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "Srinivas cares about students understanding of and engagement with the content, however the Mob- Robotics content is a lot of long equations and math, and while the concepts aren't terrible, you will probably feel lost a lot. Be ready for pop quizzes. He is an understanding and reasonable professor, so always ask questions",
+            "class_name": "ITCS-5150",
+            "date": "2025-11-20"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I enjoyed the Analysis of Algorithms course under professor Akella. \n\nMost assignments were using pen & paper with the intent of writing good pseudocode/ expressing the solution well. That allowed for better focus on the intuition of algorithm analysis without getting caught up in language semantics.\n\n",
+            "class_name": "ITCS6114",
+            "date": "2025-05-23"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "oh yes Srinivas akella is the best!!!!!!",
+            "class_name": "ITCS6110",
+            "date": "2024-03-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Entire class is confused. Total of 3 grace days for late assignments. That means if you submit one assignment 3 days late, you've used all your grace days, for the ENTIRE semester. The very first assignment had a mistake, forcing people to use their grace days. Pop quizzes count towards grade. Very tough homework. Bad accent. Lessons aren't helpful",
+            "class_name": "ITCS6114",
+            "date": "2024-02-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I LOVE SRINIVAS AKELLA HE IS THE BEST PROFESSOR AT UNC CHARLOTTE ",
+            "class_name": "ITCS6110",
+            "date": "2024-02-07"
+          }
+        ]
+      },
+      {
+        "name": "Mirsad Hadzikadic",
+        "rmp_id": "VGVhY2hlci04MjExNA==",
+        "rating": 3.2,
+        "difficulty": 2.4,
+        "num_ratings": 11,
+        "department": "Computer Science",
+        "would_take_again": 0,
+        "courses_taught": [
+          "ITCS 6156",
+          "ITIS 1350"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "classes are long but very confusing, not really sure what he wants. Ambiguous concepts and unclear instructions. avoid it. ",
+            "class_name": "CAS",
+            "date": "2023-06-21"
+          }
+        ]
+      },
+      {
+        "name": "Erik Saule",
+        "rmp_id": "VGVhY2hlci0xOTQzODA2",
+        "rating": 3.2,
+        "difficulty": 3.7,
+        "num_ratings": 11,
+        "department": "Computer Science",
+        "would_take_again": 50,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Overall if you can learn through powerpoints and know all 150 slides and the codes in c++ on the test...which is 60% of your grade... no notes,no study guide,no openbooks and the \"Q&A\" days he hosts to answer questions about the test just leads back to the powerpoints.... you will probably pass... otherwise you will fail...",
+            "class_name": "ITCS-4145",
+            "date": "2026-04-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Erik Saule is an awesome dude. Don't get me wrong. But OH MY GOD this class will eat you alive if you are not prepared for it. You will pretty much have to teach yourself everything and the tests are abosolutely brutal. His 3160 class is alos completely different than other professors who offer the same exact course. DO NOT take his section.",
+            "class_name": "3160",
+            "date": "2025-11-04"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Definitely worth getting to know him during office hours. Tests were 50% of grade, no study guide or information about the tests given. He is SUPER knowledgeable about the subject, but you don't code at all in class, just learn concepts. Tests on paper, closed book, coding on paper that was a first. Lenient grader-ish, but you need to put in effort",
+            "class_name": "3160",
+            "date": "2025-11-03"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Saule is so down to Earth and easy to talk to. This is the first time he's taught this course and if you are very interested in learning database systems, take him. However, if you are not and just taking it on a whim or because of concentration, take another professor because their work is easier than his. Compared with friend's professor.",
+            "class_name": "3160",
+            "date": "2025-10-29"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "He is very knowledgeable when it comes to his field, and a fair person when it comes to grading. Even though the assignments and exams were pretty tough, he made efforts to guide students on the correct path. You will need crazy discipline to clutch in this class if it's your first time with actual C++ writing and using Centaurus.",
+            "class_name": "ITCS-4145",
+            "date": "2025-05-12"
+          }
+        ]
+      },
+      {
+        "name": "Kalpathi Subramanian",
+        "rmp_id": "VGVhY2hlci0yMzEwMjc5",
+        "rating": 2.4,
+        "difficulty": 4.2,
+        "num_ratings": 9,
+        "department": "Computer Science",
+        "would_take_again": 33.3333,
+        "courses_taught": [
+          "ITCS 3120",
+          "ITCS 4114",
+          "ITCS 6121"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "It was alright, just that instructions are very unclear. Towards the end he made us present 4 different times. Quizzes at random and could not be made up. He was a nice person but just the course structure I believe was not the best. The notes absolutely did not help for any of the tests, I had no idea what to even study. This is for ITCS - 4121",
+            "class_name": "ITCS3120",
+            "date": "2025-12-06"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Just took him, this is here for people about to take his Information Visualization class, so pretty chill, small class, projects are free and labs too, but exams not too bad, you will do fine if you study. Class attendance on Monday is optional, and Wednesday is mandatory; quizzes at the end of Wednesday, just look at the slides. Drops lowest quiz",
+            "class_name": "ITCS3120",
+            "date": "2025-10-27"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Taking 4121 class, not really any reviews, but so far pretty chill, try your best to not fall asleep in class, lecture will make you fall asleep, but just so far, its pop quizzes and labs ",
+            "class_name": "ITCS4114",
+            "date": "2025-08-25"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Prof Subramanian has been teaching this material for so long that he has lost all passion and interest for it. Lectures have maybe 30 minutes of material tops but he drags them out to 75 minutes. Keeps you in class for extra time for no reason. Assignments are inconsistent and include useless group discussions. Avoid.",
+            "class_name": "ITCS6121",
+            "date": "2024-11-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Project-heavy class (75%) with a small percentage dedicated to quizzes (25%), usually pop quizzes. If you want to take what you learned in algorithms and data structures to the next level, TAKE THIS CLASS! One project and quiz every 1-2 weeks. They are difficult projects, but they will teach you a lot! (We used the Bridges API to visualize DS&A).",
+            "class_name": "ITCS4114",
+            "date": "2024-06-26"
+          }
+        ]
+      },
+      {
+        "name": "Wlodek Zadrozny",
+        "rmp_id": "VGVhY2hlci0yMTMxNzY4",
+        "rating": 2.9,
+        "difficulty": 3.7,
+        "num_ratings": 9,
+        "department": "Computer Science",
+        "would_take_again": 37.5,
+        "courses_taught": [
+          "DSBA 6345",
+          "ITCS 6100",
+          "ITCS 6156"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Interesting lectures.",
+            "class_name": "ITCS6156",
+            "date": "2024-11-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Zadrozny is a great professor. Would recommend his Machine learning and Introduction to natural language processing courses.",
+            "class_name": "ITCS6156",
+            "date": "2023-07-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "This is a natural language processing course and the TAs can barely communicate in english.",
+            "class_name": "ITCS6100",
+            "date": "2023-05-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "ITCS-4111. Lectures about the subject in a way that meanders through the textbook without providing tangible and workable examples of how to problem solve/code. Has a final project about content that we've barely talked about (neural networks) and purposefully ignores when students bring up issues with accessing data necessary to complete it. 0/10",
+            "class_name": "ITCS6100",
+            "date": "2023-05-04"
+          }
+        ]
+      },
+      {
+        "name": "Cori Faklaris",
+        "rmp_id": "VGVhY2hlci0yODg5ODc1",
+        "rating": 3.5,
+        "difficulty": 2,
+        "num_ratings": 8,
+        "department": "Computer Science",
+        "would_take_again": 62.5,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Have taken both 4353 and 4360, both were the same. Boring to listen to, but class is easy enough if you stay on top of the busywork assignments. Pick a good project group, it matters.",
+            "class_name": "ITIS-4353",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "This course teaches nothing, no skills. Prof is well spoken, but I learned nothing useful that will help me in my work. She is bit dismissive of students' comments. Would not recommend this course.",
+            "class_name": "ITIS-4353",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "Waste of time. Easy A but nothing useful to learn. Prof discusses random things which is not useful for anything ",
+            "class_name": "ITIS-4353",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Clear organization and structure of the course material. Dr. Faklaris has the most inviting presence not only outside of class, but how she involves students' voices during lectures. Individual projects to synthesize industry-standard artifacts are relevant if building your portfolio. Would take any of her courses, even if irrelevant to my focus. ",
+            "class_name": "ITIS-4353",
+            "date": "2025-11-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Very interesting class, one of the nicest teachers at UNCC, gave out candy and was nice about everything. Very understanding and was lenient with her grading and her assignments were creative. There was a lot of reading involved though. ",
+            "class_name": "ITIS-4353",
+            "date": "2025-05-17"
+          }
+        ]
+      },
+      {
+        "name": "Wenwen Dou",
+        "rmp_id": "VGVhY2hlci0yMTE5MTc1",
+        "rating": 2.3,
+        "difficulty": 2.6,
+        "num_ratings": 7,
+        "department": "Computer Science",
+        "would_take_again": 42.8571,
+        "courses_taught": [
+          "DABA 5122",
+          "DSBA 5122",
+          "ITCS 4010"
+        ],
+        "reviews": []
+      },
+      {
+        "name": "Elizabeth Johnson",
+        "rmp_id": "VGVhY2hlci0yNzk0NzA1",
+        "rating": 4.8,
+        "difficulty": 1.5,
+        "num_ratings": 6,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "CTCM 2530",
+          "ITCS 3688"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I would take Dr. Johnson for every class if I could. She was an amazing professor who gave the best lectures I've probably ever had. There was homework due for every class but they took 5 minutes to do. She broke down essays into small parts and gave great feedback. She cares about her students and puts in effort to make sure they do good. 10000/10",
+            "class_name": "CTCM2530",
+            "date": "2024-11-30"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I haven't seen many professors that care as much as she does. Be ready to speak in front of the class a lot. You don't have to be that good at it--she cares more about seeing you improve throughout the semester. If you try, you'll be more than fine. Extremely nice lady and assistants.",
+            "class_name": "itsc3688",
+            "date": "2024-05-19"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "She engaging with random call-outs and captivating stories. With just 2 group projects and easy assignments, it's perfect for improving speaking skills. The assistants are incredibly helpful for research paper and presentation support. It's not your regular lecture, but definitely a class worth taking for its encouragement and support.",
+            "class_name": "itsc3688",
+            "date": "2024-04-29"
+          }
+        ]
+      },
+      {
+        "name": "Meera Sridhar",
+        "rmp_id": "VGVhY2hlci0yMjM5ODUx",
+        "rating": 2.4,
+        "difficulty": 3.6,
+        "num_ratings": 5,
+        "department": "Computer Science",
+        "would_take_again": 40,
+        "courses_taught": [
+          "ITIS 3200"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "I was skeptical after reading harsh reviews, but she surprised me. After we bombed Quiz&#8239;2, she canceled personal plans&#8212;despite having a newborn&#8212;to hold a review session outside of class time. She patiently walked us through problems and seemed like she genuinely cared about our success. Her lectures showed improvement over time.",
+            "class_name": "ITIS3200",
+            "date": "2025-05-12"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "She will say \"you are not spending enough time\" when she doesn't give out much materials to study. The TAs carried the class, were very helpful. She won't help you out much. There were several times she was lecturing on the next chapter when we had quizzes in the same period. Overall I won't recommend taking with her unless you know a lot of stuff.",
+            "class_name": "ITIS3200",
+            "date": "2024-12-09"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Doesn't really lecture and expects you to learn from just doing activities. Also when she does lecture she's typically not prepared for them & has to remind herself. One time a student asked a question for clarification before a quiz and she said she doesn't have time for questions. This did not only happen once but twice. ",
+            "class_name": "ITIS3200",
+            "date": "2024-11-25"
+          }
+        ]
+      },
+      {
+        "name": "Bojan Cukic",
+        "rmp_id": "VGVhY2hlci0yMDExMzQ2",
+        "rating": 4.8,
+        "difficulty": 2.3,
+        "num_ratings": 4,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ITCS 3146",
+          "ITCS 4155"
+        ],
+        "reviews": []
+      },
+      {
+        "name": "Audrey Rorrer",
+        "rmp_id": "VGVhY2hlci0yODI3Mzg2",
+        "rating": 4.8,
+        "difficulty": 2.3,
+        "num_ratings": 4,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Loved this class. Super fun, really cool to get to do a project in a K12 classroom. Class itself is incredibly easy, just some easy busywork assignments , nothing very hard.",
+            "class_name": "3610",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Dr. Rorrer is very caring and understanding, and the expectations for this course are thoroughly explained and reviewed through Canvas. She is flexible and considerate of students' needs, and she clearly has a passion for the work she does. I would definitely recommend!",
+            "class_name": "3790",
+            "date": "2025-05-01"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "I kind of felt bad bc me and my friends would always laugh and be disrespectful be she didn't care. 500wordessays,discussion posts and a midterm which is visiting a school and making a presentation and the final same thing but just a follow up. TBH I think the easiest A ever. Attendence was \"supposedly\" counted but I find that hard to believe.",
+            "class_name": "3610",
+            "date": "2024-05-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Class is pretty easy and Rorrer was always very nice. The presentation we did at the end with the elementary school was actually pretty fun. Enjoyable class but my section met 3 hours every week in the morning.",
+            "class_name": "3610",
+            "date": "2023-05-25"
+          }
+        ]
+      },
+      {
+        "name": "Jessica Schlueter",
+        "rmp_id": "VGVhY2hlci0xODE4NDAw",
+        "rating": 4.8,
+        "difficulty": 2.3,
+        "num_ratings": 4,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "BINF 2101",
+          "BINF 3201",
+          "BINF 6100"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Schlueter is an exceptional professor who truly cares. Despite many responsibilities she supports students with passion, even standing with us in lab even when the TA could run it alone. Lecture-heavy, but no exams, one final project, and labs, though time-intensive, are rewarding and full of valuable learning. She truly has a gift for teaching",
+            "class_name": "BINF3201",
+            "date": "2025-05-01"
+          }
+        ]
+      },
+      {
+        "name": "Gabriel Terejanu",
+        "rmp_id": "VGVhY2hlci0yNTg3OTY5",
+        "rating": 4,
+        "difficulty": 2.5,
+        "num_ratings": 2,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "DSBA 6100"
+        ],
+        "reviews": []
+      },
+      {
+        "name": "Depeng Xu",
+        "rmp_id": "VGVhY2hlci0yODEzNDM1",
+        "rating": 3,
+        "difficulty": 3.5,
+        "num_ratings": 2,
+        "department": "Computer Science",
+        "would_take_again": 50,
+        "courses_taught": [
+          "DSBA 6156"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I took him last semester this professor explains the concepts more better then other I had this classes, be ready for heavy lecture but study before class more impro",
+            "class_name": "3200",
+            "date": "2025-05-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Very disorganized lecturer. Would show slides, then be confused by what was on them because they weren't ones he made himself. None of us learned anything from him. Several of us were using ChatGPT just to put his topics in and have ChatGPT explain the topics. I saw he was teaching another class I could have taken and immediately dropped it.",
+            "class_name": "DSBA6156",
+            "date": "2024-04-12"
+          }
+        ]
+      }
+    ]
+  }
+}
