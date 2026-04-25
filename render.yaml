@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: classmate-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: REDDIT_CLIENT_ID
+        value: pending_reddit_approval
+      - key: REDDIT_CLIENT_SECRET
+        value: pending_reddit_approval
+      - key: REDDIT_USER_AGENT
+        value: ClassMate/0.1 by YourRedditUsername
