@@ -11,6 +11,9 @@ from starlette.requests import Request
 
 from backend import course_resolver
 from backend import insights
+from backend import professor_matcher
+from backend import reddit_client
+from backend import rmp_client
 
 logging.basicConfig(
     level=logging.INFO,
@@ -79,6 +82,32 @@ class ResolveRequest(BaseModel):
     input: str
 
 
+# ---------- Helpers ----------
+
+def _mock_response(course_code: str, school: str) -> dict:
+    try:
+        mock_insight = insights.generate_insights(
+            professor_name=insights.MOCK_DATA["professor_name"],
+            course_code=course_code,
+            reddit_posts=insights.MOCK_DATA["reddit_posts"],
+            rmp_reviews=insights.MOCK_DATA["rmp_reviews"],
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    return {
+        "course_code":       course_code,
+        "school":            school,
+        "professors": [{
+            "name":        insights.MOCK_DATA["professor_name"],
+            "rating":      None,
+            "num_ratings": 0,
+            "insights":    mock_insight,
+        }],
+        "source":            "mock",
+        "reddit_post_count": 0,
+    }
+
+
 # ---------- Routes ----------
 
 @app.get("/", response_model=HealthResponse)
@@ -122,18 +151,67 @@ def get_course_insights(school: str, code: str) -> dict:
         raise HTTPException(status_code=404, detail=f"School not found: {school!r}")
 
     resolved = course_resolver.resolve_course(school, code)
-
     if resolved["status"] == "ambiguous":
         return resolved
     if resolved["status"] == "no_match":
         raise HTTPException(status_code=404, detail=f"Course not found: {code!r}")
 
+    course_code = resolved["code"]
+    school_data = _SCHOOLS_BY_SLUG[school]
+
+    posts: list[dict]      = []
+    professors: list[dict] = []
     try:
-        return insights.generate_insights(
-            professor_name=insights.MOCK_DATA["professor_name"],
-            course_code=resolved["code"],
-            reddit_posts=insights.MOCK_DATA["reddit_posts"],
-            rmp_reviews=insights.MOCK_DATA["rmp_reviews"],
+        posts = reddit_client.get_professor_posts(
+            school_data["subreddit"], course_code, course_code, limit=15,
         )
+        professors = professor_matcher.match_professors(school, posts, course_code)
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.warning("Reddit/matcher pipeline failed: %s", e)
+
+    if not professors:
+        try:
+            school_id = rmp_client.get_rmp_school_id(school_data["rmp_school_name"])
+            prof = rmp_client.search_professor(school_id, course_code)
+            if prof:
+                reviews = rmp_client.get_professor_reviews(prof["id"])
+                professors = [{**prof, "reviews": reviews}]
+        except Exception as e:
+            logger.warning("RMP direct fallback failed: %s", e)
+
+    if not professors:
+        return _mock_response(course_code, school)
+
+    professor_results: list[dict] = []
+    deadline = time.perf_counter() + 15.0
+
+    for prof in professors[:3]:
+        if time.perf_counter() > deadline:
+            logger.warning("15s budget exceeded — skipping remaining professors")
+            break
+        try:
+            insight = insights.generate_insights(
+                professor_name=prof["name"],
+                course_code=course_code,
+                reddit_posts=posts,
+                rmp_reviews=prof.get("reviews", []),
+            )
+            professor_results.append({
+                "name":        prof["name"],
+                "rating":      prof.get("rating"),
+                "num_ratings": prof.get("num_ratings", 0),
+                "insights":    insight,
+            })
+        except Exception as e:
+            logger.warning("generate_insights failed for %r: %s", prof["name"], e)
+
+    if not professor_results:
+        return _mock_response(course_code, school)
+
+    return {
+        "course_code":       course_code,
+        "school":            school,
+        "professors":        professor_results,
+        "source":            "real",
+        "reddit_post_count": len(posts),
+    }
