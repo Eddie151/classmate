@@ -17412,7 +17412,333 @@
         ]
       }
     ],
-    "Chemistry": [],
+    "Chemistry": [
+      {
+        "name": "Todd Austell",
+        "rmp_id": "VGVhY2hlci0xNzk1MDE=",
+        "rating": 3.4,
+        "difficulty": 4.1,
+        "num_ratings": 352,
+        "department": "Chemistry",
+        "would_take_again": 53.5565,
+        "courses_taught": [
+          "CHEM 241",
+          "CHEM 261"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The rumors are true. Avoid at all costs. ",
+            "class_name": "CHEM241",
+            "date": "2026-04-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This is the worst lecturing teacher I have ever had, classes genuinely put me to sleep and make the subject of chemistry feel like you're being forced to eat sand. His hand writing is illegible and comparable to a second graders.",
+            "class_name": "CHEM241",
+            "date": "2026-04-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I took the final for this class approximately two years ago and it still brings tears to my eyes when I think about it",
+            "class_name": "CHEM241",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Do not underestimate the rumors that Todd is trying to make the UNC chem department one of the most difficult in the country. He's a nice guy, but lectures are boring, exams are more difficult than he really prepares you for, and he seems to enjoy your suffering a little bit. ",
+            "class_name": "CHEM241",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Funny and kind person, plus Todd's a great lecturer for Orgo. He teaches the material very cohesively and ensures you're well-prepared for exams. In class, I noticed people in his section often did better than those in other sections. In Todd we trust!",
+            "class_name": "CHEM261",
+            "date": "2026-04-08"
+          }
+        ]
+      },
+      {
+        "name": "Carribeth Bliem",
+        "rmp_id": "VGVhY2hlci0zNDg5MTY=",
+        "rating": 3.4,
+        "difficulty": 4,
+        "num_ratings": 316,
+        "department": "Chemistry",
+        "would_take_again": 64.4628,
+        "courses_taught": [
+          "CHEM 101",
+          "CHEM 101H",
+          "CHEM 102"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Bliem was genuinely amazing in a small class setting. She was funny and kind, making a connection to everyone. She is like a sweet grandma who wants you to do your best in chem. Although her tests are difficult, they never felt unfair and there was extra credit and a grade replacement built into the syllabus to offset this.",
+            "class_name": "CHEM101H",
+            "date": "2026-04-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Very good professor. She also wrote the textbook so she knows what she's talking about. Exams were also more fair in my opinion compared to other professors.",
+            "class_name": "CHEM102",
+            "date": "2026-04-18"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "The UNC chem department in general isn't awesome, but Dr. Bliem is a great bet for gen chem. She is kind, good at explaining concepts, and her handwriting is legible. Definitely study in advance for exams (the first one sneaks up on you), but don't blame Bliem for difficult exams - that's just 102. ",
+            "class_name": "CHEM102",
+            "date": "2026-02-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "She is \nExceptional teaching and I really wonderful",
+            "class_name": "CHEM101",
+            "date": "2026-01-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Professor Bliem is the best professor I ever had. ",
+            "class_name": "102",
+            "date": "2026-01-09"
+          }
+        ]
+      },
+      {
+        "name": "Joshua Beaver",
+        "rmp_id": "VGVhY2hlci0yMTgzODQx",
+        "rating": 3.3,
+        "difficulty": 4.3,
+        "num_ratings": 303,
+        "department": "Chemistry",
+        "would_take_again": 61.3861,
+        "courses_taught": [
+          "CHEM 262"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. Beaver is a great teacher during lecture and really breaks down the material in an enthusiastic way. That being said, his exams are very difficult and contain a lot of niche material. I gave him a 3 because he is quite rude and condescending to students who asked him questions on 1 to 1.",
+            "class_name": "CHEM262",
+            "date": "2026-04-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I loved Beaver for orgo 2, genuinely wants his students to succeed and get the most out of his class. Orgo 2 is a hard subject theres no workaround, but if you put in the effort it is very doable. Listen to his suggestions on how to study. Attend GPSS and do the ULA worksheets. Sit in the front, ask and answer questions in class. ",
+            "class_name": "CHEM262",
+            "date": "2026-03-12"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "man he's a good prof but unless you're confident you know the material he's not worth it. his exams are the hardest out of the entire department and the stress is unreal. i got out with an A but then my physical health genuinely declined due to the stress solely from that class. unless you want your entire life to be chem, dont take him.",
+            "class_name": "CHEM262",
+            "date": "2026-01-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "Beaver is a great guy and probably knows the course content he's teaching better than anyone. Yes the midterms are very challenging but the final is much more fair in my opinion. If you got through orgo 1 with a decent grade, you know what to expect with Beaver. Study hard for the midterms and practice practice practice and you will succeed. ",
+            "class_name": "CHEM262",
+            "date": "2025-12-18"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Beaver is one of my favorite chemistry professors at UNC. He genuinely cares, will listen to student feedback, and is amazing at breaking down difficult concepts. His GPSS is super helpful and his class is very engaging. I highly recommend taking 262 with him. ",
+            "class_name": "CHEM262",
+            "date": "2025-12-14"
+          }
+        ]
+      },
+      {
+        "name": "Erin Baker",
+        "rmp_id": "VGVhY2hlci0zMDEyMzYw",
+        "rating": 2.2,
+        "difficulty": 3.8,
+        "num_ratings": 48,
+        "department": "Chemistry",
+        "would_take_again": 25,
+        "courses_taught": [
+          "CHEM 241"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The only positive thing I have to say is that she was generous with curves & EC. However, she is very petty, extremely hard to follow during lectures, creates ridiculously long exams, and gives very few practice problems that I did not think looked anything like the exam. I only did well because I am comfortable with stats and put in a ton of time.",
+            "class_name": "CHEM241",
+            "date": "2026-02-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Erin Baker graded almost solely based on midterm exam scores, and didn't assign much homework to practice lecture material.",
+            "class_name": "CHEM241",
+            "date": "2026-01-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "She did change the grading scheme because of issues with AI which was unfortunate, but although the exams became weighted higher, I have never seen a professor give such generous curves on exams as her (even if average = 70s). She does problems slowly and in detail, and super open to questions. Exams are long but every 241 professor has long exams",
+            "class_name": "CHEM241",
+            "date": "2026-01-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "very poor lecturer. was extremely difficult to follow along - expect to spend tons of time outside of class teaching yourself the content. \n\ntests weren't difficult but very long, so there was never enough time to check over work. \n\nbut, if you are math-minded, you will find this class easier than other 241 sections because of its focus on stats.",
+            "class_name": "CHEM241",
+            "date": "2025-12-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Makes ARS absence accommodated students do a problem you didn't learn how to do (only blank slides provided) and submit it by 5pm the same day for credit. Admitted to people outside of the class that she made exams extra difficult on purpose after the AI issue. Punished class for some people's wrongs to be \"fair.\" Taught unnecessary extra stats.",
+            "class_name": "CHEM241",
+            "date": "2025-12-28"
+          }
+        ]
+      },
+      {
+        "name": "Elizabeth Brunk",
+        "rmp_id": "VGVhY2hlci0yODI1MTYz",
+        "rating": 2.2,
+        "difficulty": 3.7,
+        "num_ratings": 30,
+        "department": "Biochemistry",
+        "would_take_again": 30,
+        "courses_taught": [
+          "CHEM 430"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I took the honors section of chem430 and loved it. We did a capstone project and got to present our work at the Undergraduate Research Symposium. I was able to learn new how to work with data and even apply some of what I did to my own research! It was hard at first but I learned a lot about myself and team science. This was my fav class at UNC.",
+            "class_name": "CHEM430",
+            "date": "2026-02-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Brunk is kind and clearly cares about her students. She is very busy, as most research faculty are but she answers questions when you bring them to lecture. The flipped classroom can be an adjustment, but it reflects med school style learning. Biochem is challenging (DUH). Homework load is heavy-it helps and can be a grade saver for exams",
+            "class_name": "CHEM430",
+            "date": "2026-02-07"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "This class was really hard but really good. It changed my view of medicine and it changed what I want to do with my life. I love the real world applications and learning how to work with data. I loved the lectures on precision medicine and things that are really happening in science. ",
+            "class_name": "CHEM430",
+            "date": "2026-02-07"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Took Brunk because Hogan's section was full - worst mistake ever. My friends in Hogan's section had a walk in the park compared to what Brunk put our class through. Prone to mistakes in videos/lecture, very confusing explanations when asked for clarification (which I had to ask at office hours bc she never responded to my emails!), tricky exams.",
+            "class_name": "CHEM430",
+            "date": "2025-07-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "She is rarely available and actively makes it harder for you to find help. She doesn't let you email her so you can only get help from the TAs. I had to have my final exam rescheduled and she refused to help me out. Keep in mind it was an EXTREMELY easy fix. Don't expect any notes or videos to be posted, and her modules don't match with the exams. ",
+            "class_name": "CHEM430",
+            "date": "2025-06-16"
+          }
+        ]
+      },
+      {
+        "name": "Erik Alexanian",
+        "rmp_id": "VGVhY2hlci0xMjEzMTY2",
+        "rating": 3.7,
+        "difficulty": 3.5,
+        "num_ratings": 26,
+        "department": "Chemistry",
+        "would_take_again": 93.3333,
+        "courses_taught": [
+          "CHEM 262"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Dr. Alexanian is a sarcastic funny guy, teaching style (talking at us) was ok but the pace is fast and lots of review for nuances in reaction mechanisms is required to understand what was going on. He's doing his best but he is def a research prof. ",
+            "class_name": "CHEM262",
+            "date": "2025-05-30"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "So far Dr Alexanian is one of my favorite professors at UNC. He was slow during his lectures, but it did not hurt me. However, during QA sessions and office hours he was extremely nice. His exams are so much harder than Dr Eskew's; however, questions he asked were fair. ",
+            "class_name": "CHEM262",
+            "date": "2025-05-27"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Would ramble in class about his lab -- unclear on what we had to know as fact vs fluff? The midterm he made was ?? (average was a 63), and our class's grades were lower than Eskew's, but no curve. Final was also not easy. Condescending to questions in class. Interesting guy though, with a dry sense of humor. Allegedly gatekept things at his Q&As.",
+            "class_name": "CHEM262",
+            "date": "2025-05-12"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Erik is maybe the most mid CHEM professor at UNC. He's pretty nice and funny during class, but if you like a fast paced class, he moves EXTREMELY slow. His midterms were not too bad, the second one was rough but the other two and the final were really easy. He was very dismissive of people that asked stupid questions, but I liked him overall",
+            "class_name": "CHEM262",
+            "date": "2025-05-09"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "This class has pretty fair midterms. It goes pretty well for me until the final, which was insanely hard. Erik is nice and understanding, but just be ware of the orgo final, which was the hardest chem exam I have ever taken at UNC.",
+            "class_name": "CHEM262",
+            "date": "2025-05-06"
+          }
+        ]
+      },
+      {
+        "name": "James Cahoon",
+        "rmp_id": "VGVhY2hlci0yNDI4NTM4",
+        "rating": 3.3,
+        "difficulty": 4.3,
+        "num_ratings": 12,
+        "department": "Chemistry",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "CHEM 481"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "The classroom is purely flipped. Class sessions serve as problem solving sessions rather than instructional time. Office hours are useful for difficult course content. Exams are difficult but fair. Sizable (~5%) curve added to final grades.",
+            "class_name": "CHEM481",
+            "date": "2024-01-04"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "P Chem 1 is going to be hard, but Professor Cahoon has designed this class to be as effective as possible. It's a flipped classroom, which is kind of annoying, but it's much better than the alternative, since you can pause and rewind the lecture videos. He offers plenty of office hours if you need extra help, and his explanations are always good.",
+            "class_name": "CHEM481",
+            "date": "2023-12-16"
+          }
+        ]
+      }
+    ],
     "Biology": [
       {
         "name": "Alaina Garland",
@@ -19417,6 +19743,2282 @@
         "would_take_again": 100,
         "courses_taught": [],
         "reviews": []
+      }
+    ],
+    "Physics": [
+      {
+        "name": "Colin Wallace",
+        "rmp_id": "VGVhY2hlci0yMTMzNjAw",
+        "rating": 4.4,
+        "difficulty": 3.1,
+        "num_ratings": 203,
+        "department": "Physics  Astronomy",
+        "would_take_again": 85.6436,
+        "courses_taught": [
+          "ASTR 100",
+          "ASTR 103",
+          "PHYS 115"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "This is an amazing class, Colin Wallace is a great professor. The grading is based on attendance, homework, lecture tutorials, 3 midterms, and one final exam. There is a lot of information and it can be difficult if you do not pay attention to lectures or do not do readings, but if you really participate it is super understandable and so fun!!",
+            "class_name": "ASTR100",
+            "date": "2026-04-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Colin Wallace is an amazing professor. This is a great class to take for anyone regardless of prior knowledge on astronomy. Graded on attendance, homework, lecture tutorials, 3 midterms, and the final exam. There is math involved but it is very easy if you are paying attention to lectures and doing the readings. (Its not actually about aliens)",
+            "class_name": "ASTR103",
+            "date": "2026-04-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "He brought a lot of excitement to class everyday.  Attend lectures and you'll do well on the exams.  ExpertTA work was not relevant to lecture and was not tested.  Good teacher and many opportunities to answer questions in class.",
+            "class_name": "ASTR100",
+            "date": "2026-04-23"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Wallace is great for PHYS 115!! I struggled in 114 so I was nervous coming into 115, especially since I heard it was harder. However, I have had a great experience in 115. Dr. Wallace's lectures are engaging, he has a great attitude, and he genuinely enjoys physics. His exams are also clear and straight to the point.",
+            "class_name": "PHYS115",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 3,
+            "difficulty": 1,
+            "review_text": "If you want the easiest gen ed class ever, but also don't want something super boring, take this class. I would have preferred it to be harder, honestly. I studied for about 30 minutes before each test.",
+            "class_name": "ASTR103",
+            "date": "2026-04-13"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer Weinberg-Wolf",
+        "rmp_id": "VGVhY2hlci0yMjUxMjQ0",
+        "rating": 3.6,
+        "difficulty": 4.2,
+        "num_ratings": 109,
+        "department": "Physics  Astronomy",
+        "would_take_again": 69.0909,
+        "courses_taught": [
+          "PHYS 100",
+          "PHYS 119"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Theres a worksheet due before each class. Go to the office hours of the TA's, you need to go a certain amount of times to get credit. It's a theory heavy course, so don't worry too much about the math aspect of physics. Also, make friends in the class and start working on labs early. You'll have to do a couple of labs with other people.",
+            "class_name": "PHYS100",
+            "date": "2026-04-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "119 has the potential to be my worst course in college. The lectures are droning and boring (though Muxin is much nicer than Dr W) and hard to stay engaged with. The tests consistently average low 60s and are confusing for no reason. Dr W is extremely passive-aggressive, in person and online. The instructors have no concern for difficulty. BAD.",
+            "class_name": "PHYS119",
+            "date": "2026-04-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "50 min mandatory lectures twice a week, but are incredibly simple and not helpful for homework or tests. Unreasonable grading of labs, and no communication with TAs on how to actually support us in labs. Don't reach out over email and expect a helpful or caring answer. The class is fine if you know what you are doing, the professors are lacking. ",
+            "class_name": "PHYS119",
+            "date": "2026-04-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "I LOVE JENNIFER WEINBERG-WOLF. When she started talking about shooting neutrons into an apple, I was inspired. She completely changed my perspective on life. Imagine shopping in a grocery store... LOOKING for the perfect apple to shoot a neutron into, ultimately turning it into a Hulk Apple.",
+            "class_name": "PHYS100",
+            "date": "2026-01-06"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "She is a nice person, but this is a hard class to take as an introduction to physics, especially for people like me who aren't physics majors. The class requires a lot of time outside of class to understand the concepts and examples in order to answer the questions the way she intended them to be answered on exams.",
+            "class_name": "PHYS100",
+            "date": "2025-12-14"
+          }
+        ]
+      },
+      {
+        "name": "Duane Deardorff",
+        "rmp_id": "VGVhY2hlci02NTI4MDE=",
+        "rating": 2.7,
+        "difficulty": 3.9,
+        "num_ratings": 92,
+        "department": "Physics & Astronomy",
+        "would_take_again": 33.7209,
+        "courses_taught": [
+          "PHYS 114"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "He does not seem to care for our success. We do much of the learning ourselves so he is essentially the placeholder that contributes relatively little to our understanding. The actual learning is done during the 3-hour lab sessions. Would not recommend the class but there is a very limited selection of instructors here who teach this, so no choice.",
+            "class_name": "PHYS114",
+            "date": "2026-03-17"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Dr. Deardorff was a bad explainer so I mainly had to learn through Studio labs, my peers, or Dr. Hansen. Practice exams and exam prep sessions are the most helpful when studying. Exams were quite long compared to the 50 min we had, so making a mistake could cost you time.",
+            "class_name": "PHYS114",
+            "date": "2026-01-11"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "First time taking physics, but it was manageable with freshman courseload. Gives multiple homeworks/warmups a week. Office hours and the online vectorious worksheets helped me most to prepare for exams. Exams were hard, but Dr. Deardorff offers extra credit for improved performance. Studio takes a lot of time. Final was the easiest exam for me.",
+            "class_name": "PHYS114",
+            "date": "2026-01-02"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "He was ok. I preferred the other professor (Dr. Hansen). Participation is SUPER important so go to all the labs/lectures. Labs were hard. I failed every exam, but I was able to get a 70 at the end with help from CramBetter and practice problems. If you're not doing well, it's ok just try to get as many points as possible.",
+            "class_name": "PHYS114",
+            "date": "2025-12-30"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Exams are only 50% of your grade so studio (25%) really helps bring your grade up. Partial credit is generous, but the class is very self-taught. Manageable as a freshman. 70% of the class got a B or higher, ~75% class average on exams. Utilise practice exams, Vectorious problems, and Friday exam prep sessions. ",
+            "class_name": "PHYS114",
+            "date": "2025-12-21"
+          }
+        ]
+      },
+      {
+        "name": "Stefan Jeglinski",
+        "rmp_id": "VGVhY2hlci0xNjcxMzA1",
+        "rating": 3,
+        "difficulty": 4.2,
+        "num_ratings": 73,
+        "department": "Physics & Astronomy",
+        "would_take_again": 41.4286,
+        "courses_taught": [
+          "PHYS 118",
+          "PHYS 231"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "Very blunt and straight to the point (probably why people rated him so low)\nBut very helpful and does give great teaching if you go to his office hours!! Doesn't come off as very friendly but is always willing to help you out.\nKey note: very, very blunt!!",
+            "class_name": "PHYS118",
+            "date": "2025-10-29"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Puts his heart into the class, which I appreciate. If you want to learn how to program micro controllers, this is the class for you. He provides plenty of opportunity and incentive if you screw up as well. Downside is the lack of grading and some labs are a bit wordy, but that's about it.",
+            "class_name": "PHYS231",
+            "date": "2025-05-03"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Unclear grading rubric for most assignments and very little feedback since 75% of assignments are still ungraded almost a week past LDOC. I would not describe him as open and inviting.",
+            "class_name": "PHYS231",
+            "date": "2025-05-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "If you want to be verbally abused then this is the prof for you :D",
+            "class_name": "PHYS231",
+            "date": "2025-04-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "he is a narcissist. wont answer your question directly. writes paragraph responses to you but it makes everything more confusing. disorganized. unclear. einstein said \"if you can't explain it to a six year old, you don't understand it yourself\". dr j does not understand physics or anything really yet believes he knows everything",
+            "class_name": "PHYS231",
+            "date": "2025-02-20"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Mann",
+        "rmp_id": "VGVhY2hlci0yNTczMzIz",
+        "rating": 4,
+        "difficulty": 2.9,
+        "num_ratings": 30,
+        "department": "Physics & Astronomy",
+        "would_take_again": 76.6667,
+        "courses_taught": [
+          "ASTR 100",
+          "ASTR 519"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Mann is a great professor and he genuinely cares about the course content as it is VERY applicable if you are looking to do any observational astronomy in the future. His homeworks are long and difficult, but his and the TA's office hours are very useful! Overall, his lectures are great and he throws in a lot of humor to keep you engaged!",
+            "class_name": "ASTR519",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "This class is far too difficult to be a gen ed. Classes are solely lecture, and when he would ask practice questions, even if 50% of the class got a question wrong he would move on anyway. I took pages and pages of notes every class and studied countless hours but still got 50s-70s on all exams. If you struggle with stem classes at all then avoid!!",
+            "class_name": "ASTR100",
+            "date": "2025-07-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Mann is amazing!! It's obvious that he loves his field and that enthusiasm comes through in the way he teaches. Great guy and would take another class with Dr. Mann in a heartbeat ",
+            "class_name": "ASTR100",
+            "date": "2025-07-04"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Mann was great, and I managed to get by without having to attend class. There's so much going on though - with HWs, lecture tutorials, warmups, etc. Just a lot to keep track of, and I missed so many that I tanked my grade. If you're on top of all of these then it's an easy A. Very fair exams - just keep doing the practice tests!",
+            "class_name": "ASTR100",
+            "date": "2025-05-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Mann is an impressive prof. While he is passionate about astronomy and extending his knowledge to students, he doesn't take himself too seriously like other UNC STEM profs. Really enjoyed this class and Dr. Mann. Shoutout to his cat, Bandit. ",
+            "class_name": "ASTR100",
+            "date": "2025-05-11"
+          }
+        ]
+      },
+      {
+        "name": "Frank Tsui",
+        "rmp_id": "VGVhY2hlci0yNTA3ODE=",
+        "rating": 2.9,
+        "difficulty": 3.7,
+        "num_ratings": 27,
+        "department": "Physics",
+        "would_take_again": 46.6667,
+        "courses_taught": [
+          "PHYS 114",
+          "PHYS 115"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Dr. Tsui is a very unclear lecturer and is not engaging at all. He mainly reads off the slides and barely explains practice problems. If there are two professors teaching the section and he is one of them, you should do alright because the other one will most likely be a better teacher. ",
+            "class_name": "PHYS115",
+            "date": "2025-05-03"
+          },
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "He is a very nice guy just not the best lecturer. Some times the way he explains things is confusing and he can go on tangents sometimes. Phys 115 is a hard class in general so its hard to grasp the concepts when they arent explained too well in lecture. ",
+            "class_name": "PHYS115",
+            "date": "2025-05-03"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Very kind man who wanted students to understand the material",
+            "class_name": "PHYS115",
+            "date": "2025-05-02"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "He knows his stuff but the lectures are incredibly boring. Just reads off the slides and spends 15 minutes explaining the easiest question while skipping over harder ones. Not bad but definitely didn't ignite a love for physics within me.",
+            "class_name": "PHYS115",
+            "date": "2025-04-28"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "He was a very kind, caring man but I do not feel he explained content amazingly. He seems very intelligent and 114 might just be a bit too low-level of a class for him. Great person, but might not be the best professor unfortunately.",
+            "class_name": "PHYS114",
+            "date": "2025-04-22"
+          }
+        ]
+      },
+      {
+        "name": "Jianping Lu",
+        "rmp_id": "VGVhY2hlci0yMDYyMTgy",
+        "rating": 3.2,
+        "difficulty": 4.2,
+        "num_ratings": 26,
+        "department": "Physics  Astronomy",
+        "would_take_again": 52,
+        "courses_taught": [
+          "APPL 295",
+          "PHYS 118"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Took a mentored research class with Prof. Lu, which is a more chill setting than a traditional class with lectures. He helped me learn medical imaging physics, assisted with work on an impactful research project, and connected me to one of his PhD students for help with the project. Definitely a memorable, chill class.",
+            "class_name": "APPL295",
+            "date": "2025-07-10"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Dr. Lu was a pretty fun and engaging lecturer. PHYS 118 naturally is a hard class, but I thought he did a decent job explaining the concepts. The only minor issues were that he has a bit of an accent (which isn't his fault) and didn't get what students were asking a lot of the time.",
+            "class_name": "PHYS118",
+            "date": "2025-05-03"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Dr. Lu is not a particularly good lecturer, especially for such a difficult class. It will be hard, you'll get through it, but there could certainly be a better teaching professor teaching the content.",
+            "class_name": "PHYS118",
+            "date": "2025-04-30"
+          },
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "Nice guy with decent lectures. Only like 50% of the class was graded by exams with lots of partial credit. This class takes up a lot of time tho with the studios, lectures, and homework. ",
+            "class_name": "PHYS118",
+            "date": "2025-01-07"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "There is so much content in this class, don't start skipping. Midterm questions are hard, use the past midterms as much as possible. I didn't find studio too helpful for learning, but it was a good grade boost. I recommend skimming the textbook, reviewing slides and using youtube.",
+            "class_name": "PHYS118",
+            "date": "2024-12-17"
+          }
+        ]
+      },
+      {
+        "name": "Reyco Henning",
+        "rmp_id": "VGVhY2hlci0xOTUxOTQy",
+        "rating": 3.9,
+        "difficulty": 3.9,
+        "num_ratings": 25,
+        "department": "Physics  Astronomy",
+        "would_take_again": 73.6842,
+        "courses_taught": [
+          "PHYS 118"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Lectures are the most boring thing ever. ",
+            "class_name": "PHYS118",
+            "date": "2026-01-14"
+          },
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Lectures, textbooks, homework, and studios are kinda redundant -- I went to studio and did the homework, but I normally skipped lecture and never read the textbook. I did fine. \n\n(attendance is theoretically 'mandatory', but they replace participation with your final exam grade if it's higher. that provides an 'out' to skippers who perform well.)",
+            "class_name": "PHYS118",
+            "date": "2026-01-08"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Dr. Henning was a great professor for PHYS118. He and another professor would rotate lectures. His lectures were very clear and he was open to answering any questions. This class has mandatory attendance for lecture and studio. Exams are 50% of your grade. The class has very clear expectations for its students. Study hard and you'll be fine. ",
+            "class_name": "PHYS118",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "As someone who took an algebra physics class in high school, 118 was manageable. Studios were annoying but TAs were happy to check answers. Henning only lectured about half of the classes and he was fine. Exams were fair if somewhat tight for time. Can earn up to 1% bonus to course grade for surveys throughout the semester.",
+            "class_name": "PHYS118",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "PHYS 118 is not an easy class by any means, but Dr. Henning teaches it well. Lectures were easy to follow for the most part, and he did his best to demonstrate the concepts when possible. You can tell that he has great passion for what he teaches. He is transparent about the logistics of the class from the start, so nothing comes as a surprise.",
+            "class_name": "PHYS118",
+            "date": "2023-12-27"
+          }
+        ]
+      },
+      {
+        "name": "Rene Lopez",
+        "rmp_id": "VGVhY2hlci0xNDQ3MzA2",
+        "rating": 2.4,
+        "difficulty": 4.1,
+        "num_ratings": 25,
+        "department": "Physics & Astronomy",
+        "would_take_again": 20.8333,
+        "courses_taught": [
+          "PHYS 115",
+          "PHYS 117"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Love Dr. Lopez. He is very caring and willing to answer the questions for students outside the class. ",
+            "class_name": "PHYS115",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "He takes forever to get to the point and his lecturing style is not the best. I also have a very hard time deciphering what he's trying to say bc he has a thick accent. Also for whatever reason he taught the hardest concepts for PHYS 115 which was very frustrating since it is already so difficult to understand these topics, let alone understand him",
+            "class_name": "PHYS115",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "i was always a bit confused and lost in lectures. If the class doesn't understand a concept, he doesn't stop and just pushes on, which was a bit annoying because then I wouldn't understand the rest of the lecture. Sometimes made somewhat rude comments about how it was easy and we should understand it, or things like that, but he apologized.",
+            "class_name": "PHYS115",
+            "date": "2025-12-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "One of the co-professors for PHYS 115 and I swear every time we walked into class and realized he was holding a lecture that day, there would be a cumulative sigh. Not good at explaining material at all. Everything comes seemingly intuitively to him and his explanations are over-complicated. Friendly! But I don't want friendly, I want competent.",
+            "class_name": "PHYS115",
+            "date": "2025-10-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He doesn't know how to lecture. Accent is too thick and it's hard to understand him.",
+            "class_name": "PHYS117",
+            "date": "2025-09-11"
+          }
+        ]
+      },
+      {
+        "name": "Adrienne Erickcek",
+        "rmp_id": "VGVhY2hlci0xOTA5OTkw",
+        "rating": 4.2,
+        "difficulty": 3.8,
+        "num_ratings": 22,
+        "department": "Physics & Astronomy",
+        "would_take_again": 85.7143,
+        "courses_taught": [
+          "ASTR 202"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "The best physics teacher I've ever had. ",
+            "class_name": "ASTR202",
+            "date": "2026-04-01"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Erickcek is knowledgeable and does a good job covering the material. The material is difficult though, and your grade comes down to how well you do on the midterms so study accordingly! Still, they are fairly graded and often were curved slightly (including the final) if she saw the majority of the class struggled on certain sections.",
+            "class_name": "ASTR202",
+            "date": "2025-12-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "She is really nice, gave good feedback on all assignments, but the material is vast and she doesn't give exam practice problems. So it is difficult to study for those exams. ",
+            "class_name": "ASTR202",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Erickcek is amazing, this class made me switch my major to astrophysics! Fantastic class, lectures, and professor. The homework can be difficult but is totally manageable if you start on time. Having python experience can be helpful.",
+            "class_name": "ASTR202",
+            "date": "2025-12-04"
+          },
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "She is an exceptional teacher, her lectures are so thorough and well-planned. She is so helpful if you make it obvious that you're trying to understand. The content of the classes are super challenging. she doesn't downplay the difficulty. She delivers excellence in her teaching and expects excellence from her students. It's intense, but worth it ",
+            "class_name": "ASTR202",
+            "date": "2025-02-08"
+          }
+        ]
+      },
+      {
+        "name": "Laura Mersini",
+        "rmp_id": "VGVhY2hlci00ODkwMDM=",
+        "rating": 3.3,
+        "difficulty": 3,
+        "num_ratings": 22,
+        "department": "Physics",
+        "would_take_again": 75,
+        "courses_taught": [
+          "PHYS 101"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "This was my favorite class all of freshman year. The readings are interesting and she truly cares about teaching the content of the class. Most of the work/grade is doing weekly team presentations and participating in class.",
+            "class_name": "PHYS89",
+            "date": "2026-04-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Don't be turned away from taking her seminar just because it's physics. You hardly have any work besides weekly group presentations and all the prof cares about is sharing her passion with her students.Genuinely an amazing and caring woman.",
+            "class_name": "PHYS89",
+            "date": "2025-04-05"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Showcases a clear love and enthusiasm for her work.",
+            "class_name": "PHYS89",
+            "date": "2025-03-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Took a physics course back in '06 at UNC.  She was easily one of the worse teachers I've ever had in my entire life.  Assigned the hardest assignments with an exceptionally poor ability to explain concepts.  Test average somewhere around a D.  There were many complaints regarding her at the time.",
+            "class_name": "PHYS101",
+            "date": "2023-08-28"
+          }
+        ]
+      },
+      {
+        "name": "Dmitri Khveshenko",
+        "rmp_id": "VGVhY2hlci0xNTYwMzkw",
+        "rating": 1.2,
+        "difficulty": 4.9,
+        "num_ratings": 21,
+        "department": "Physics & Astronomy",
+        "would_take_again": 0,
+        "courses_taught": [
+          "PHYS 114"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Dr. Khveshenko is one of the worst professors ever. His lectures were useless and completely unrelated to exams. Anything he wrote on the board was impossible to decipher, and his accent is difficult to understand. He cannot answer any questions, and talked to us as if we are PhD students in physics. Please avoid for your sanity. ",
+            "class_name": "PHYS114",
+            "date": "2023-05-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "DON'T take physics with Dmitri he's hard to understand and doesn't show his work. He just clicks through the slides. Bad lecturer.",
+            "class_name": "PHYS114",
+            "date": "2023-04-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "just a bad lecturer, will just read off of slides and click through how problems are worked out. 50% of the time when students ask a question he answers a completely different question",
+            "class_name": "PHYS114",
+            "date": "2023-04-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I wish I could give him zero stars. I have never encountered such an AWFUL professor. It is obvious he does not read the slides before class, nor does he care about teaching the material. No work is ever shown and explanations are always unclear. Take this course with a different professor, or at a different institution. AVOID HIM AT ALL COSTS!",
+            "class_name": "PHYS114",
+            "date": "2023-03-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I wish I could rate him zero stars. I have never encountered such an AWFUL professor. It is very clear that he does not read the slides before he comes to class, nor does he care about teaching it. He shows no work when solving examples and provides unclear explanations. Take this class with another professor or take it at a different institution. ",
+            "class_name": "PHYS114",
+            "date": "2023-03-08"
+          }
+        ]
+      },
+      {
+        "name": "Chris Clemens",
+        "rmp_id": "VGVhY2hlci00ODg5Mjg=",
+        "rating": 4.4,
+        "difficulty": 3.1,
+        "num_ratings": 15,
+        "department": "Physics & Astronomy",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "ASTR 205"
+        ],
+        "reviews": []
+      },
+      {
+        "name": "Yue Wu",
+        "rmp_id": "VGVhY2hlci00ODM2MTA=",
+        "rating": 4,
+        "difficulty": 3.8,
+        "num_ratings": 14,
+        "department": "Physics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "PHYS 118",
+          "PHYS 311",
+          "PHYS 412"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Lectures were easy to follow and went by the textbook layout identically. Hints at certain problems that might be on exams. The course was fair, and homework + lecture + reading was enough to prepare you for exams.",
+            "class_name": "PHYS311",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "He's a little bit of a dry lecturer, but course is pretty clear cut. Especially after being traumatized by E&M I, this class felt very fair. Exams were hard, but nothing unexpected. He graded very generously, and homework assignments weren't too bad either.",
+            "class_name": "PHYS412",
+            "date": "2024-05-19"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Doctor Wu is super enthusiastic about physics. He is really caring and understanding. The only thing is his expression sometimes is not clear enough. Overall, he is good.",
+            "class_name": "PHYS118",
+            "date": "2023-01-08"
+          }
+        ]
+      },
+      {
+        "name": "Akaa Ayangeakaa",
+        "rmp_id": "VGVhY2hlci0yNjk5MzQ5",
+        "rating": 4.1,
+        "difficulty": 2.9,
+        "num_ratings": 12,
+        "department": "Physics & Astronomy",
+        "would_take_again": 75,
+        "courses_taught": [
+          "PHYS 401"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The TA teaches, grades and creates homework for the lab section. Professor simply gives the recitation lecture. In those lectures he is a slow speaker, does not get through all the material in a timely manner. He is also a poor communicator outside of the classroom. He once forgot to tell us about an assignment and then tried to blame us.",
+            "class_name": "PHYS401",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Lecture plus supplemeting with textbook make the material clear and manageable. Fun lecturer and engages with students. Grades exams rather strictly, (i.e., you want textbook work) but is very lenient when it comes to getting points back. Akaa wants you to succeed, and he was very forgiving with final rounding. Put in the work and you will do well!",
+            "class_name": "PHYS401",
+            "date": "2025-05-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Great professor. The midterm exams were both a bit disorganized, but he was honest and fair when grading them. Doesn't take attendance traditionally, but gives pop quizzes throughout the semester as a substitute. Overall very understanding and a funny guy in lecture.",
+            "class_name": "PHYS401",
+            "date": "2025-05-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Professor Akaa is a caring instructor and wants us to do well. He goes through lectures very diligently and they are easy to follow. Pop quizzes are nice to help provide extra practice problems outside of hw and midterm reviews. ",
+            "class_name": "PHYS401",
+            "date": "2025-03-05"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "He's a very decent professor. He's a funny guy and clearly knows what he is talking about, and he expects that from you as well. If you put in the work, you'll do just fine. Only reason I didn't get an A is because I was lazy.",
+            "class_name": "PHYS401",
+            "date": "2024-05-19"
+          }
+        ]
+      },
+      {
+        "name": "Fabian Heitsch",
+        "rmp_id": "VGVhY2hlci0yMTExMDMz",
+        "rating": 3.7,
+        "difficulty": 3.4,
+        "num_ratings": 12,
+        "department": "Physics  Astronomy",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "ASTR 101",
+          "ASTR 511",
+          "PHYS 332"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "10/10 class, and 10/10 professor. It was certainly not an easy A, but most definitely not unachievable either. Quizzes, final exam, and final project were all very fair and was the perfect amount of challenging. Highly recommend.",
+            "class_name": "PHYS332",
+            "date": "2023-12-18"
+          }
+        ]
+      },
+      {
+        "name": "Nicholas Law",
+        "rmp_id": "VGVhY2hlci0yMTQ2MjE0",
+        "rating": 4.5,
+        "difficulty": 3.6,
+        "num_ratings": 12,
+        "department": "Physics  Astronomy",
+        "would_take_again": 75,
+        "courses_taught": [
+          "ASTR 103",
+          "ASTR 502"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Best class - the TAs and prof really cared. So much fun",
+            "class_name": "ASTR502",
+            "date": "2024-05-07"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "I loved professor law and his TAs they are all very kind and helpful, but if you are not good at astrophysics do NOT take this class. The description is very misleading as we didn't start actually talking about aliens until halfway through the semester and there was a lot of math to do with this class.",
+            "class_name": "ASTR103",
+            "date": "2023-12-22"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Overall, he's a great professor and a great guy but the class was pretty rough and hard to understand. Confusing concepts and lots of math. This was a rough semester for him in general though.",
+            "class_name": "ASTR103",
+            "date": "2023-12-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "dr. law & his TAs are fantastic. i'm a humanities major & really struggled with the class content, but they truly care & are more than willing to work with you. the class & especially the tests are tough but law is great. i'll also add that he was fantastic during the shooting incident this year. i wouldn't have wanted to be in any other classroom.",
+            "class_name": "ASTR103",
+            "date": "2023-12-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "law is such a sweetheart. as a person who came to unc with no love for physics, I'm starting to get interested in it and will be minoring in astronomy because of him. he's very supportive and his TAs are amazing too (s/o to lawrence, doctor procter, will). they all go out of their way to make sure you understand the content. 100% would recommend. ",
+            "class_name": "ASTR103",
+            "date": "2023-12-06"
+          }
+        ]
+      },
+      {
+        "name": "Yue Qiu",
+        "rmp_id": "VGVhY2hlci0zMDI3Mjgz",
+        "rating": 1,
+        "difficulty": 3.8,
+        "num_ratings": 11,
+        "department": "Physics & Astronomy",
+        "would_take_again": 0,
+        "courses_taught": [
+          "PHYS 114"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "DO not TAKE HIM",
+            "class_name": "PHYS114",
+            "date": "2026-04-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This is for PHYS115 but I agree this guy needs to take a public speaking class before he can lecture.  I can't imagine him teaching his own class don't take him if you don't want to raise your cortisol levels.",
+            "class_name": "PHYS114",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This is actually for Phys 115. I cannot hear Qiu, he just reads off the slides and WHISPERS. He doesnt explain anything or write anything to solve it he just talks. Please avoid him, you will not learn. ",
+            "class_name": "PHYS114",
+            "date": "2026-02-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Prof. Qiu does not explain concepts in class: he reads straight from the PowerPoints. He doesn't even try, even if students ask him to write out explanations in class. Stay away, if possible. I do not know why he is teaching intro physics as he does not seem to care whatsoever. ",
+            "class_name": "PHYS114",
+            "date": "2026-02-17"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Professor Qiu struggled to read the slideshows, which made understanding difficult physics topics even harder. In fact, I got a better grade in 118 than 114 just because of how bad professor Qiu was. He also never answers questions, always seems nervous to lecture, and seems so out of touch with his students. if you have a class with him, DROP IT.",
+            "class_name": "PHYS114",
+            "date": "2025-05-04"
+          }
+        ]
+      },
+      {
+        "name": "Otto Zhou",
+        "rmp_id": "VGVhY2hlci0yNjkxNDgz",
+        "rating": 4.3,
+        "difficulty": 2.7,
+        "num_ratings": 11,
+        "department": "Physics & Astronomy",
+        "would_take_again": 72.7273,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "So so nice! It is clear that he is passionate about what he does. Basically gives you what is going to be on the exams. I would say to make sure you know what time assignments are due so you don't miss one, he doesn't make them due at 11:59 and there are very few of them. Also can be a little condescending if you answer a question wrong in class.",
+            "class_name": "PHYS53",
+            "date": "2025-12-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Professor Zhou is a great instructor. He's passionate about what he teaches and his tests are verbatim the concepts taught. There was little homework but that meant that the class was test-heavy. The content was interesting and we were able to go to the labs! You needed to be present in class to understand concepts as his slides were confusing.",
+            "class_name": "PHYS53",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Zhou is such a king! You'll probably feel intimidated at first but he tries so hard to make the topics interesting and make jokes during class. Very few grades and he doesn't really use canvas so you won't really know how you're doing in the class. Slides are not detailed so go to class and pay attention and the exams won't be too bad.",
+            "class_name": "PHYS53",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Dr. Zhou is a great professor and taught some really cool things about nanotechnology and science! Class is pretty chill with few homework assignments, a midterm and a final for the year. I just wish lecture slides could be more detailed, but if you pay attention in class, you should be fine!",
+            "class_name": "PHYS53",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Dr. Zhou is a character. The class feels a little just thrown together, but the material is not difficult at all. Very little homework while is nice, and as long as you payed attention in lecture you will be fine. Incredibly laid back class that I would recommended for your first year seminar if this sounds interesting to you.",
+            "class_name": "PHYS53",
+            "date": "2025-12-03"
+          }
+        ]
+      },
+      {
+        "name": "Julieta Gruszko",
+        "rmp_id": "VGVhY2hlci0yNTkxMDIw",
+        "rating": 4.1,
+        "difficulty": 3.9,
+        "num_ratings": 9,
+        "department": "Physics & Astronomy",
+        "would_take_again": 77.7778,
+        "courses_taught": [
+          "PHYS 119",
+          "PHYS 311",
+          "PHYS 421"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Clear lecturer, minimal studying required",
+            "class_name": "PHYS421",
+            "date": "2025-05-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Gruszko was extremely accessible and answered questions thoroughly. The class was difficult, but don't let the midterm scores discourage you as the studio grade will bring you up. If you find the time for it, go to the review session before the midterms and the final, they are a great way to remind yourself of the many concepts covered.",
+            "class_name": "PHYS119",
+            "date": "2023-05-03"
+          }
+        ]
+      },
+      {
+        "name": "Rosa Branca",
+        "rmp_id": "VGVhY2hlci0yNjkwMjg0",
+        "rating": 4.3,
+        "difficulty": 3.9,
+        "num_ratings": 7,
+        "department": "Physics & Astronomy",
+        "would_take_again": 100,
+        "courses_taught": [
+          "PHYS 119",
+          "PHYS 451"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Lectures are a MUST. You will not glean enough information by simply going through slides. Work the problems out in class, do the homework, and pay attention in lab. This class was sneakily difficult for me, but if you practice, pay attention, and work to do well on the final, she will take that into account. She is also super nice and accomodating",
+            "class_name": "PHYS451",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "AMAZING PROFESSOR!!! Always listens to students, if you have any questions ask and she'll always be there to help you. Office hours are incredibly helpful and she knows what she's talking about.",
+            "class_name": "phys119",
+            "date": "2025-10-29"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "has an accent, but it isn't bad and she explains things very well in the lectures ",
+            "class_name": "phys119",
+            "date": "2025-07-24"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Dr. Branca is the best. She was very caring and accessible through Piazza and O.H. and really cared about helping as many people as she could. For someone that has never taught PHYS 119 before she did a really amazing job. You will definitely have to put in a lot of effort on your own, but she really does want to help along the way. Great professor",
+            "class_name": "phys119",
+            "date": "2025-05-09"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "dr. branca taught phys 119 pretty well for her first time. there were times where we didn't cover the last little bit of the lecture but that was remediated by the studio work. tests were reasonable except for that second one D: lots of help available and the hw is great practice. ",
+            "class_name": "phys119",
+            "date": "2025-05-08"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Engel",
+        "rmp_id": "VGVhY2hlci0yNjQzNzYw",
+        "rating": 3.3,
+        "difficulty": 3.7,
+        "num_ratings": 6,
+        "department": "Physics & Astronomy",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "PHYS 118",
+          "PHYS 447",
+          "PHYS 521"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "This course is very very hard, It is for physics students only. These are concepts that are super hard to wrap your head around.There isn't enough visual learning to justify taking this course in person, all you do is read of the board, the homeworks are very difficult. My understanding of the topic increased minimally.",
+            "class_name": "PHYS447",
+            "date": "2025-03-24"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Very funny guy. The class is hard regardless, and he did a pretty good job of making things go as smoothly as possible. Always asked for feedback and for questions, and worked with students' requests quite a bit. Definitely recommend him.",
+            "class_name": "PHYS521",
+            "date": "2023-12-18"
+          }
+        ]
+      },
+      {
+        "name": "David Hill",
+        "rmp_id": "VGVhY2hlci0yOTcyMjIx",
+        "rating": 4.7,
+        "difficulty": 2.5,
+        "num_ratings": 6,
+        "department": "Physics & Astronomy",
+        "would_take_again": 83.3333,
+        "courses_taught": [
+          "PHYS 405"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "The best professor at UNC.",
+            "class_name": "PHYS405",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "All around wonderful guy. Class is made up of weekly homework and quizzes with a large semester project at the end. Attendance isn't required but you're better off going to most lectures (or attending on zoom). Grades leniently and cares for his students.",
+            "class_name": "PHYS405",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "He is a great guy!",
+            "class_name": "PHYS405",
+            "date": "2025-12-04"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Very passionate and easygoing professor! ",
+            "class_name": "PHYS405",
+            "date": "2024-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Chill teacher, really is passionate about what he teaches and makes class accessible to all!",
+            "class_name": "PHYS405",
+            "date": "2024-11-19"
+          }
+        ]
+      },
+      {
+        "name": "Carl Rodriguez",
+        "rmp_id": "VGVhY2hlci0yOTM4MTQ5",
+        "rating": 2.8,
+        "difficulty": 3.5,
+        "num_ratings": 4,
+        "department": "Physics & Astronomy",
+        "would_take_again": 50,
+        "courses_taught": [
+          "PHYS 331"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Class itself is easy. Learned content from outside resources and then reviewed the slides to understand the class. Topics aren't hard and plenty of opportunities to ask questions in ~3 hours a week of office hours. ",
+            "class_name": "PHYS331",
+            "date": "2024-12-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "I did good in this class because of Youtube learning. His lecture slides made no sense, and they had errors on them. I learned absolutely nothing from Rodriguez. Shows up late and unprepared, and he doesn't care about teaching. Grading/tests were not as bad as I was expecting, but If I didn't have Youtube or ChatGPT, I would have been cooked. ",
+            "class_name": "PHYS331",
+            "date": "2024-12-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Literally awful. The content of the class is presented on slides that he just repeats it. Nothing makes sense. I was taking 383 during this class and I literally didn't learn or comprehend a single thing unless it was something that we had gone over during 383. If u haven't taken linear algebra and a proof based class (like math 381), do not take. ",
+            "class_name": "PHYS331",
+            "date": "2024-11-26"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Rodriguez is a great professor. He will take time to explain things that you do not understand and enjoys teaching. PHYS331 is a tough class if you have not taken linear algebra and a proof based class. There are tons of proofs in the homework. It seems they need to update the prerequisites for the class. Otherwise, it is a great class!",
+            "class_name": "PHYS331",
+            "date": "2023-10-17"
+          }
+        ]
+      },
+      {
+        "name": "Robert Janssens",
+        "rmp_id": "VGVhY2hlci0yNjM3NDU4",
+        "rating": 5,
+        "difficulty": 3.3,
+        "num_ratings": 3,
+        "department": "Physics & Astronomy",
+        "would_take_again": 100,
+        "courses_taught": [
+          "PHYS 281L",
+          "PHYS 543"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "He's a great professor. Low stress high learning environment. Unfortunately, class was at 8 am, so made it hard to pay attention, but that was no fault of the professor. Highly recommend taking a class by him: he's clearly a very smart, very experienced individual. Lucky to have him as a professor.",
+            "class_name": "PHYS543",
+            "date": "2024-05-19"
+          }
+        ]
+      },
+      {
+        "name": "Brad Barlow",
+        "rmp_id": "VGVhY2hlci0zMDkzNTMw",
+        "rating": 5,
+        "difficulty": 3,
+        "num_ratings": 2,
+        "department": "Physics & Astronomy",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ASTR 101",
+          "ASTR 501"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "The literal greatest professor/teacher I have ever had. I actually looked forward to ASTR101 on Tuesday and Thursday. ",
+            "class_name": "ASTR101",
+            "date": "2026-04-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I looked forward to this class every time I had it, Professor Barlow gave me a newfound love for astronomy. He is hilarious, and keeps his students engaged at all times. The 3 exams + final are based off of the homework and in-class quizzes, and require studying. He cares about his students immensely, and is fun to chat with after class.",
+            "class_name": "ASTR101",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Barlow is truly one of the best professors you can have. He cares deeply about his subject and you can tell. If you have a chance to take a class with him, DO IT! His office hours are extremely helpful and he will explain things down to whatever detail you need and make sure you understand it. He is extremely kind and willing to help.",
+            "class_name": "ASTR501",
+            "date": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "name": "John Wilkerson",
+        "rmp_id": "VGVhY2hlci0yMjAzOTg0",
+        "rating": 3,
+        "difficulty": 4.5,
+        "num_ratings": 2,
+        "department": "Physics  Astronomy",
+        "would_take_again": 50,
+        "courses_taught": [
+          "PHYS 118"
+        ],
+        "reviews": []
+      }
+    ],
+    "Economics": [
+      {
+        "name": "Michelle  Sheran-Andrews",
+        "rmp_id": "VGVhY2hlci0xOTgwNDk1",
+        "rating": 4.6,
+        "difficulty": 3.7,
+        "num_ratings": 214,
+        "department": "Economics",
+        "would_take_again": 90.7767,
+        "courses_taught": [
+          "ECON 410",
+          "ECON 415"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Amazing, best econ professor, literally study the exact way she tells you by grouping practice problems and you will be fine, flipped classroom is annoying but it works, no other econ professor compares, if you did well in calc you will do amazing in this class",
+            "class_name": "ECON410",
+            "date": "2026-04-01"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I had the pleasure of taking Professor MSA for both ECON 410 and 415. ECON 415 builds on the concepts from 410, but she does a great job of reviewing the fundamentals needed to succeed in the course. While 410 was a bit trickier, both classes were very manageable as long as you stayed on top of the material and completed her practice exams.",
+            "class_name": "ECON415",
+            "date": "2026-01-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Without question the best professor I have ever encountered. She is welcoming & considerate & leads lectures extremely well and efficiently, giving students plenty of chances to ask questions and absorb info. She is accessible via email and office hours (DEF RECOMMEND GOING), knows how to teach in a way that students will understand...0 complaints.",
+            "class_name": "ECON410",
+            "date": "2026-01-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "MSA is a great teacher. This class is not very hard if you are good at calculus and have prior exposure to a lot of the math beforehand. Very fair grader and wants students to suceed.",
+            "class_name": "ECON410",
+            "date": "2026-01-01"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I like everything about how MSA does ECON 410. She is warm and caring but commands the room and lectures with confidence. She provides a wealth of helpful resources and gives fair exams. If you can get the math down (hardest concepts are exponent rules and partial derivatives), then nothing is more difficult conceptually than the stuff from 101.",
+            "class_name": "ECON410",
+            "date": "2025-12-29"
+          }
+        ]
+      },
+      {
+        "name": "Robert McDonough",
+        "rmp_id": "VGVhY2hlci0yOTU3NTIx",
+        "rating": 3.4,
+        "difficulty": 4,
+        "num_ratings": 182,
+        "department": "Economics",
+        "would_take_again": 60.1093,
+        "courses_taught": [
+          "ECON 101",
+          "ECON 111"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Take him, that's all I can say. Econ is hard regardless, I felt prepared for all the exams so far, and he's already posted so much stuff for the final. He tries to relate to the students, take a hard class, and make it something understandable. HW is complete, and there are tons of ways to boost your grade as long as you just do your work. ",
+            "class_name": "Econ101",
+            "date": "2026-04-23"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "McDonough is truly an amazing person. Treats every student with the utmost respect and is so intentional with how he teaches and responds to students. You can tell he puts SO much time and care into his course and students' progress. Exams are hard, but it's UNC. If you have to take ECON, take it with McDonough!!!!",
+            "class_name": "Econ101",
+            "date": "2026-04-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "great lecturer and there's a bunch of attendance & requirements dropped so you could get a higher score.",
+            "class_name": "Econ101",
+            "date": "2026-04-21"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Great class and great professor. ECON 101 gets a bad reputation, but it really isn't too bad if you pay attention and do the homework. Robert really cares about people understanding the content and ensuring people have ample opportunities to do so. Tests can be tricky, but they are very fair and with enough preperation you'll do fine.",
+            "class_name": "Econ101",
+            "date": "2026-04-21"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "He was a good economics professor and did a good job explaining topics. If you have taken 101, this will be the most boring class. If you need this OR 101 - definitely take this! Hes really nice and the class is relaxed with a few problem sets and kinda difficult but fair exams. 2 midterms, 1 final exam, 7 problem sets. Easy workload, not easy A.",
+            "class_name": "ECON111",
+            "date": "2026-04-21"
+          }
+        ]
+      },
+      {
+        "name": "Christopher Handy",
+        "rmp_id": "VGVhY2hlci0yNzE4OTE0",
+        "rating": 3.8,
+        "difficulty": 3.8,
+        "num_ratings": 175,
+        "department": "Economics",
+        "would_take_again": 73.1429,
+        "courses_taught": [
+          "ECON 400",
+          "ECON 470"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "A tough class, but once you get the hang of how everything flows it's manageable. He is a great professor - very organized, has clear guidelines, and offers a lot of resources for help. One of my favorite econ professors I've had even though stats isn't my strong suit. ",
+            "class_name": "ECON400",
+            "date": "2026-04-23"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "bro got the magic of explaining things so clearly and organized",
+            "class_name": "ECON470",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "By far the most organized professor I've had at UNC. Gives incredibly clear guidelines, grades everything in a timely manner with plenty of opportunities for feedback. Provides plenty of resources for each exam and is always in his office happy to help his students. I love Christopher Handy.",
+            "class_name": "ECON400",
+            "date": "2026-04-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "Hard class but great professor.",
+            "class_name": "ECON400",
+            "date": "2026-02-04"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Very fair class structure. Lots of materials available for studying. Tests were very similar to the practice he gave and he makes the material very easy to follow throughout the semester.",
+            "class_name": "ECON400",
+            "date": "2026-01-08"
+          }
+        ]
+      },
+      {
+        "name": "Christopher Roark",
+        "rmp_id": "VGVhY2hlci0yODI0NzA0",
+        "rating": 3.3,
+        "difficulty": 4,
+        "num_ratings": 135,
+        "department": "Economics",
+        "would_take_again": 65.9259,
+        "courses_taught": [
+          "ECON 420",
+          "ECON 425",
+          "ECON 525"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I have taken 420, 425, 525, and 490 with Dr. Roark. He's the best professor I've had in my time at UNC. The QFE is the most valuable experience I've had in the department. I would recommend taking any class with Dr. Roark.",
+            "class_name": "ECON525",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Roark's QFE is the most valuable program in the econ department",
+            "class_name": "ECON525",
+            "date": "2026-04-10"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Roark is great! I've had him for both 420 & 425. He is generous with curves, accessible, and provides PLENTY of test prep. There are weekly assignments, but he will sometimes extend deadlines. Had an injury I was out for a month for, so he met with me via zoom to keep up. Hard content, but if you do hw will do fine. Take with Roark!",
+            "class_name": "ECON425",
+            "date": "2026-03-04"
+          },
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "I like this better than 420, and he's genuinely a really nice guy which makes it a lot better. It isn't super easy content, but my complaint is really just that he makes the homework sometimes unnecessarily hard. One question will be completely fine, easy even, and then the next has math so convoluted that a TI-84 can't process it. Just annoying. ",
+            "class_name": "ECON425",
+            "date": "2026-02-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I generally liked Roark. The structure of the class was logical, and content built so by the end I still remembered early stuff for the final. It's not a super easy class, but I preferred it to 410 and thought it was a little more intuitive. Lots of graphs, and some math like derivatives and iffy algebra. I did feel like it got harder throughout. ",
+            "class_name": "ECON420",
+            "date": "2025-12-31"
+          }
+        ]
+      },
+      {
+        "name": "Sergio Parreiras",
+        "rmp_id": "VGVhY2hlci0xMTA3MTI5",
+        "rating": 2,
+        "difficulty": 3.6,
+        "num_ratings": 75,
+        "department": "Economics",
+        "would_take_again": 19.697,
+        "courses_taught": [
+          "ECON 101H",
+          "ECON 416",
+          "ECON 510"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Ignore past years' reviews. He's an incredibly caring and kind professor and the material is not easy but he's always accessible outside of class and willing to help. He's also a funny guy and makes boring microeconomic theory better! ",
+            "class_name": "ECON510",
+            "date": "2026-03-10"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Complaint #1 &#8211; Sergio is a bad teacher\nYes, but he clarifies if you ask.\n\n\n#2 &#8211; You need to learn a new coding language\n\nYes, but it's not too difficult. All coding is at-home work.\n\n\n#3 &#8211; The midterms and problem sets are different formats\nYes, but the midterms are MUCH easier than PS.\n\nMostly open-note. Only non-open note for conceptual stuff.",
+            "class_name": "ECON510",
+            "date": "2026-03-03"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "The class was ok ish because I already took a course like it, however it was a lot of self studying to do well in the course.",
+            "class_name": "ECON101H",
+            "date": "2025-12-20"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Sergio's lectures weren't very clear but but the class is interesting enough to make up for it. The homework and pop quizzes were often unnecessarily difficult and over-weighted in the grading. Heavily study the readings for his midterms, and you'll be fine. Would recommend taking this class over some of the other 400-level econ courses. ",
+            "class_name": "ECON416",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He's a super nice guy, but an awful college professor.\n\nHis lectures are unorganized, unengaging, and bland. He tests on content that often is never present in problem sets or lecture discussions, I'd even go as far as to say that he misdirects you by assigning you practice on concepts that he never even tests on!",
+            "class_name": "ECON416",
+            "date": "2025-12-08"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Yates",
+        "rmp_id": "VGVhY2hlci0yNTM0MTg1",
+        "rating": 3.4,
+        "difficulty": 3.6,
+        "num_ratings": 74,
+        "department": "Economics",
+        "would_take_again": 67.5676,
+        "courses_taught": [
+          "ECON 410"
+        ],
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Difficult to get an A but not hard to get above a B. Lectures were not helpful in doing the homeworks, which ended up being 80% of the coursework (there is a homework question on both exams). Overall, just not a great course to learn in and had to teach myself how to work out most of the homeworks/exams. Very passable class. ",
+            "class_name": "ECON410",
+            "date": "2026-03-12"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Very lecture-heavy with no posted slides or notes, so attendance is important. Grading is based only on homework and exams. six homework assignments and two exams. The exams closely reflected the study guide, and one homework-style problem appeared on the exam. Grading is done in blocks, so small point differences can affect final letter grades.",
+            "class_name": "ECON410",
+            "date": "2025-12-30"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Yates is a funny and straightforward guy, and lectures were enjoyable. Tests were similar to hw and practice ?s, and although grading scale made it very difficult to get an A, the tests were graded leniently enough for a B as long as you practiced. If you would like to learn, make sure to attend and pay attention in lecture. ",
+            "class_name": "ECON410",
+            "date": "2025-12-18"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Yates is fantastic! Super funny and down to earth guy. Econ 410 is a hard class, and you WILL need to study for at least 20 hours before exams, but Yates has great lectures that really clarify the material. Although attendance isn't mandatory, if you want an A, you need to go to class. Overall, great class with a great prof.",
+            "class_name": "ECON410",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Yates is passionate, but the class felt unfair at some points and did not feel like he wanted us to do well. His grading scale is super difficult because there's no room for mistakes. You need to do significantly well on both exams and perfect on homework if you want an A but a B is doable if you utilize econ aid. ",
+            "class_name": "ECON410",
+            "date": "2025-12-14"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Hill",
+        "rmp_id": "VGVhY2hlci0yNTE4OTAz",
+        "rating": 1.7,
+        "difficulty": 4.5,
+        "num_ratings": 60,
+        "department": "Economics",
+        "would_take_again": 23.3333,
+        "courses_taught": [
+          "ECON 470",
+          "ECON 575",
+          "ECON 770"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He was openly racist",
+            "class_name": "ECON770",
+            "date": "2026-02-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Go to class and put in the time and he's great. If you don't you will fall behind quickly - Fair and results reflect effort",
+            "class_name": "ECON470",
+            "date": "2025-12-23"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "The material is very difficult and lectures do get dense, but he make it easy to pass, and even have a good grade without having to go crazy. He makes very clear what he wants in the exam, and if you follow the class it can be very interesting and useful. The final project was also interesting to make. ",
+            "class_name": "ECON575",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Took 410 with him before and felt terrible. This time he is pretty decent. Knowledgeable and the lectures give you insights. Exams are materials from the lecture. Simply putting everything he writes on board on your cheat sheet will be fine. Only note--the lectures are not based on textbook and he does not publish lectures, so attendance matters. ",
+            "class_name": "ECON470",
+            "date": "2025-11-17"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Was not a big fan of his lectures, but he did seem to be a much kinder person than reviews suggested. ",
+            "class_name": "ECON470",
+            "date": "2025-04-08"
+          }
+        ]
+      },
+      {
+        "name": "Steven Rosefielde",
+        "rmp_id": "VGVhY2hlci0yMjQ3NTU=",
+        "rating": 3.1,
+        "difficulty": 2.8,
+        "num_ratings": 41,
+        "department": "Economics",
+        "would_take_again": 51.7241,
+        "courses_taught": [
+          "ECON 468"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Graded 50% midterm 50% final, not sure what he teaches is economically/historically/politically correct but he is entertaining... holds office hours from 6am-8am lol. Exams are so stressful but there's no work other than that and you just have to regurgitate his opinions. But ik a bunch of people who did REALLY bad so proceed with caution! \n",
+            "class_name": "ECON468",
+            "date": "2026-01-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Ignore the poor reviews. This class is absolutely worth taking. Extremely knowledgable professor who has taught this course for 50+ years. Part of the UNC experience is getting to listen to individuals who are highly knowledgable and connected in their fields, this is certainly that case. By far one of the most interesting econ electives.",
+            "class_name": "ECON468",
+            "date": "2025-05-29"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "If I could give Rosefielde a 6/5 I would. Best econ class I have ever taken. Extremely interesting and relevant lectures. Teaches precisely to the test which allows for a deeper grasp of the material. The class is graded on midterm and final which are essay style. He prepares everyone perfectly as long as you attend class. 10/10 experience.",
+            "class_name": "ECON468",
+            "date": "2025-05-29"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "I was skeptical at first, but Prof. Rosefielde proved me wrong. He's a brilliant, caring lecturer. The class is lecture-heavy, but the exams are fair. He teaches objectively, critiques all sides, and welcomes open discussion. Many bad reviews reflect implicit liberal bias&#8212;not the quality of this insightful, unique, and well-taught course.",
+            "class_name": "ECON468",
+            "date": "2025-05-28"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Most problematic professor I've had at UNC&#8212;creepy toward female students and prone to weird comments about students' ethnicities. Frequently makes inaccurate claims about Russia's political system and espouses centrist/conservative views. He's critical of \"wokeness.\" The class is easy for a 400 level elective which still makes it worth taking. ",
+            "class_name": "ECON468",
+            "date": "2024-12-16"
+          }
+        ]
+      },
+      {
+        "name": "Geetha Vaidyanathan",
+        "rmp_id": "VGVhY2hlci0yNTcyMzgw",
+        "rating": 3.9,
+        "difficulty": 3.5,
+        "num_ratings": 36,
+        "department": "Economics",
+        "would_take_again": 77.7778,
+        "courses_taught": [
+          "ECON 460"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Absolutely phenomenal professor! Very caring and genuinely wants everyone to do well. She gives so many resources to prepare for tests and assignments and she is always willing to meet at any time to help you understand. 10/10 recommend if you want to take an Econ elective, take it with her.",
+            "class_name": "ECON460",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The class was difficult for me, but the resources she provides are amazing. The homework and exercise problems are great preparation for exams. She is very sweet, caring, and accommodating, always ready to help if you have questions about a topic.",
+            "class_name": "ECON460",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The class is somewhat difficult but as long as you study and go to class you will be okay. Vaidyanathan is clear on what can be covered on the test and the practice exams prepare you well for the exams. Overall she is a great professor and wants to make sure everyone understands the material. Just don't slack off. ",
+            "class_name": "ECON460",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The content, in my opinion, gets harder and harder, so it's better to get high score at the first two midterms. She applied curves at the end. Really good class, but takes good effort to get an A. Also the final in non-cumulative.",
+            "class_name": "ECON460",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Enjoyable class, learned a lot. Great teaching style. Only complaint is can cold call and if you don't know the content she's asking about thats a hard situation to be in. ",
+            "class_name": "ECON460",
+            "date": "2025-12-11"
+          }
+        ]
+      },
+      {
+        "name": "Yinghsuan Chao",
+        "rmp_id": "VGVhY2hlci0zMTIyODk4",
+        "rating": 4.1,
+        "difficulty": 3.7,
+        "num_ratings": 32,
+        "department": "Economics",
+        "would_take_again": 78.125,
+        "courses_taught": [
+          "ECON 420"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "For the Econ 420 class, the lecture is ok, but not very clear. The exam is long and difficult. The exam time is less than 75 minutes, which is too rushed for students to finish in time. Although she curves a lot on the exam, it still makes students feel unprepared for the class. However, Professor Chao is a very nice person, caring about students.",
+            "class_name": "Econ420",
+            "date": "2026-04-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The exams are completely different from the lectures and homework. To make it worse, multiple-choice questions can have up to two correct answers. I fail to see the educational value of setting up assessments this way.",
+            "class_name": "Econ420",
+            "date": "2026-04-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "She's nice, but she can't teach. The course is unclear, quiz answers on Canvas conflicted with the answer key, there was basically no feedback. The slides aren't helpful, and the exams were so hard and too rushed. She rarely grades homework on time.",
+            "class_name": "Econ420",
+            "date": "2026-04-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "She is kind but be sure to see her outside of class for the best understanding of things because her lectures can be confusing",
+            "class_name": "Econ420",
+            "date": "2026-03-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Having exams worth 70% of your grade is unreasonable when lectures are unclear, the slides are filled with AI and memes, and the textbook offers little support. The exams don't reflect what's taught.\n\nShe is kind and accessible outside of class, but I don't think that makes up for what you'd get out of it.",
+            "class_name": "Econ420",
+            "date": "2026-03-23"
+          }
+        ]
+      },
+      {
+        "name": "Valentin Verdier",
+        "rmp_id": "VGVhY2hlci0xOTk5NTc5",
+        "rating": 4.4,
+        "difficulty": 3.3,
+        "num_ratings": 24,
+        "department": "Economics",
+        "would_take_again": 82.6087,
+        "courses_taught": [
+          "ECON 470",
+          "ECON 571"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Sets clear expectations for tests and assignments and provides a list of topics that will be on each test. There's always an in-class review before the test, and Verdier always paused to make sure everyone understood the lessons. Clearly wants you to succeed, and if you study well, you will easily finish with an A in the class. ",
+            "class_name": "ECON571",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Very good teacher. Lectures are engaging and useful. Tests are honestly pretty easy if you study all of the materials; generally, the test averages were ~92%.",
+            "class_name": "ECON571",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": " I guarantee you guys that all your effort will pay off. Not a challenging class, if you study hard, u will get an A.",
+            "class_name": "ECON571",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Goat of Econometrics. Take class with him and enjoy an A",
+            "class_name": "ECON571",
+            "date": "2025-12-08"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Approachable and explain the lecture in detail. It's easy to follow up if you forgot what u learned in the past. ",
+            "class_name": "ECON470",
+            "date": "2025-11-05"
+          }
+        ]
+      },
+      {
+        "name": "Gary Biglaiser",
+        "rmp_id": "VGVhY2hlci0xMDgxNDg5",
+        "rating": 2.1,
+        "difficulty": 4.4,
+        "num_ratings": 21,
+        "department": "Economics",
+        "would_take_again": 25,
+        "courses_taught": [
+          "ECON 410"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The content of the class was pretty easy but he's such a bad teacher it made it more difficult. Genuinely learned more from the TAs.\nHe is a nice guy, and grades pretty fairly, and he added a pretty big curve at the end though.",
+            "class_name": "ECON410",
+            "date": "2024-01-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Gary is a VERY nice guy. However, he taught us like we were phD students and I took nothing away from this class. All lectures were power points and there was 0 practice(besides extra textbook questions which were unhelpful). Help in the aide center was not helpful in any way either. If you want to learn 410 or even get a good grade, do NOT take. ",
+            "class_name": "ECON410",
+            "date": "2024-01-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Funny and knowledgeable guy indeed, but a bad professor. He literally taught us the same way he taught his phd students, you can't understand anything from his lecture. Do yourself a favor and take msa's econ 410 plz.",
+            "class_name": "ECON410",
+            "date": "2023-12-22"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Very tough class. Tests make up 90% of the overall grade.\n\nThe homework was barely useful and the lectures were hard to follow.\n\nThe professor lied about adding curves and completely changed how he weighted the exams in the last few weeks. Also, I did not see a single grade posted until the final grade was posted in ConnectCarolina.  ",
+            "class_name": "ECON410",
+            "date": "2023-12-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Great professor. Pretty funny guy. The exams are not too difficult but the grading is ROUGH. Believe this is partly from the TA who pretty much took over the class when it comes to grades. Class averages on exams were usually in the mid 60s, and the curve was around 3 points. Would have been a much better class if there was a different TA. ",
+            "class_name": "ECON410",
+            "date": "2023-12-12"
+          }
+        ]
+      },
+      {
+        "name": "Qing Gong",
+        "rmp_id": "VGVhY2hlci0yNDg0MTEw",
+        "rating": 4.9,
+        "difficulty": 2.2,
+        "num_ratings": 19,
+        "department": "Economics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECON 440",
+          "ECON 552"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Gong was a great professor because she actually put effort into teaching rather than the flipped classroom style of some other econ classes. Problems challenged us and really tested our understanding of the material without being \"trick questions.\" I loved this class and thought it was relevant to contemporary policy problems. ",
+            "class_name": "ECON440",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Gong is one of the best econ professors I've had. You can clearly tell that she is passionate about the subject, and mentions real life applications. If you're confused on anything, Dr. Gong will clarify everything during office hours. The class isn't as easy as some claim, and you do have to put in effort. ",
+            "class_name": "ECON440",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Easiest Econ elective, very few homeworks. Fair exams.",
+            "class_name": "ECON440",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Gong is a really great professor and lenient grader. She really wants you to do well which is uncommon in UNC Econ. Best professor I have had in UNC Econ not because I did well but she is so passionate about teaching. This is good to see and something that UNC Econ needs more of.",
+            "class_name": "ECON440",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Excellent econ professor, wants you to learn and that's it. This was the easiest 500-level econ class ever; great choice for an easy semester but still worth taking seriously because the material/skills are important and Dr. Gong really cares a lot.",
+            "class_name": "ECON552",
+            "date": "2025-12-10"
+          }
+        ]
+      },
+      {
+        "name": "Neville Francis",
+        "rmp_id": "VGVhY2hlci0xMjIwMjYz",
+        "rating": 2.5,
+        "difficulty": 3.8,
+        "num_ratings": 15,
+        "department": "Economics",
+        "would_take_again": 40,
+        "courses_taught": [
+          "ECON 423",
+          "ECON 520"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "He is a good professor itself, but the classes have nothing to do with the test. Both mid terms and final exams were completely different to what he gave in class as \"practice exercise for exams\". He is not very good at answering emails. Notes no provided/slides. You either go to class or you dont have anything to study from",
+            "class_name": "ECON520",
+            "date": "2026-01-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Unprofessional ",
+            "class_name": "ECON423",
+            "date": "2025-05-27"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He provides very little material for an incredibly challenging course. All of his lectures are on blackboard and are not recorded, and he doesn't post lecture notes. Very arbitrary grading for assignments, he never provides clear rubrics or outlines. Extremely hard tests that required huge curves. Overall very unpleasant class and poor professor. ",
+            "class_name": "ECON520",
+            "date": "2024-12-12"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Prof. Francis is a nice professor and explains topics well. \nHe is lecture heavy, and doesn't provide a lot of material besides the lecture. I would recommend attending the lecture and keeping track of what he is saying, because he might announce something, or highlight a topic and if you miss it, it's gone.\n",
+            "class_name": "ECON423",
+            "date": "2024-08-21"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "For a 500-level econ class, this one wasn't that bad. Neville's lectures are pretty confusing at times, but if you study and do the practice problems you'll be okay. He curves the grades, and if you come to class and show that you're trying, he won't let you fail. He's not very accessible outside of class and often won't respond to emails.",
+            "class_name": "ECON520",
+            "date": "2023-12-26"
+          }
+        ]
+      },
+      {
+        "name": "Can Tian",
+        "rmp_id": "VGVhY2hlci0yNDIyNzAw",
+        "rating": 3.5,
+        "difficulty": 2.1,
+        "num_ratings": 15,
+        "department": "Economics",
+        "would_take_again": 73.3333,
+        "courses_taught": [
+          "ECON 423"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "LOL easy class. just study by yourself, no need to go to class.",
+            "class_name": "ECON423",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "It was straightforward and largely reiterated the material from ECON 420. Most students didn't attend lectures since the textbook covered the content just as well. Simply taking notes, completing the practice exam, and doing some studying was more than enough to ace the class. There were also a few homework assignments, all of which were easy!",
+            "class_name": "ECON423",
+            "date": "2026-01-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "This course really deserves a different professor given how important and applicable the content is for economics. Lectures are extremely uninteresting and provide no incentive to actually come to lecture and learn information - readings are better than lecturers. Not a lot of communication and you're on the hook for this class. Take with diff prof",
+            "class_name": "ECON423",
+            "date": "2025-05-16"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Genuinely one of the laziest professors I have had in the econ department. Like, not once in the entire course did she pick up a marker or use an apple pencil to write something out. She straight up walks into class a minute before it starts, and shuts her laptop and bolts out of the room the minute class is over. Arbitrary grader. 0/10",
+            "class_name": "ECON423",
+            "date": "2025-05-08"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "If you want to experience the best courses and professors in the UNC econ department, choose her!",
+            "class_name": "ECON423",
+            "date": "2025-04-05"
+          }
+        ]
+      },
+      {
+        "name": "Can Tian",
+        "rmp_id": "VGVhY2hlci0yNDIyNzAw",
+        "rating": 3.5,
+        "difficulty": 2.1,
+        "num_ratings": 15,
+        "department": "Economics",
+        "would_take_again": 73.3333,
+        "courses_taught": [
+          "ECON 423"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "LOL easy class. just study by yourself, no need to go to class.",
+            "class_name": "ECON423",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "It was straightforward and largely reiterated the material from ECON 420. Most students didn't attend lectures since the textbook covered the content just as well. Simply taking notes, completing the practice exam, and doing some studying was more than enough to ace the class. There were also a few homework assignments, all of which were easy!",
+            "class_name": "ECON423",
+            "date": "2026-01-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "This course really deserves a different professor given how important and applicable the content is for economics. Lectures are extremely uninteresting and provide no incentive to actually come to lecture and learn information - readings are better than lecturers. Not a lot of communication and you're on the hook for this class. Take with diff prof",
+            "class_name": "ECON423",
+            "date": "2025-05-16"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Genuinely one of the laziest professors I have had in the econ department. Like, not once in the entire course did she pick up a marker or use an apple pencil to write something out. She straight up walks into class a minute before it starts, and shuts her laptop and bolts out of the room the minute class is over. Arbitrary grader. 0/10",
+            "class_name": "ECON423",
+            "date": "2025-05-08"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "If you want to experience the best courses and professors in the UNC econ department, choose her!",
+            "class_name": "ECON423",
+            "date": "2025-04-05"
+          }
+        ]
+      },
+      {
+        "name": "Andrii Babii",
+        "rmp_id": "VGVhY2hlci0yNzQ4MTQ2",
+        "rating": 3.3,
+        "difficulty": 3.3,
+        "num_ratings": 12,
+        "department": "Economics",
+        "would_take_again": 50,
+        "courses_taught": [
+          "ECON 573"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "unclear expectations for class projects. not considerate of students.",
+            "class_name": "ECON573",
+            "date": "2025-08-27"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Professor Babii is clearly very well-versed in the topics of this class. However, he is an extremely boring lecturer. His slides are long and extremely detailed, but his monotone way of presenting them doesn't emphasize the importance of actually important details. His homeworks actually take forever. Extreme bias towards R over python.",
+            "class_name": "ECON573",
+            "date": "2024-10-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I loved this class. He does a great job keeping the class interesting. Homeworks are long, but helped a lot to prepare for the research project and final exam. They are doable as long as you do the labs. Professor Babbi is well-organized and his class has good structure with detailed references to textbook chapters. ",
+            "class_name": "ECON573",
+            "date": "2024-05-14"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Prof. Babii's lectures rely on textbook slides. Homework takes forever, though beneficial, but occasionally covers untaught material. He's often very disorganized, and not very communicative. Also, our research project lacked clear expectations. Previous exams for reviews are good, and this is an interesting class, it just needs better structure.",
+            "class_name": "ECON573",
+            "date": "2024-05-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "One of the most useful Econ classes. The material is hard but he makes it doable. Professor Babii was very helpful with the research project throughout the semester.",
+            "class_name": "ECON573",
+            "date": "2024-05-08"
+          }
+        ]
+      },
+      {
+        "name": "Klara Peter",
+        "rmp_id": "VGVhY2hlci0yNjg4MjQw",
+        "rating": 4.9,
+        "difficulty": 3.3,
+        "num_ratings": 12,
+        "department": "Economics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECON 580",
+          "ECON 590"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Professor Peter is the best Economics professor I've had at UNC. Her class was very well structured to account for the stressful times that senior year can cause (recruiting season, etc.). Very Stata heavy but if you did well with coding in 470 it shouldn't be too difficult. Highly recommend.",
+            "class_name": "ECON580",
+            "date": "2023-12-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Peter is very knowledgable in labor economics. She really wants everyone in her class to succeed. Very approachable outside of class, and offers generous help with Stata coding. ",
+            "class_name": "ECON580",
+            "date": "2023-12-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Best professor in the econ department!! She really cares about her students.",
+            "class_name": "ECON580",
+            "date": "2023-07-16"
+          }
+        ]
+      },
+      {
+        "name": "Lutz Hendricks",
+        "rmp_id": "VGVhY2hlci0xNjIyMzIw",
+        "rating": 4.9,
+        "difficulty": 2.6,
+        "num_ratings": 11,
+        "department": "Economics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECON 520"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I rarely leave RMP reviews but for Prof. Hendricks, I will, simply because he is one of the best Economics professors at UNC. Prof. Hendricks is someone who really wants you to understand the intuition behind the macro models. He's extremely patient, helpful and accessible outside class hours. Econ520 was so smooth and easy with Prof. Hendricks.",
+            "class_name": "ECON520",
+            "date": "2025-04-24"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "While his lectures were a little bit dull, if you attend class and pay attention you should be ok overall for the class. He was really accessible and willing to help you with the two assignments, and has a really relaxed grading scale which makes it easier to do well in his class. Overall, not the worst Econ 500 level course you can take.",
+            "class_name": "ECON520",
+            "date": "2024-12-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Although the lectures can sometimes be a bit dull, Prof. Hendricks is very clear in what he wants you to know. He is a fair grader, the class and the curve the class is graded on is very lenient. He also gives help if asked for it. Genuinely not a bad 500 level at all. ",
+            "class_name": "ECON520",
+            "date": "2024-05-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Great guy, makes macro easily understandable. The lectures can be boring but theres only a few grades and he really wants you to do well, so he helps a bunch. Really interesting class",
+            "class_name": "ECON520",
+            "date": "2024-05-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "He is an amazing professor, he tries his best to make the material easier. He is a very easy grader, if you put a little bit of effort, he will give you the points. Very easy.",
+            "class_name": "ECON520",
+            "date": "2024-05-06"
+          }
+        ]
+      },
+      {
+        "name": "Brian McManus",
+        "rmp_id": "VGVhY2hlci0yNDczMTcz",
+        "rating": 3.6,
+        "difficulty": 3.7,
+        "num_ratings": 10,
+        "department": "Economics",
+        "would_take_again": 70,
+        "courses_taught": [],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Covers a lot of basic economic concepts using relevant examples. He was very organized and thorough in his lectures but required a lot of readings before class, even though only a few were covered.",
+            "class_name": "IDST-111",
+            "date": "2024-06-27"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "He is great in teaching those concepts. But I would say his part was the hardest in the entire IDST 111 class. You have to answer the question from all perspective to get a good score. But if you pay attention to class and do your homework, it will be an easy A",
+            "class_name": "IDST-111",
+            "date": "2024-05-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Professor McManus did a great job covering the Economics portion of IDST 111. Although I already had ECON 101 credit from getting a 5 on AP Micro and Macroeconomics, I learned a lot of new things and fields within economics from his lectures. The only downside is he does take off points if your answers are not exactly what he is looking for.",
+            "class_name": "IDST-111",
+            "date": "2024-05-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "I loved how concise he always was during his lectures and he does engage the class. He is very willing to help but won't just give you an answer straight off the bat because he's trying to make sure you learn. Note that the grading criteria can be more specific for short answer questions than question prompt asks.",
+            "class_name": "IDST-111",
+            "date": "2024-05-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Do not take the PPE triple I with Brian. His multiple choice questions are confusing and he grades open responses harshly. Lectures can be confusing. Take a different triple I. Taking PPE with Brian will wreck your GPA. Do not recommend ",
+            "class_name": "IDST-111",
+            "date": "2024-04-23"
+          }
+        ]
+      },
+      {
+        "name": "Luca Maini",
+        "rmp_id": "VGVhY2hlci0yNTgyMjE3",
+        "rating": 4.8,
+        "difficulty": 3.3,
+        "num_ratings": 9,
+        "department": "Economics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECON 445"
+        ],
+        "reviews": []
+      },
+      {
+        "name": "Jonathan Williams",
+        "rmp_id": "VGVhY2hlci0yMDkxNzUw",
+        "rating": 3.3,
+        "difficulty": 3.5,
+        "num_ratings": 6,
+        "department": "Economics",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "ECON 370",
+          "ECON 545",
+          "STOR 155"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr. Williams cares a lot about teaching and is a great lecturer. I wish there was more time to hear him talk about IO, but 70% of the course grade is based on a group project, so he knows that we know that that's the focus of the class. He is a compassionate teacher and grades fairly (if a little on the forgiving side). ",
+            "class_name": "ECON545",
+            "date": "2024-05-09"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "The class does involve a lot of independent learning as not much is taught in lectures. It is also almost all group work. However, Prof. Williams is an incredibly nice guy and he is always willing to help if you come to office hours and lend a hand. He wants you to do well even if you might not understand a lot at first. Overall, good experience. ",
+            "class_name": "ECON545",
+            "date": "2024-05-08"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Can he please update his slides for Econ410. You can tell he would take it as a compliment if half of his students failed his class. Not a girls girl",
+            "class_name": "ECON370",
+            "date": "2023-10-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "He was not helpful. During meetings regarding my project topics, when i asked him what would be his advice be, he pretty much throw the question back at me. He was pretty condescending and tried to act as if he was being as helpful as he could. His lectures regarding coding were not clear either. ",
+            "class_name": "ECON370",
+            "date": "2023-05-18"
+          }
+        ]
+      },
+      {
+        "name": "Jane Fruehwirth",
+        "rmp_id": "VGVhY2hlci0yNTkwMzQw",
+        "rating": 3.4,
+        "difficulty": 2.8,
+        "num_ratings": 5,
+        "department": "Economics",
+        "would_take_again": 40,
+        "courses_taught": [],
+        "reviews": []
+      },
+      {
+        "name": "William Jungerman",
+        "rmp_id": "VGVhY2hlci0zMDk1MTUx",
+        "rating": 3.2,
+        "difficulty": 4.2,
+        "num_ratings": 5,
+        "department": "Economics",
+        "would_take_again": 60,
+        "courses_taught": [
+          "ECON 520"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Will is an awesome professor. He makes the topics really engaging, and his slides are very useful. The exams were really manageable, and the content is genuinely fascinating",
+            "class_name": "ECON520",
+            "date": "2025-05-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Will is an awesome professor. He makes the topics really engaging, and his lecture slides are extremely useful for studying. Certain",
+            "class_name": "ECON520",
+            "date": "2025-05-06"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Professor Jungerman is clearly a very smart person and knows so much about macroeconomics. However, this doesn't translate to good teaching. He cannot explain any math derivations and that's what most of the 150 slides in each of the lectures are. He's very slow to post practice problems and answer keys were missing solutions. ",
+            "class_name": "ECON520",
+            "date": "2025-05-05"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Will is a very solid instructor. His command of macroeconomic theory and its application in current and past research makes for genuinely engaging lectures. The content itself is high level, but the exams were easier compared to all the content discussed. I really think it would be hard to teach this class with a better way than Will's approach",
+            "class_name": "ECON520",
+            "date": "2025-05-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Worst class I ever took at UNC. Graded almost completely on exams with no homework or relevant practice material given. William didn't proctor the exams so we couldn't ask him questions. Giant slide decks full of impossible derivations and no clear expectations about what we are supposed to know for tests. Unresponsive to questions and emails.",
+            "class_name": "ECON520",
+            "date": "2025-04-29"
+          }
+        ]
+      },
+      {
+        "name": "Anusha Chari",
+        "rmp_id": "VGVhY2hlci0zMDgzNzM1",
+        "rating": 5,
+        "difficulty": 3,
+        "num_ratings": 2,
+        "department": "Economics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECON 560"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "No attendance but you should show up bc she explains topics in depth you won't understand as thoroughly by reading the slides. Truly cares about you understanding the material. The workload is very manageable, haven't needed the textbook. Her shoe game is subtly strong and her resume is impressive (she was on Biden's Council of Economic Advisers).",
+            "class_name": "ECON560",
+            "date": "2025-05-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Chari is the best econ professor I've had, by a longshot. She has yet to be corrupted by the denizens running the econ dept. She gives ample extra credit, actually cares about us learning, and has the professional experience to back her up. I didn't take 460, and I did well despite putting in minimal effort. Highly recommend taking 560 with her.",
+            "class_name": "ECON560",
+            "date": "2025-05-06"
+          }
+        ]
+      },
+      {
+        "name": "Fei Li",
+        "rmp_id": "VGVhY2hlci0zMDg4ODA3",
+        "rating": 5,
+        "difficulty": 2,
+        "num_ratings": 1,
+        "department": "Economics",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECON 700"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Having him for math camp is like a match made in heaven :)",
+            "class_name": "ECON700",
+            "date": "2025-08-22"
+          }
+        ]
       }
     ]
   }

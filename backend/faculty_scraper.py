@@ -160,6 +160,27 @@ _SOURCES = [
         "rmp_dept_aliases": ["Biology", "Biological Sciences", "Biophysics"],
         "name_selector":    ".col-sm-10",  # names in card text, not link text
     },
+    {
+        **_UNC,
+        "department":       "Chemistry",
+        "directory_url":    "https://chem.unc.edu/faculty/",
+        "rmp_dept_aliases": ["Chemistry", "Chemical Biology", "Biochemistry", "Organic Chemistry"],
+        # /faculty/<slug>/ links; one link per card has "Last, First" text
+    },
+    {
+        **_UNC,
+        "department":       "Physics",
+        "directory_url":    "https://physics.unc.edu/people-pages/faculty/",
+        "rmp_dept_aliases": ["Physics", "Astrophysics", "Optical Science", "Engineering Physics"],
+        # /people/<slug>/ links with ALL-CAPS "LAST, FIRST" text — _flip_last_first handles
+    },
+    {
+        **_UNC,
+        "department":       "Economics",
+        "directory_url":    "https://econ.unc.edu/people/",
+        "rmp_dept_aliases": ["Economics", "Finance", "Business Economics", "Political Economy"],
+        # /people/<slug>/ links with "Last, First" text
+    },
 ]
 
 _NAV_NOISE = {
@@ -187,7 +208,13 @@ _CREDENTIAL_SUFFIX = re.compile(
 
 
 def _flip_last_first(text: str) -> str:
-    """Convert 'Last, First [Middle]' → 'First [Middle] Last'. No-op if not that format."""
+    """Convert 'Last, First [Middle]' → 'First [Middle] Last'. No-op if not that format.
+
+    Also normalizes ALL-CAPS input (e.g. 'ANDREONI, IGOR') to title case first.
+    """
+    # Normalize all-caps "LAST, FIRST" → "Last, First"
+    if "," in text and text == text.upper():
+        text = text.title()
     m = _LAST_FIRST_RE.match(text)
     if not m:
         return text
@@ -267,7 +294,7 @@ def _scrape_playwright_names(
         return []
 
     _PERSON_PATTERN = re.compile(
-        r"/(person|people|faculty-member|faculty-profile)/[a-z][a-z\-0-9]+/?$"
+        r"/(person|people|faculty-member|faculty-profile|faculty)/[a-z][a-z\-0-9]+/?$"
     )
 
     seen:  set[str]  = set()
