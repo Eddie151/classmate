@@ -70,6 +70,15 @@ School config shape: `{ slug, display_name, subreddit, rmp_school_name, primary_
 
 The `summarizer.py` module calls the Anthropic Claude API. Use prompt caching where possible for repeated system prompts. Default to `claude-sonnet-4-6` unless reasoning quality requires Opus.
 
+## Faculty cache known limitations
+
+NC State sciences departments (Mathematics, Statistics, Physics, Chemistry, Biology) have no
+scrapeable faculty directory. The `*.sciences.ncsu.edu/people/` subdomains return a college-wide
+listing unfiltered by department; `/people/faculty/` returns 404 on all of them. CHASS departments
+(Economics, English, Psychology) either DNS-fail or time out from this IP. Only CS
+(`csc.ncsu.edu/faculty/`), ECE (`ece.ncsu.edu/people/`), and MAE (`mae.ncsu.edu/people/`) are
+confirmed working for NC State. Revisit when NC State reorganises its web infrastructure.
+
 ## Spec
 
 Full v1.0 technical specification: `docs/classMate.pdf`

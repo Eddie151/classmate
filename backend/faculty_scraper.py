@@ -32,7 +32,7 @@ logger = logging.getLogger("faculty_scraper")
 
 _BASE       = pathlib.Path(__file__).parent
 _CACHE_PATH = _BASE / "faculty_cache.json"
-_RMP_DELAY  = 2.0  # seconds between RMP calls
+_RMP_DELAY  = 3.0  # seconds between RMP calls
 
 # One entry per (school, department) to scrape.
 # Add more schools/depts here as ClassMate expands.
@@ -187,7 +187,7 @@ _SOURCES = [
         "rmp_dept_aliases": ["Economics", "Finance", "Business Economics", "Political Economy"],
         # /people/<slug>/ links with "Last, First" text
     },
-    # ---- NC State (requests-based; profile links have no trailing slash) ----
+    # ---- NC State (requests-based; profile links use /people/<slug> pattern) ----
     {
         **_NCSU,
         "department":       "Computer Science",
@@ -203,80 +203,8 @@ _SOURCES = [
     {
         **_NCSU,
         "department":       "Mechanical and Aerospace Engineering",
-        "directory_url":    "https://mae.ncsu.edu/directory/",
+        "directory_url":    "https://mae.ncsu.edu/people/",
         "rmp_dept_aliases": ["Mechanical Engineering", "Aerospace Engineering", "MAE", "Mechanical and Aerospace Engineering"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Mathematics",
-        "directory_url":    "https://math.sciences.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Mathematics", "Math", "Applied Mathematics"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Statistics",
-        "directory_url":    "https://statistics.sciences.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Statistics", "Statistics and Operations Research"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Physics",
-        "directory_url":    "https://physics.sciences.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Physics"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Chemistry",
-        "directory_url":    "https://chemistry.sciences.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Chemistry", "Chemical Engineering"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Biology",
-        "directory_url":    "https://bio.sciences.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Biology", "Biological Sciences"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Psychology",
-        "directory_url":    "https://psychology.sciences.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Psychology", "Psychological Sciences"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Economics",
-        "directory_url":    "https://economics.chass.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Economics", "Finance", "Business Management"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "English",
-        "directory_url":    "https://english.chass.ncsu.edu/people/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["English", "Communication", "Writing"],
-    },
-    {
-        "school_slug":      "ncsu",
-        "rmp_school_name":  "North Carolina State University",
-        "department":       "Mechanical Engineering",
-        "directory_url":    "https://mae.ncsu.edu/people/faculty/",
-        "scraper":          "playwright",
-        "rmp_dept_aliases": ["Mechanical Engineering", "Aerospace Engineering", "Engineering"],
     },
 ]
 
@@ -531,7 +459,7 @@ def build_cache() -> None:
         slug        = source["school_slug"]
         rmp_name    = source["rmp_school_name"]
         dept        = source["department"]
-        dir_url     = source["directory_url"]
+        dir_url     = source.get("directory_url", "")
         dept_aliases = source["rmp_dept_aliases"]
 
         logger.info("=== %s / %s ===", slug, dept)

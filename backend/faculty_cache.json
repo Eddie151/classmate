@@ -24739,8 +24739,97 @@
       }
     ],
     "Mechanical and Aerospace Engineering": [],
-    "Mathematics": [],
-    "Statistics": [],
+    "Mathematics": [
+      {
+        "name": "Elizabeth Kautz",
+        "rmp_id": "VGVhY2hlci0yOTEzMjkz",
+        "rating": 3.3,
+        "difficulty": 3,
+        "num_ratings": 3,
+        "total_ratings": 3,
+        "department": "Mathematics",
+        "would_take_again": 66.6667,
+        "courses_taught": [],
+        "last_reviewed": "2023-12-15",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Your best friend will be the textbook because Elizabeth will read off the PowerPoints slides and call it a day. Take advantage of her practice exams she posts they are somewhat similar to her actual exams and she might reuse a few or so. Exam 3 was literally identical to her practice exam 3 so make sure to read read read that textbook. ",
+            "class_name": "MSE-200",
+            "date": "2023-12-15"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr. Kautz understands what being a college student implies. She will do her best to try to make tests as fair as possible and to give as much extra credit as possible. Homework was straightforward and didn't take much time. She allowed a cheat sheet for the final cumulative exam which was very helpful. She is also very smart and explains well.",
+            "class_name": "MSE-200",
+            "date": "2023-12-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Explains material well, nice, and approachable. Pretty much the professor you hope to have in a moderately difficult class. ",
+            "class_name": "MSE-200",
+            "date": "2023-12-07"
+          }
+        ]
+      }
+    ],
+    "Statistics": [
+      {
+        "name": "Ben Bowles",
+        "rmp_id": "VGVhY2hlci0zMDYxNzAx",
+        "rating": 3.3,
+        "difficulty": 3.3,
+        "num_ratings": 6,
+        "total_ratings": 6,
+        "department": "Statistics",
+        "would_take_again": 71.4286,
+        "courses_taught": [
+          "ST 311",
+          "ST 371"
+        ],
+        "last_reviewed": "2026-04-26",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Probably one of the better professors for ST371. His lectures were clear and always answered questions. Expect weekly quizzes and challenging tests, so if you want to do well, you have to put a lot of effort in his class. Overall, it was a challenging class, but I enjoyed his class.",
+            "class_name": "ST371",
+            "date": "2026-04-26"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Hilarious. Tough exams, but going to class helped a ton because the material was explained so well. Answered questions before and after every class, and actually wants help you do your best while being challenging.",
+            "class_name": "ST371",
+            "date": "2026-04-21"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "I liked the guy. He was a good lecturer, and his guided notes were fantastic. He does not post them though, so if you miss a class, you are screwed. Just make attendance part of the grade if you want people to show up. I didn't like his quizzes too much, and his tests were a bit too difficult imo. He's honestly just a much more reasonable Opperman.",
+            "class_name": "ST371",
+            "date": "2026-04-17"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "This is for 371 not 311.Tests were too hard for course level, lied about what would be put on the tests, doesn't put notes/record lectures. Gave unannounced extra credit to reward people who showed up to class, more like to punish people who left early DO NOT TAKE",
+            "class_name": "ST311",
+            "date": "2026-04-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "This is for ST 371. Ben Bowles is a great teacher and really nice person overall. His lectures while maybe a bit slow at times were usually still pretty interesting. Class was graded on homework, 3 exams, and weekly quizzes. Beware that his TA is a harsh grader, however Bowles has made the class far more forgiving overall than Opperman's section. ",
+            "class_name": "ST311",
+            "date": "2025-12-16"
+          }
+        ]
+      }
+    ],
     "Physics": [],
     "Chemistry": [],
     "Biology": [],
