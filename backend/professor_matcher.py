@@ -6,6 +6,7 @@ import pathlib
 import re
 
 from backend import rmp_client
+from backend.rmp_client import get_department_for_code
 
 logger = logging.getLogger(__name__)
 
@@ -34,7 +35,33 @@ _STOP_WORDS: set[str] = {
     "September", "October", "November", "December",
     "Charlotte", "Chapel", "Hill", "Raleigh", "Carolina",
     "Good", "Great", "Easy", "Hard", "Intro", "Advanced", "General",
+    # Subject / course-name words that look like names under _TWO_CAP
+    "Discrete", "Linear", "Algebra", "Calculus", "Statistics", "Structures",
+    "Analysis", "Theory", "Systems", "Networks", "Database", "Algorithms",
+    "Biology", "Chemistry", "Physics", "Economics", "Psychology", "Engineering",
+    "Science", "Math", "Computing", "Programming", "Differential", "Equations",
 }
+
+# Maps canonical dept name → acceptable RMP department substrings (case-insensitive contains)
+_DEPT_ALIASES: dict[str, list[str]] = {
+    "Computer Science": ["Computer Science", "Computing", "Computer Engineering",
+                         "Information Technology", "Information Science", "Software Engineering"],
+    "Mathematics":      ["Mathematics", "Math", "Applied Mathematics", "Statistics"],
+    "Statistics":       ["Statistics", "Operations Research", "Biostatistics",
+                         "Data Science", "Mathematics"],
+    "Chemistry":        ["Chemistry", "Chemical", "Biochemistry"],
+    "Physics":          ["Physics", "Astrophysics", "Engineering Physics"],
+    "Psychology":       ["Psychology", "Psychological"],
+    "English":          ["English", "Writing", "Communication", "Humanities"],
+    "Biology":          ["Biology", "Biological"],
+    "Economics":        ["Economics", "Finance"],
+}
+
+
+def _dept_matches_course(rmp_dept: str, expected_dept: str) -> bool:
+    """Return True if rmp_dept is consistent with expected_dept."""
+    aliases = _DEPT_ALIASES.get(expected_dept, [expected_dept])
+    return any(alias.lower() in rmp_dept.lower() for alias in aliases)
 
 # Explicit-title patterns — weighted higher in counting
 _TITLED = re.compile(
@@ -52,7 +79,14 @@ _TWO_CAP = re.compile(r'\b([A-Z][a-z]{3,15})\s+([A-Z][a-z]{3,15})\b')
 
 
 def _is_stop(name: str) -> bool:
-    return any(word in _STOP_WORDS for word in name.split())
+    words = name.split()
+    # Reject if any word is a known stop word
+    if any(w in _STOP_WORDS for w in words):
+        return True
+    # Reject if any word is all-uppercase and 2–5 chars (dept/course codes: "MAT", "ITCS")
+    if any(w == w.upper() and w.isalpha() and 2 <= len(w) <= 5 for w in words):
+        return True
+    return False
 
 
 def extract_professor_names(posts: list[dict]) -> list[str]:
@@ -114,14 +148,23 @@ def match_professors(school_slug: str, posts: list[dict], course_code: str) -> l
         len(candidates), len(posts), candidates,
     )
 
+    expected_dept = get_department_for_code(course_code)
     results: list[dict] = []
     seen_ids: set[str] = set()
 
     for name in candidates:
         prof = get_professor_data(school_slug, name)
-        if prof and prof["id"] not in seen_ids:
-            seen_ids.add(prof["id"])
-            results.append(prof)
+        if not prof or prof["id"] in seen_ids:
+            continue
+        rmp_dept = prof.get("department", "")
+        if expected_dept and not _dept_matches_course(rmp_dept, expected_dept):
+            logger.warning(
+                "Dept mismatch for %r: RMP says %r, expected %r — skipping",
+                name, rmp_dept, expected_dept,
+            )
+            continue
+        seen_ids.add(prof["id"])
+        results.append(prof)
 
     results.sort(key=lambda p: p.get("num_ratings") or 0, reverse=True)
     return results
