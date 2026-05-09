@@ -213,6 +213,15 @@ async def get_course_insights(school: str, code: str) -> dict:
     if not professors:
         return _no_data_response(course_code, school)
 
+    seen_ids = set()
+    deduped = []
+    for p in professors:
+        pid = p.get("rmp_id") or p.get("id")
+        if pid and pid not in seen_ids:
+            seen_ids.add(pid)
+            deduped.append(p)
+    professors = deduped
+
     async def _fetch_one(prof: dict) -> dict | None:
         try:
             reddit_posts = await asyncio.to_thread(
