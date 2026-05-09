@@ -4,7 +4,6 @@ import json
 import logging
 
 import requests
-from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
@@ -244,68 +243,71 @@ def get_professors_for_course(
     return matched[:limit]
 
 
-def get_professor_reviews(professor_id: str, limit: int = 10) -> list[dict]:
-    """Fetch reviews by scraping the RMP professor page and parsing window.__RELAY_STORE__."""
-    numeric_id = _decode_id(professor_id)
-    url = f"https://www.ratemyprofessors.com/professor/{numeric_id}"
+_RATINGS_QUERY = """
+query RatingsListQuery($id: ID!, $count: Int!, $cursor: String) {
+  node(id: $id) {
+    ... on Teacher {
+      numRatings
+      ratings(first: $count, after: $cursor) {
+        edges {
+          cursor
+          node { id class date comment helpfulRating difficultyRating clarityRating }
+        }
+        pageInfo { hasNextPage endCursor }
+      }
+    }
+  }
+}
+"""
 
-    try:
-        resp = requests.get(
-            url,
-            headers={"User-Agent": _HEADERS["User-Agent"]},
-            timeout=_TIMEOUT,
-        )
-    except requests.exceptions.RequestException as e:
-        logger.warning("RMP professor page request failed (id=%s): %s", numeric_id, e)
-        return []
+_PAGE_SIZE = 20
 
-    if not resp.ok:
-        logger.warning(
-            "RMP returned HTTP %d for professor page (id=%s)", resp.status_code, numeric_id,
-        )
-        return []
 
-    soup = BeautifulSoup(resp.text, "html.parser")
+def get_professor_reviews(professor_id: str, limit: int = 100) -> list[dict]:
+    """Fetch reviews via paginated GraphQL. professor_id is the base64-encoded RMP node ID."""
+    reviews: list[dict] = []
+    cursor: str | None = None
 
-    relay_text: str | None = None
-    for script in soup.find_all("script"):
-        text = script.string or ""
-        if "__RELAY_STORE__" in text:
-            relay_text = text
-            logger.debug("Found __RELAY_STORE__ script (id=%s, len=%d)", numeric_id, len(text))
+    while len(reviews) < limit:
+        batch_size = min(_PAGE_SIZE, limit - len(reviews))
+        payload = {
+            "query": _RATINGS_QUERY,
+            "variables": {"id": professor_id, "count": batch_size, "cursor": cursor},
+        }
+        try:
+            resp = requests.post(_GRAPHQL_URL, json=payload, headers=_HEADERS, timeout=_TIMEOUT)
+        except requests.exceptions.RequestException as e:
+            logger.warning("RMP ratings request failed (id=%s, cursor=%s): %s", professor_id, cursor, e)
             break
 
-    if not relay_text:
-        logger.debug("__RELAY_STORE__ not found on professor page (id=%s)", numeric_id)
-        return []
+        if not resp.ok:
+            logger.warning("RMP returned HTTP %d for ratings (id=%s)", resp.status_code, professor_id)
+            break
 
-    try:
-        # Strip the "window.__RELAY_STORE__ = " prefix then raw_decode handles trailing JS
-        json_str = relay_text.strip()
-        json_str = json_str[json_str.index("{"):]
-        store, _ = json.JSONDecoder().raw_decode(json_str)
-        logger.debug("Parsed __RELAY_STORE__ with %d keys (id=%s)", len(store), numeric_id)
-    except (ValueError, json.JSONDecodeError) as e:
-        logger.warning("Failed to parse __RELAY_STORE__ (id=%s): %s", numeric_id, e)
-        return []
+        try:
+            teacher = resp.json()["data"]["node"]
+            edges = teacher["ratings"]["edges"]
+            page_info = teacher["ratings"]["pageInfo"]
+        except (KeyError, TypeError) as e:
+            logger.warning("Unexpected RMP ratings response shape (id=%s): %s", professor_id, e)
+            break
 
-    ratings = [
-        v for v in store.values()
-        if isinstance(v, dict) and v.get("__typename") == "Rating"
-    ]
-    logger.debug("Found %d Rating records (id=%s)", len(ratings), numeric_id)
+        for edge in edges:
+            node = edge.get("node", {})
+            date_raw = node.get("date", "")
+            reviews.append({
+                "rating":      node.get("helpfulRating") or node.get("clarityRating"),
+                "difficulty":  node.get("difficultyRating"),
+                "review_text": node.get("comment", ""),
+                "class_name":  node.get("class", ""),
+                "date":        date_raw[:10],
+            })
 
-    reviews = []
-    for node in ratings[:limit]:
-        date_raw = node.get("date", "")
-        reviews.append({
-            "rating":      node.get("helpfulRating") or node.get("clarityRating"),
-            "difficulty":  node.get("difficultyRating"),
-            "review_text": node.get("comment", ""),
-            "class_name":  node.get("class", ""),
-            "date":        date_raw[:10],  # "2024-01-15 19:34:39 +0000 UTC" → "2024-01-15"
-        })
+        if not page_info.get("hasNextPage"):
+            break
+        cursor = page_info.get("endCursor")
 
+    logger.info("Fetched %d review(s) for professor id=%s", len(reviews), professor_id)
     return reviews
 
 
