@@ -1,4 +1,5 @@
 """ClassMate FastAPI application."""
+import asyncio
 import json
 import logging
 import pathlib
@@ -145,11 +146,18 @@ async def get_courses(school: str) -> list[dict]:
 def resolve(body: ResolveRequest) -> dict:
     if body.school not in _SCHOOLS_BY_SLUG:
         raise HTTPException(status_code=404, detail=f"School not found: {body.school!r}")
-    return course_resolver.resolve_course(body.school, body.input)
+    if not body.input or len(body.input.strip()) < 2:
+        return {"status": "no_match", "stage": 0, "reason": "empty input"}
+    try:
+        return course_resolver.resolve_course(body.school, body.input)
+    except Exception as e:
+        logger.warning("resolve_course error for %r: %s", body.input, e)
+        return {"status": "no_match", "stage": -1,
+                "reason": "resolver temporarily unavailable, try entering the exact course code"}
 
 
 @app.get("/course/{school}/{code}")
-def get_course_insights(school: str, code: str) -> dict:
+async def get_course_insights(school: str, code: str) -> dict:
     if school not in _SCHOOLS_BY_SLUG:
         raise HTTPException(status_code=404, detail=f"School not found: {school!r}")
 
@@ -205,33 +213,33 @@ def get_course_insights(school: str, code: str) -> dict:
     if not professors:
         return _no_data_response(course_code, school)
 
-    professor_results: list[dict] = []
-    deadline = time.perf_counter() + 15.0
-    total_reddit_posts = 0
-
-    for prof in professors[:3]:
-        if time.perf_counter() > deadline:
-            logger.warning("15s budget exceeded — skipping remaining professors")
-            break
+    async def _fetch_one(prof: dict) -> dict | None:
         try:
-            reddit_posts = reddit_client.get_professor_posts(
+            reddit_posts = await asyncio.to_thread(
+                reddit_client.get_professor_posts,
                 school_data["subreddit"], prof["name"], course_code, limit=10,
             )
-            total_reddit_posts += len(reddit_posts)
-            insight = insights.generate_insights(
+            insight = await asyncio.to_thread(
+                insights.generate_insights,
                 professor_name=prof["name"],
                 course_code=course_code,
                 reddit_posts=reddit_posts,
                 rmp_reviews=prof.get("reviews", []),
             )
-            professor_results.append({
+            return {
                 "name":        prof["name"],
                 "rating":      prof.get("rating"),
                 "num_ratings": prof.get("num_ratings", 0),
                 "insights":    insight,
-            })
+                "_posts":      reddit_posts,
+            }
         except Exception as e:
             logger.warning("generate_insights failed for %r: %s", prof["name"], e)
+            return None
+
+    gathered = await asyncio.gather(*[_fetch_one(p) for p in professors[:3]])
+    professor_results = [r for r in gathered if r is not None]
+    total_reddit_posts = sum(len(r.pop("_posts")) for r in professor_results)
 
     if not professor_results:
         return _no_data_response(course_code, school)
