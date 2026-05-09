@@ -104,7 +104,19 @@ def _stage1_code_lookup(user_input: str, courses: list[dict], school_slug: str) 
     return None
 
 
+_STOPWORDS = {"intro", "introduction", "to", "the", "a", "an", "in", "of", "and"}
+
+
+def _meaningful_tokens(text: str) -> list[str]:
+    """Return tokens from text that are not stopwords and have 2+ chars."""
+    tokens = re.findall(r"[a-z]+", text.lower())
+    return [t for t in tokens if t not in _STOPWORDS and len(t) >= 2]
+
+
 def _stage2_fuzzy(user_input: str, courses: list[dict]) -> dict | None:
+    if len(_meaningful_tokens(user_input)) < 1:
+        return None
+
     corpus = _build_fuzzy_corpus(courses)
     best: dict[str, tuple[float, dict]] = {}
     for string, course in corpus:

@@ -20,26 +20,60 @@ _HEADERS = {
 _school_id_cache: dict[str, str] = {}
 
 _DEPT_MAP = {
+    # Computer Science / IT
     "ITCS": "Computer Science",
     "ITIS": "Computer Science",
     "ITSC": "Computer Science",
-    "MATH": "Mathematics",
-    "STAT": "Statistics",
-    "CHEM": "Chemistry",
-    "PHYS": "Physics",
-    "PSYC": "Psychology",
-    "ENGL": "English",
-    "UWRT": "English",
-    "BIOL": "Biology",
-    "ECON": "Economics",
     "COMP": "Computer Science",
     "CSC":  "Computer Science",
+    # Mathematics & Statistics
+    "MATH": "Mathematics",
     "MA":   "Mathematics",
+    "STAT": "Statistics",
+    "STOR": "Statistics",
     "ST":   "Statistics",
+    # Natural Sciences
+    "CHEM": "Chemistry",
     "CH":   "Chemistry",
+    "PHYS": "Physics",
     "PY":   "Physics",
+    "BIOL": "Biology",
+    # Engineering
+    "ECE":  "Electrical and Computer Engineering",
+    "BME":  "Biomedical Engineering",
+    "CE":   "Civil Engineering",
+    "CHE":  "Chemical Engineering",
+    "ISE":  "Industrial Engineering",
+    "NE":   "Nuclear Engineering",
+    # Social Sciences & Humanities
+    "ECON": "Economics",
     "EC":   "Economics",
+    "ARE":  "Agricultural and Resource Economics",
+    "ANT":  "Anthropology",
+    "SOC":  "Sociology",
+    "POL":  "Political Science",
+    "HIS":  "History",
+    "PHIL": "Philosophy",
+    "PSYC": "Psychology",
+    # Communication & Media
+    "COMM": "Communication",
+    "JOUR": "Journalism",
+    # English / Writing
+    "ENGL": "English",
+    "UWRT": "English",
     "ENG":  "English",
+    # Professional / Applied
+    "NURS": "Nursing",
+    "SW":   "Social Work",
+    "KIN":  "Kinesiology",
+    "ARCH": "Architecture",
+    "ED":   "Education",
+    # Business
+    "ACCT": "Accounting",
+    "FIN":  "Finance",
+    "MGT":  "Management",
+    "MKT":  "Marketing",
+    "BUS":  "Business",
 }
 
 

@@ -105,10 +105,28 @@ async function loadCourseCatalog(slug) {
 
 function getMatches(query) {
   if (!query) return [];
-  const q = query.toLowerCase();
-  return courseCatalog
-    .filter(c => c.code.toLowerCase().includes(q) || c.title.toLowerCase().includes(q))
-    .slice(0, 6);
+  const q = query.toLowerCase().trim();
+  const scored = [];
+
+  for (const c of courseCatalog) {
+    const code = c.code.toLowerCase();
+    const codeNoSpace = code.replace(/\s+/g, '');
+    const title = c.title.toLowerCase();
+    const qNoSpace = q.replace(/\s+/g, '');
+
+    let score = 0;
+    if (code === q || codeNoSpace === qNoSpace) score = 1000;
+    else if (code.startsWith(q) || codeNoSpace.startsWith(qNoSpace)) score = 500;
+    else if (code.includes(q) || codeNoSpace.includes(qNoSpace)) score = 200;
+    else if (title.startsWith(q)) score = 100;
+    else if (title.includes(' ' + q)) score = 50;
+    else if (title.includes(q)) score = 10;
+
+    if (score > 0) scored.push({ course: c, score });
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 8).map(s => s.course);
 }
 
 function showSuggestions(matches) {
