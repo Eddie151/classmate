@@ -8,3 +8,5 @@ test_key.py
 .pytest_cache/
 backend/validate_schools.py
 backend/course_scraper.py
+docs/
+*.pdf
