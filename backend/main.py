@@ -52,6 +52,24 @@ except json.JSONDecodeError as e:
     logger.warning("faculty_cache.json invalid JSON: %s — using empty cache", e)
     _FACULTY_CACHE = {}
 
+try:
+    with open(_BASE / "supported_courses.json") as f:
+        _SUPPORTED: dict[str, list[dict]] = json.load(f)
+    _SUPPORTED_SET: dict[str, set[str]] = {
+        slug: {c["course_code"] for c in courses}
+        for slug, courses in _SUPPORTED.items()
+    }
+    total_supported = sum(len(v) for v in _SUPPORTED.values())
+    logger.info("Supported courses loaded: %d total", total_supported)
+except FileNotFoundError:
+    logger.warning("supported_courses.json not found — all course requests will pass through ungated")
+    _SUPPORTED = {}
+    _SUPPORTED_SET = {}
+except json.JSONDecodeError as e:
+    logger.warning("supported_courses.json invalid JSON: %s — gating disabled", e)
+    _SUPPORTED = {}
+    _SUPPORTED_SET = {}
+
 _SCHOOLS_BY_SLUG: dict[str, dict] = {s["slug"]: s for s in _SCHOOLS}
 
 # ---------- App ----------
@@ -142,6 +160,36 @@ async def get_courses(school: str) -> list[dict]:
     ]
 
 
+@app.get("/supported_courses/{school}")
+async def get_supported_courses(school: str) -> dict:
+    """Return supported courses grouped by department prefix for the browse section."""
+    if school not in _SCHOOLS_BY_SLUG:
+        raise HTTPException(status_code=404, detail=f"School not found: {school!r}")
+
+    courses = _SUPPORTED.get(school, [])
+
+    # Group by department prefix (first token of course code)
+    groups: dict[str, list[dict]] = {}
+    for c in courses:
+        prefix = c["course_code"].split()[0]
+        groups.setdefault(prefix, []).append({
+            "code":  c["course_code"],
+            "title": c["course_name"],
+        })
+
+    # Sort within each group by code, and sort groups alphabetically
+    grouped = [
+        {"prefix": prefix, "courses": sorted(courses, key=lambda x: x["code"])}
+        for prefix, courses in sorted(groups.items())
+    ]
+
+    return {
+        "school":  school,
+        "total":   len(courses),
+        "groups":  grouped,
+    }
+
+
 @app.post("/resolve")
 def resolve(body: ResolveRequest) -> dict:
     if body.school not in _SCHOOLS_BY_SLUG:
@@ -168,6 +216,32 @@ async def get_course_insights(school: str, code: str) -> dict:
         raise HTTPException(status_code=404, detail=f"Course not found: {code!r}")
 
     course_code = resolved["code"]
+
+    # Gate: only proceed for courses we have real data for
+    if _SUPPORTED_SET and course_code not in _SUPPORTED_SET.get(school, set()):
+        prefix = course_code.split()[0]
+        suggestions = [
+            {"code": c["course_code"], "title": c["course_name"]}
+            for c in _SUPPORTED.get(school, [])
+            if c["course_code"].startswith(prefix)
+        ][:5]
+        if not suggestions:
+            suggestions = sorted(
+                _SUPPORTED.get(school, []),
+                key=lambda c: c["review_count"],
+                reverse=True,
+            )[:5]
+            suggestions = [{"code": c["course_code"], "title": c["course_name"]} for c in suggestions]
+        return {
+            "source":      "unsupported",
+            "course_code": course_code,
+            "message":     (
+                f"We don't have data for {course_code} yet. "
+                "ClassMate currently covers 440 courses across UNCC, UNC, and NC State."
+            ),
+            "suggestions": suggestions,
+        }
+
     school_data = _SCHOOLS_BY_SLUG[school]
     department  = rmp_client.get_department_for_code(course_code)
 

@@ -1,16 +1,19 @@
 const API_BASE = "https://classmate-m8aj.onrender.com";
 
 // ── DOM refs ──────────────────────────────────────────────────
-const stepSchool     = document.getElementById("step-school");
-const stepCourse     = document.getElementById("step-course");
-const schoolCardsEl  = document.getElementById("school-cards");
-const backBtn        = document.getElementById("back-btn");
-const selectedNameEl = document.getElementById("selected-school-name");
-const searchForm     = document.getElementById("search-form");
-const courseInput    = document.getElementById("course-input");
-const suggestionsEl  = document.getElementById("suggestions");
-const statusEl       = document.getElementById("status");
-const resultsEl      = document.getElementById("results");
+const stepSchool       = document.getElementById("step-school");
+const stepCourse       = document.getElementById("step-course");
+const schoolCardsEl    = document.getElementById("school-cards");
+const backBtn          = document.getElementById("back-btn");
+const selectedNameEl   = document.getElementById("selected-school-name");
+const searchForm       = document.getElementById("search-form");
+const courseInput      = document.getElementById("course-input");
+const suggestionsEl    = document.getElementById("suggestions");
+const statusEl         = document.getElementById("status");
+const resultsEl        = document.getElementById("results");
+const coverageNoticeEl = document.getElementById("coverage-notice");
+const browseSectionEl  = document.getElementById("browse-section");
+const browseGroupsEl   = document.getElementById("browse-groups");
 
 // ── State ─────────────────────────────────────────────────────
 let selectedSchool = null;   // {slug, display_name, primary_color}
@@ -49,15 +52,23 @@ async function apiFetch(path, options = {}) {
 // ── Step management ───────────────────────────────────────────
 
 function showStep1() {
-  stepSchool.hidden = false;
-  stepCourse.hidden = true;
-  selectedSchool    = null;
-  courseCatalog     = [];
-  courseInput.value = "";
+  stepSchool.hidden        = false;
+  stepCourse.hidden        = true;
+  selectedSchool           = null;
+  courseCatalog            = [];
+  courseInput.value        = "";
+  coverageNoticeEl.hidden  = true;
+  coverageNoticeEl.textContent = "";
+  browseSectionEl.hidden   = true;
+  browseGroupsEl.innerHTML = "";
   hideSuggestions();
   clearResults();
   setStatus("");
 }
+
+const _THIN_COVERAGE_NOTICES = {
+  ncsu: "NC State support currently covers CS and ECE courses only. More departments coming.",
+};
 
 function showStep2(school) {
   selectedSchool             = school;
@@ -65,7 +76,17 @@ function showStep2(school) {
   stepSchool.hidden          = true;
   stepCourse.hidden          = false;
   courseInput.focus();
+
+  const notice = _THIN_COVERAGE_NOTICES[school.slug];
+  if (notice) {
+    coverageNoticeEl.textContent = notice;
+    coverageNoticeEl.hidden      = false;
+  } else {
+    coverageNoticeEl.hidden = true;
+  }
+
   loadCourseCatalog(school.slug);
+  loadBrowseSection(school.slug);
 }
 
 // ── School cards ──────────────────────────────────────────────
@@ -101,6 +122,63 @@ async function loadCourseCatalog(slug) {
   } catch {
     courseCatalog = [];
   }
+}
+
+async function loadBrowseSection(slug) {
+  browseSectionEl.hidden   = true;
+  browseGroupsEl.innerHTML = "";
+
+  let data;
+  try {
+    data = await apiFetch(`/supported_courses/${slug}`);
+  } catch {
+    return;
+  }
+
+  if (!data.groups || !data.groups.length) return;
+
+  data.groups.forEach(group => {
+    const dept = document.createElement("details");
+    dept.className = "browse-dept";
+
+    const summary = document.createElement("summary");
+    summary.className = "browse-dept-header";
+
+    const label = document.createElement("span");
+    label.className   = "browse-dept-label";
+    label.textContent = group.prefix;
+
+    const count = document.createElement("span");
+    count.className   = "browse-dept-count";
+    count.textContent = `${group.courses.length} course${group.courses.length !== 1 ? "s" : ""}`;
+
+    summary.appendChild(label);
+    summary.appendChild(count);
+    dept.appendChild(summary);
+
+    const courseRow = document.createElement("div");
+    courseRow.className = "browse-courses";
+
+    group.courses.forEach(c => {
+      const btn = document.createElement("button");
+      btn.className = "browse-course";
+      btn.type      = "button";
+      btn.title     = c.title;
+      btn.textContent = c.code;
+      btn.addEventListener("click", () => {
+        courseInput.value = c.code;
+        fetchInsights(slug, c.code);
+        browseSectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      courseRow.appendChild(btn);
+    });
+
+    dept.appendChild(courseRow);
+    browseGroupsEl.appendChild(dept);
+  });
+
+  browseSectionEl.hidden = false;
 }
 
 function getMatches(query) {
@@ -209,6 +287,53 @@ courseInput.addEventListener("blur", () => {
 
 function looksCanonical(input) {
   return /^[A-Za-z]+\s*\d+$/.test(input.trim());
+}
+
+// ── Render: unsupported course ────────────────────────────────
+
+function renderUnsupported(data, school) {
+  clearResults();
+  setStatus("");
+
+  const card = document.createElement("div");
+  card.className = "unsupported-card";
+
+  const msg = document.createElement("p");
+  msg.textContent = data.message;
+  card.appendChild(msg);
+
+  if (data.suggestions && data.suggestions.length) {
+    const sugBox = document.createElement("div");
+    sugBox.className = "unsupported-suggestions";
+
+    const label = document.createElement("p");
+    label.textContent = "Similar courses we do cover:";
+    sugBox.appendChild(label);
+
+    data.suggestions.forEach(s => {
+      const btn = document.createElement("button");
+      btn.className = "suggestion-chip";
+      btn.type      = "button";
+
+      const strong = document.createElement("strong");
+      strong.textContent = s.code;
+
+      const span = document.createElement("span");
+      span.textContent = s.title;
+
+      btn.appendChild(strong);
+      btn.appendChild(span);
+      btn.addEventListener("click", () => {
+        courseInput.value = s.code;
+        fetchInsights(school, s.code);
+      });
+      sugBox.appendChild(btn);
+    });
+
+    card.appendChild(sugBox);
+  }
+
+  resultsEl.appendChild(card);
 }
 
 // ── Render: candidate picker ──────────────────────────────────
@@ -376,6 +501,11 @@ async function fetchInsights(school, code) {
 
     if (data.status === "ambiguous") {
       renderCandidates(data.candidates, school);
+      return;
+    }
+
+    if (data.source === "unsupported") {
+      renderUnsupported(data, school);
       return;
     }
 

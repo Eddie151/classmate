@@ -393,6 +393,182 @@ button[type="submit"]:disabled { opacity: 0.6; cursor: not-allowed; }
   margin-bottom: 0.75rem;
 }
 
+/* ── No-data card ───────────────────────────────────────────── */
+.no-data-card {
+  font-size: 0.95rem;
+  color: #555;
+  background: #f8f8f8;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+}
+
+/* ── Unsupported course message ─────────────────────────────── */
+.unsupported-card {
+  background: #f8f8f8;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.unsupported-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.unsupported-suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.unsupported-suggestions p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.15rem;
+}
+
+.suggestion-chip {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.875rem;
+  font-family: inherit;
+  background: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.suggestion-chip:hover {
+  border-color: #005035;
+  background: #f0f9f5;
+}
+
+.suggestion-chip strong {
+  font-weight: 600;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+.suggestion-chip span {
+  color: #666;
+  font-size: 0.82rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Search hint + coverage notice ─────────────────────────── */
+.search-hint {
+  font-size: 0.82rem;
+  color: #888;
+  margin-top: -0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+#coverage-notice {
+  font-size: 0.85rem;
+  color: #7a4f00;
+  background: #fffbea;
+  border: 1px solid #f0d060;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ── Browse supported courses ───────────────────────────────── */
+#browse-section {
+  margin-top: 2.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+.browse-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.browse-dept {
+  margin-bottom: 1rem;
+}
+
+.browse-dept-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.25rem 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.browse-dept-label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.browse-dept-count {
+  font-size: 0.78rem;
+  color: #999;
+}
+
+.browse-dept-toggle {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin-left: auto;
+  transition: transform 0.15s;
+  display: inline-block;
+}
+
+.browse-dept[open] .browse-dept-toggle {
+  transform: rotate(180deg);
+}
+
+.browse-courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding-left: 0.25rem;
+}
+
+.browse-course {
+  padding: 0.25rem 0.65rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.12s, border-color 0.12s;
+  white-space: nowrap;
+}
+
+.browse-course:hover {
+  background: #e8f5ef;
+  border-color: #005035;
+  color: #005035;
+}
+
 /* ── Footer ─────────────────────────────────────────────────── */
 .disclaimer {
   font-size: 0.78rem;
