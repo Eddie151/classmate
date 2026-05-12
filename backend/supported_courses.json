@@ -1,1481 +1,2454 @@
 {
   "uncc": [
     {
+      "course_code": "ARBC 1201",
+      "course_name": "Elementary Arabic I",
+      "professor_count": 1,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ARBC 1202",
+      "course_name": "Elementary Arabic II",
+      "professor_count": 1,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
       "course_code": "ARBC 1502",
       "course_name": "Global Arts/Humanities: Modern Arab Culture",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ARBC 2201",
+      "course_name": "Intermediate Arabic I",
+      "professor_count": 1,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ARBC 3051",
+      "course_name": "Topics in Arabic Language and Culture",
+      "professor_count": 1,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BINF 1101",
+      "course_name": "Introduction to Bioinformatics and Genomics",
+      "professor_count": 1,
+      "review_count": 1,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BINF 2111",
       "course_name": "Introduction to Bioinformatics Computing",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BINF 3201",
       "course_name": "Genomic Methods",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 1110",
       "course_name": "Principles of Biology I",
+      "professor_count": 6,
+      "review_count": 157,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 1110L",
+      "course_name": "Principles of Biology I Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 43,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 1115",
+      "course_name": "Principles of Biology II",
+      "professor_count": 1,
+      "review_count": 23,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 2120",
       "course_name": "General Biology I",
+      "professor_count": 6,
+      "review_count": 205,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 2130",
+      "course_name": "General Biology II",
+      "professor_count": 4,
+      "review_count": 129,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 2140L",
+      "course_name": "General Biology Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 2259",
       "course_name": "Fundamentals of Microbiology",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 56,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 2273",
       "course_name": "Human Anatomy and Physiology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 43,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 2273L",
+      "course_name": "Human Anatomy and Physiology Laboratory",
+      "professor_count": 1,
+      "review_count": 46,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 2274",
+      "course_name": "Human Anatomy and Physiology II",
+      "professor_count": 1,
+      "review_count": 43,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 3000",
+      "course_name": "Special Topics in Biology",
+      "professor_count": 1,
+      "review_count": 58,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 3111",
       "course_name": "Cell Biology",
       "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "review_count": 27,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 3111L",
       "course_name": "Cell Biology Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 3144",
       "course_name": "Ecology",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 132,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 3161",
+      "course_name": "Introduction to Biotechnology",
+      "professor_count": 1,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 3166",
       "course_name": "Genetics",
       "professor_count": 4,
-      "review_count": 17,
-      "last_updated": "2026-05-11"
+      "review_count": 41,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 3166L",
+      "course_name": "Genetics Laboratory",
+      "professor_count": 1,
+      "review_count": 10,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 3234",
+      "course_name": "Field Entomology",
+      "professor_count": 1,
+      "review_count": 58,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 3235",
       "course_name": "Biology of Insects",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 3236",
       "course_name": "General Zoology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 46,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 3273L",
+      "course_name": "Animal Physiology Laboratory",
+      "professor_count": 1,
+      "review_count": 10,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 3274",
+      "course_name": "Scientific Writing",
+      "professor_count": 1,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4000",
       "course_name": "Special Topics in Biology",
+      "professor_count": 4,
+      "review_count": 128,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 4111",
+      "course_name": "Evolution",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 58,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 4165",
+      "course_name": "Investigating Bacteriophage Genomics",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4167",
       "course_name": "Medical Genetics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4199",
       "course_name": "Molecular Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4233",
       "course_name": "Parasitology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 4242",
+      "course_name": "Biology of Birds",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 4243",
+      "course_name": "Animal Behavior",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4244",
       "course_name": "Conservation Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 20,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4256",
       "course_name": "Pathogenic Bacteriology",
       "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4259",
       "course_name": "Virology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 4279",
       "course_name": "Neurobiology",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 4600",
+      "course_name": "Senior Seminar",
+      "professor_count": 1,
+      "review_count": 46,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 1111",
+      "course_name": "Chemistry in Today\u2019s Society",
+      "professor_count": 1,
+      "review_count": 85,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1200",
       "course_name": "Fundamentals of Chemistry",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 62,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1203",
       "course_name": "Introduction to General, Organic, and Biochemistry I",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 85,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1203L",
       "course_name": "Introduction to General, Organic, and Biochemistry I Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1204",
       "course_name": "Introduction to General, Organic, and Biochemistry II",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 92,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1204L",
       "course_name": "Introduction to General, Organic, and Biochemistry II Laboratory",
       "professor_count": 2,
-      "review_count": 6,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1251",
       "course_name": "General Chemistry I",
-      "professor_count": 5,
-      "review_count": 16,
-      "last_updated": "2026-05-11"
+      "professor_count": 11,
+      "review_count": 247,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1251L",
       "course_name": "General Chemistry I Laboratory",
       "professor_count": 2,
       "review_count": 10,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1252",
       "course_name": "General Chemistry II",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 112,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 1252L",
       "course_name": "General Chemistry II Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 24,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 2130",
+      "course_name": "Survey of Organic Chemistry",
+      "professor_count": 2,
+      "review_count": 62,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 2131",
       "course_name": "Organic Chemistry I",
-      "professor_count": 5,
-      "review_count": 21,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 97,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 2131L",
+      "course_name": "Organic Chemistry I Laboratory",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 2132",
       "course_name": "Organic Chemistry II",
-      "professor_count": 5,
-      "review_count": 17,
-      "last_updated": "2026-05-11"
+      "professor_count": 7,
+      "review_count": 106,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 3090",
+      "course_name": "Special Topics in Chemistry",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 3111",
+      "course_name": "Quantitative Analysis",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 3141",
       "course_name": "Physical Chemistry I",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 3141L",
+      "course_name": "Physical Chemistry I Laboratory",
+      "professor_count": 1,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHEM 3165",
       "course_name": "Survey of Biochemistry",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 4090",
+      "course_name": "Special Topics in Chemistry",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 4133",
+      "course_name": "Methods of Organic Structure Determination",
+      "professor_count": 1,
+      "review_count": 26,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 4165",
+      "course_name": "Principles of Biochemistry I",
+      "professor_count": 3,
+      "review_count": 39,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 4165L",
+      "course_name": "Principles of Biochemistry I Laboratory",
+      "professor_count": 1,
+      "review_count": 85,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CHEM 4166",
+      "course_name": "Principles of Biochemistry II",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CHNS 1201",
       "course_name": "Elementary Chinese I",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 1100",
       "course_name": "Foundations of Criminal Justice",
-      "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "professor_count": 7,
+      "review_count": 143,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 1200",
       "course_name": "Professionalism in Criminal Justice and Criminology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 1511",
       "course_name": "Local Social Science: Foundations of Criminal Justice",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 115,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 2320",
       "course_name": "Introduction to Courts",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 2340",
       "course_name": "Criminological Theory",
       "professor_count": 4,
-      "review_count": 16,
-      "last_updated": "2026-05-11"
+      "review_count": 33,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 2350",
       "course_name": "Introduction to Corrections",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 2360",
       "course_name": "Ethics and the Criminal Justice System",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 2361",
       "course_name": "Juvenile Justice",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 82,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 2370",
       "course_name": "Research Methods in Criminal Justice",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 85,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 2380",
+      "course_name": "Introduction to Law Enforcement",
+      "professor_count": 2,
+      "review_count": 30,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 3000",
       "course_name": "Topics in Criminal Justice",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 20,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3321",
+      "course_name": "Criminal Procedure",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 3341",
       "course_name": "The Criminal Offender",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 15,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 3352",
       "course_name": "Institutional Corrections",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 3354",
       "course_name": "Punishment and Freedom",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3360",
+      "course_name": "Criminal Justice Learning Community I",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3361",
+      "course_name": "Criminal Justice Learning Community II",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3364",
+      "course_name": "The Administration of Criminal Justice",
+      "professor_count": 1,
+      "review_count": 23,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3366",
+      "course_name": "Domestic Violence",
+      "professor_count": 1,
+      "review_count": 77,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3382",
+      "course_name": "Community-Oriented Policing and Problem-Solving",
+      "professor_count": 1,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 3400",
+      "course_name": "Criminal Justice Internship",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 4000",
       "course_name": "Topics in Crime Analytics",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 52,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 4352",
       "course_name": "Serial Murder",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 23,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 4360",
+      "course_name": "Drugs, Crime, and the Criminal Justice System",
+      "professor_count": 1,
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 4363",
       "course_name": "Gender, Race, and Justice",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 4370",
       "course_name": "Data Analytics and Crime",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 4374",
       "course_name": "Geospatial Analytics and Crime",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CJUS 4375",
       "course_name": "Community-Oriented Policing, Problem-Solving, and Crime Analysis",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 15,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CJUS 4377",
+      "course_name": "Crime Measurement and Data Visualization",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CTCM 2530",
       "course_name": "Interdisciplinary Critical Thinking and Communication",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 41,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "DTSC 1301",
       "course_name": "Data and Society A",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "DTSC 3601",
       "course_name": "Predictive Analytics and Their Implications A",
+      "professor_count": 2,
+      "review_count": 75,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 2103",
+      "course_name": "Computer Utilization in C++",
       "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "review_count": 22,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 2104",
+      "course_name": "Computer Engineering Programming II",
+      "professor_count": 2,
+      "review_count": 38,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 2111",
       "course_name": "Network Theory I",
-      "professor_count": 4,
-      "review_count": 16,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 36,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 2112",
+      "course_name": "Network Theory II",
+      "professor_count": 2,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 2161",
       "course_name": "Basic Electrical Engineering I",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 2181",
       "course_name": "Logic Systems Design",
       "professor_count": 3,
-      "review_count": 11,
-      "last_updated": "2026-05-11"
+      "review_count": 39,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 2254",
       "course_name": "Analytical Foundations of Electrical and Computer Engineering",
       "professor_count": 3,
-      "review_count": 8,
-      "last_updated": "2026-05-11"
+      "review_count": 18,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 3090",
+      "course_name": "Special Topics",
+      "professor_count": 1,
+      "review_count": 1,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 3101",
       "course_name": "Embedded Systems",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 38,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 3111",
       "course_name": "Signals and Systems",
       "professor_count": 2,
-      "review_count": 6,
-      "last_updated": "2026-05-11"
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 3112",
       "course_name": "System Analysis II",
-      "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 3121",
       "course_name": "Introduction to Electromagnetic Fields",
       "professor_count": 2,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 3142",
       "course_name": "Electrical Energy Conversion",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 3157",
+      "course_name": "ECE Junior Design",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 3180",
+      "course_name": "Data Structures and Algorithms in C++",
+      "professor_count": 1,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 3183",
       "course_name": "Computer Organization",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 4090",
       "course_name": "Special Topics",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 4100",
+      "course_name": "Research Tools and Techniques in Computer Engineering",
+      "professor_count": 1,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 4105",
       "course_name": "Introduction to Machine Learning",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 4123",
       "course_name": "Analog and Digital Communication",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 4124",
       "course_name": "Digital Signal Processing",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 4125",
       "course_name": "Foundation of Optical Engineering",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECGR 4144",
       "course_name": "Power Electronics I",
+      "professor_count": 2,
+      "review_count": 5,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECGR 4146",
+      "course_name": "Introduction to VHDL",
+      "professor_count": 2,
+      "review_count": 23,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ENGR 1202",
+      "course_name": "Introduction to Engineering Practices and Principles II",
       "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "review_count": 22,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ETME 3133",
       "course_name": "Fluid Mechanics",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ETME 3150",
       "course_name": "Applied CAD Modeling and Simulation",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FILM 3050",
       "course_name": "Topics in Film",
       "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FILM 3051",
       "course_name": "Topics in Film",
       "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FRAN 2200",
       "course_name": "French Civilization",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FREN 1201",
       "course_name": "Elementary French I",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 34,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FREN 1202",
       "course_name": "Elementary French II",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 38,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FREN 2201",
       "course_name": "Intermediate French I",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 32,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FREN 2202",
       "course_name": "Intermediate French II",
-      "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FREN 2209",
       "course_name": "French Civilization",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "FREN 3201",
+      "course_name": "French Grammar and Conversation",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "FREN 3209",
+      "course_name": "France Today",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "FREN 4007",
+      "course_name": "Studies in French Culture and Civilization",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "FREN 4202",
       "course_name": "Survey of French Literature II",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "GERM 1201",
       "course_name": "Elementary German I",
+      "professor_count": 2,
+      "review_count": 10,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 1202",
+      "course_name": "Elementary German II",
       "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 2201",
+      "course_name": "Intermediate German I",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 2202",
+      "course_name": "Intermediate German II",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 3050",
+      "course_name": "Topics in German Culture: German Culture (English)",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 3202",
+      "course_name": "Advanced German Language and Culture II",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 3670",
+      "course_name": "Seminar: German-American Culture for Business and Engineering I (English)",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "GERM 3680",
       "course_name": "Seminar: German-American Culture for Business and Engineering II (English)",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "GERM 3690",
+      "course_name": "Seminar: Career Planning for the German-American Business World",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "GERM 4661",
       "course_name": "Advanced Seminar in Business German I",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 1102",
+      "course_name": "Advanced Internet Concepts",
+      "professor_count": 1,
+      "review_count": 19,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 1110",
+      "course_name": "Introduction to Computer Science Principles",
+      "professor_count": 1,
+      "review_count": 43,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 1212",
       "course_name": "Introduction to Computer Science I",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 10,
+      "review_count": 236,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 1213",
       "course_name": "Introduction to Computer Science II",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 187,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 1501",
       "course_name": "Global Social Science: The Interconnected World of Technology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 1600",
       "course_name": "Computing Professionals",
+      "professor_count": 2,
+      "review_count": 40,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 2116",
+      "course_name": "C Programming",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 2175",
       "course_name": "Logic and Algorithms",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 134,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 2181",
       "course_name": "Introduction to Computer Systems",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 46,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 2214",
       "course_name": "Data Structures and Algorithms",
-      "professor_count": 5,
-      "review_count": 13,
-      "last_updated": "2026-05-11"
+      "professor_count": 9,
+      "review_count": 131,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 2215",
+      "course_name": "Design and Analysis of Algorithms",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 2600",
+      "course_name": "Computer Science Program, Identity, Career",
+      "professor_count": 1,
+      "review_count": 25,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3112",
       "course_name": "Design and Implementation of Object-Oriented Systems",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3120",
       "course_name": "Introduction to Interactive Computer Graphics",
       "professor_count": 2,
-      "review_count": 9,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3134",
       "course_name": "Digital Image Processing",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3146",
       "course_name": "Introduction to Operating Systems and Networking",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 36,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3153",
       "course_name": "Introduction to Artificial Intelligence",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3155",
       "course_name": "Software Engineering",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 117,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 3156",
+      "course_name": "Introduction to Machine Learning",
+      "professor_count": 1,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3160",
       "course_name": "Database Design and Implementation",
-      "professor_count": 3,
-      "review_count": 11,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 62,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3162",
       "course_name": "Introduction to Data Mining",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3166",
       "course_name": "Introduction to Computer Networks",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 40,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3181",
       "course_name": "Introduction to Computer Architecture",
-      "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 51,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3190",
       "course_name": "Introduction to Cloud Computing for Data Analysis",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 32,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 3688",
       "course_name": "Computers and Their Impact on Society",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 57,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 4102",
+      "course_name": "Programming Languages",
+      "professor_count": 3,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4114",
       "course_name": "Real World Algorithms",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITCS 4121",
+      "course_name": "Information Visualization",
+      "professor_count": 1,
+      "review_count": 4,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4122",
       "course_name": "Visual Analytics",
       "professor_count": 3,
       "review_count": 8,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4123",
       "course_name": "Visualization and Visual Communication",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4152",
       "course_name": "Introduction to Computer Vision",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4180",
       "course_name": "Mobile Application Development",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4230",
       "course_name": "Introduction to Game Design and Development",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 33,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITCS 4236",
       "course_name": "Artificial Intelligence for Computer Games",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 1350",
       "course_name": "eScience",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITIS 3105",
+      "course_name": "Server-Side Applications and Data Management",
+      "professor_count": 1,
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 3130",
       "course_name": "Introduction to Human-Centered Computing",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 3135",
       "course_name": "Front-End Web Application Development",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 139,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 3200",
       "course_name": "Introduction to Information Security and Privacy",
-      "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 3261",
       "course_name": "Foundations of Cloud Computing",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 12,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITIS 3320",
+      "course_name": "Introduction to Software Testing and Assurance",
+      "professor_count": 1,
+      "review_count": 1,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 4166",
       "course_name": "Backend Application Development",
+      "professor_count": 4,
+      "review_count": 147,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITIS 4180",
+      "course_name": "Mobile Application Development",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 4221",
       "course_name": "Secure Programming and Penetration Testing",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 12,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITIS 4250",
+      "course_name": "Computer Forensics",
+      "professor_count": 1,
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 4350",
       "course_name": "Design Prototyping",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 4358",
       "course_name": "Physical Computing",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITIS 4390",
       "course_name": "Interaction Design Projects",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 88,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITLN 1201",
       "course_name": "Elementary Italian I",
       "professor_count": 2,
-      "review_count": 9,
-      "last_updated": "2026-05-11"
+      "review_count": 14,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITLN 1202",
+      "course_name": "Elementary Italian II",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITLN 2201",
+      "course_name": "Intermediate Italian I",
+      "professor_count": 2,
+      "review_count": 14,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ITLN 3050",
       "course_name": "Topics in Italian",
       "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ITLN 3051",
+      "course_name": "Topics in Italian",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 1201",
       "course_name": "Elementary Japanese I",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 47,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 1202",
       "course_name": "Elementary Japanese II",
-      "professor_count": 5,
-      "review_count": 24,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 47,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 1502",
       "course_name": "Global Arts/Humanities: Japanese Studies",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 2201",
       "course_name": "Intermediate Japanese I",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 33,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 2202",
       "course_name": "Intermediate Japanese II",
+      "professor_count": 3,
+      "review_count": 33,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "JAPN 2209",
+      "course_name": "Introduction to Japanese Civilization and Culture",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 3040",
       "course_name": "Topics in Japanese Culture",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 24,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 3101",
       "course_name": "Kanji through Reading",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "JAPN 3201",
       "course_name": "Upper Intermediate Japanese I",
+      "professor_count": 4,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "JAPN 3202",
+      "course_name": "Upper Intermediate Japanese II",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "LATN 1201",
+      "course_name": "Elementary Latin I",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "LATN 1202",
+      "course_name": "Elementary Latin II",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "LBST 1105",
+      "course_name": "The Arts and Society: Visual Arts",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "LBST 2102",
+      "course_name": "Global and Intercultural Connections",
+      "professor_count": 3,
+      "review_count": 28,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "LBST 2212",
+      "course_name": "Literature and Culture",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "LBST 2213",
+      "course_name": "Science, Technology, and Society",
+      "professor_count": 3,
+      "review_count": 68,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "LBST 2301",
       "course_name": "Critical Thinking and Communication",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 32,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "LTAM 1502",
       "course_name": "Global Arts/Humanities: Introduction to Latin American History and Culture",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "LTAM 3003",
       "course_name": "Advanced Topics in Latin American Studies",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MAED 3222",
+      "course_name": "Teaching Mathematics to Elementary School Learners, Grades K-2",
+      "professor_count": 1,
+      "review_count": 36,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MAED 3224",
+      "course_name": "Teaching Mathematics to Elementary School Learners, Grades 3-6",
+      "professor_count": 1,
+      "review_count": 36,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MAED 4103",
       "course_name": "Using Technology to Teach Secondary School Mathematics",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MAED 4105",
       "course_name": "High School Mathematics from an Advanced Standpoint",
-      "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 11,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1100",
       "course_name": "College Algebra",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 20,
+      "review_count": 482,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1101",
       "course_name": "College Algebra with Workshop",
-      "professor_count": 6,
-      "review_count": 29,
-      "last_updated": "2026-05-11"
+      "professor_count": 15,
+      "review_count": 483,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1102",
       "course_name": "Introduction to Mathematical Thinking",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 10,
+      "review_count": 269,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1103",
       "course_name": "Precalculus Mathematics for Science and Engineering",
-      "professor_count": 6,
-      "review_count": 30,
-      "last_updated": "2026-05-11"
+      "professor_count": 15,
+      "review_count": 440,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 1105",
+      "course_name": "Finite Mathematics",
+      "professor_count": 1,
+      "review_count": 38,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1120",
       "course_name": "Calculus",
-      "professor_count": 7,
-      "review_count": 29,
-      "last_updated": "2026-05-11"
+      "professor_count": 19,
+      "review_count": 507,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 1121",
+      "course_name": "Calculus for Engineering Technology",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1241",
       "course_name": "Calculus I",
-      "professor_count": 8,
-      "review_count": 36,
-      "last_updated": "2026-05-11"
+      "professor_count": 22,
+      "review_count": 638,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1242",
       "course_name": "Calculus II",
-      "professor_count": 5,
-      "review_count": 25,
-      "last_updated": "2026-05-11"
+      "professor_count": 18,
+      "review_count": 500,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 1340",
       "course_name": "Mathematics for Elementary Teachers I",
+      "professor_count": 3,
+      "review_count": 72,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 1341",
+      "course_name": "Mathematics for Elementary Teachers II",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 62,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2120",
       "course_name": "Intermediate Applied Calculus",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 38,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2164",
       "course_name": "Matrices and Linear Algebra",
-      "professor_count": 13,
-      "review_count": 59,
-      "last_updated": "2026-05-11"
+      "professor_count": 23,
+      "review_count": 369,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2165",
       "course_name": "Introduction to Discrete Structures",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 23,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2171",
       "course_name": "Differential Equations",
-      "professor_count": 8,
-      "review_count": 40,
-      "last_updated": "2026-05-11"
+      "professor_count": 14,
+      "review_count": 311,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2241",
       "course_name": "Calculus III",
-      "professor_count": 6,
-      "review_count": 30,
-      "last_updated": "2026-05-11"
+      "professor_count": 15,
+      "review_count": 340,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2242",
       "course_name": "Calculus IV",
+      "professor_count": 5,
+      "review_count": 119,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 2340",
+      "course_name": "Number Concepts and Relationships",
       "professor_count": 2,
+      "review_count": 62,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 2341",
+      "course_name": "Algebra and Algebraic Structures",
+      "professor_count": 1,
       "review_count": 10,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 2342",
       "course_name": "Data Analysis and Probability",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3116",
+      "course_name": "Graph Theory",
+      "professor_count": 1,
+      "review_count": 23,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 3122",
       "course_name": "Probability and Statistics I",
-      "professor_count": 2,
-      "review_count": 8,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 41,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3123",
+      "course_name": "Probability and Statistics II",
+      "professor_count": 1,
+      "review_count": 3,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 3141",
       "course_name": "Advanced Calculus of One Variable",
-      "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 32,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3142",
+      "course_name": "Advanced Calculus of Several Variables",
+      "professor_count": 2,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 3146",
       "course_name": "Introduction to Complex Analysis",
+      "professor_count": 2,
+      "review_count": 12,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3163",
+      "course_name": "Introduction to Modern Algebra",
+      "professor_count": 6,
+      "review_count": 178,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3166",
+      "course_name": "Combinatorics",
       "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "review_count": 24,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 3171",
       "course_name": "Applied Mathematics",
+      "professor_count": 3,
+      "review_count": 21,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3176",
+      "course_name": "Numerical Analysis",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3181",
+      "course_name": "Fundamental Concepts of Geometry",
+      "professor_count": 1,
+      "review_count": 23,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 3227",
+      "course_name": "Mathematical Theory of Interest and Applications",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 4109",
+      "course_name": "History of Mathematical Thought",
+      "professor_count": 1,
+      "review_count": 52,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 4161",
+      "course_name": "Number Theory",
+      "professor_count": 2,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 4163",
+      "course_name": "Modern Algebra",
+      "professor_count": 1,
+      "review_count": 13,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 4164",
+      "course_name": "Abstract Linear Algebra",
+      "professor_count": 1,
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 1100",
       "course_name": "Foundations of Math and Science for Engineers",
-      "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 38,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 2141",
       "course_name": "Engineering Mechanics I",
-      "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 64,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 2144",
       "course_name": "Introduction to Solid Mechanics",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 30,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 2156",
       "course_name": "Design Projects I Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MEGR 2180",
+      "course_name": "Manufacturing Systems",
+      "professor_count": 1,
+      "review_count": 3,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 2234",
       "course_name": "Math and Science for Engineers III",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 2240",
       "course_name": "Computational Methods for Engineers",
       "professor_count": 3,
-      "review_count": 14,
-      "last_updated": "2026-05-11"
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 2289",
       "course_name": "Introduction to Precision Engineering and Metrology",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MEGR 3090",
+      "course_name": "Special Topics in Mechanical Engineering",
+      "professor_count": 2,
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3111",
       "course_name": "Thermodynamics I",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3112",
       "course_name": "Thermodynamics II",
       "professor_count": 2,
-      "review_count": 8,
-      "last_updated": "2026-05-11"
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3114",
       "course_name": "Fluid Mechanics",
-      "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3116",
       "course_name": "Introduction to Heat Transfer",
       "professor_count": 2,
-      "review_count": 8,
-      "last_updated": "2026-05-11"
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3121",
       "course_name": "Dynamics Systems I",
-      "professor_count": 3,
-      "review_count": 14,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 28,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3122",
       "course_name": "Dynamic Systems II",
-      "professor_count": 2,
-      "review_count": 6,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 45,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3161",
       "course_name": "Introduction to Engineering Materials",
-      "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 12,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3221",
       "course_name": "Machine Analysis and Design I",
       "professor_count": 2,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3225",
       "course_name": "Introduction to Finite Element Analysis",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3237",
       "course_name": "Introduction to Control Systems",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MEGR 3251",
+      "course_name": "Thermal/Fluids Laboratory",
+      "professor_count": 1,
+      "review_count": 3,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MEGR 3282",
       "course_name": "Statistical Process Control and Metrology",
+      "professor_count": 2,
+      "review_count": 14,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MEGR 4091",
+      "course_name": "Special Topics in Aerospace Engineering",
       "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "OPER 3100",
+      "course_name": "Operations Management",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "OPRS 3111",
       "course_name": "Operations Research: Deterministic Models",
-      "professor_count": 2,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 26,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "OPRS 3113",
       "course_name": "Operations Research: Probabilistic Models",
       "professor_count": 2,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 1000",
       "course_name": "New Student Seminar",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 1101",
       "course_name": "Introductory Physics I",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 103,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 1102",
       "course_name": "Introductory Physics II",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 59,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 1130",
       "course_name": "Introduction to Astronomy",
+      "professor_count": 2,
+      "review_count": 30,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 1201",
+      "course_name": "Sports and Physics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 25,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 1202",
       "course_name": "Introduction to Physics in Medicine",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 34,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 2101",
       "course_name": "Physics for Science and Engineering I",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 126,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 2102",
       "course_name": "Physics for Science and Engineering II",
+      "professor_count": 4,
+      "review_count": 78,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 3101",
+      "course_name": "Topics and Methods of General Physics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 26,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 3102",
+      "course_name": "Physics for Science and Engineering III",
+      "professor_count": 1,
+      "review_count": 26,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 3141",
+      "course_name": "Introduction to Modern Physics",
+      "professor_count": 2,
+      "review_count": 51,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 3220",
       "course_name": "Mathematical Methods in Physics",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 4151",
+      "course_name": "Thermal Physics",
+      "professor_count": 1,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 4181",
+      "course_name": "Solid State Physics",
+      "professor_count": 1,
+      "review_count": 14,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 4281",
       "course_name": "Advanced Laboratory in Modern Optics",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "RUSS 1201",
       "course_name": "Elementary Russian I",
       "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "review_count": 4,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "RUSS 1202",
+      "course_name": "Elementary Russian II",
+      "professor_count": 1,
+      "review_count": 4,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "RUSS 3060",
+      "course_name": "Topics in Russian",
+      "professor_count": 1,
+      "review_count": 4,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SEGR 3201",
       "course_name": "Operations Research I: Deterministic Models",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 20,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SEGR 4961",
+      "course_name": "Introduction to Energy Systems",
+      "professor_count": 1,
+      "review_count": 4,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 1101",
       "course_name": "Elementary Spanish I",
-      "professor_count": 3,
-      "review_count": 14,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 43,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 1102",
       "course_name": "Elementary Spanish II",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 1201",
       "course_name": "Elementary Spanish I",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 39,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 1202",
       "course_name": "Elementary Spanish II",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 69,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 1512",
       "course_name": "Local Arts/Humanities: US Hispanic, Latina/o/x Topics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 2050",
+      "course_name": "Topics in Spanish",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 2105",
+      "course_name": "Spanish Communication Skills Development I",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 2106",
+      "course_name": "Spanish Communication Skills Development II",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 2200",
       "course_name": "Spanish for Reading Knowledge",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 29,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 2201",
       "course_name": "Intermediate Spanish I",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 54,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 2202",
       "course_name": "Intermediate Spanish II",
+      "professor_count": 2,
+      "review_count": 25,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 3009",
+      "course_name": "Masterpieces of Hispanic Literature in English",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 3160",
+      "course_name": "Studies in Hispanic Film",
+      "professor_count": 1,
+      "review_count": 21,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 3201",
+      "course_name": "Advanced Spanish Grammar and Composition I",
+      "professor_count": 4,
+      "review_count": 39,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 3202",
       "course_name": "Advanced Spanish Conversation and Composition",
+      "professor_count": 3,
+      "review_count": 37,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 3203",
+      "course_name": "Spanish for Heritage Speakers",
+      "professor_count": 2,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 3208",
+      "course_name": "Introduction to Literary Analysis",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 3209",
       "course_name": "Spanish Civilization and Culture",
-      "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "SPAN 3210",
       "course_name": "Spanish American Civilization and Culture",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 3220",
+      "course_name": "Spanish for Business and International Trade",
+      "professor_count": 1,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 4202",
+      "course_name": "Twentieth Century Spanish Literature",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 4211",
+      "course_name": "Studies in Spanish American Prose Fiction",
+      "professor_count": 1,
+      "review_count": 21,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 4216",
+      "course_name": "Social, Political, Cultural, Economic Issues in Hispanic Literature",
+      "professor_count": 1,
+      "review_count": 21,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 4232",
+      "course_name": "Spanish Linguistics",
+      "professor_count": 1,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "SPAN 4233",
+      "course_name": "History of the Spanish Language",
+      "professor_count": 1,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 1220",
       "course_name": "Elements of Statistics I (BUSN)",
-      "professor_count": 6,
-      "review_count": 28,
-      "last_updated": "2026-05-11"
+      "professor_count": 12,
+      "review_count": 264,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 1221",
+      "course_name": "Elements of Statistics I",
+      "professor_count": 3,
+      "review_count": 73,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 1222",
       "course_name": "Introduction to Statistics",
-      "professor_count": 4,
-      "review_count": 16,
-      "last_updated": "2026-05-11"
+      "professor_count": 11,
+      "review_count": 374,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 1322",
+      "course_name": "Introduction to Statistics II",
+      "professor_count": 1,
+      "review_count": 74,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 2122",
       "course_name": "Introduction to Probability and Statistics",
-      "professor_count": 6,
-      "review_count": 23,
-      "last_updated": "2026-05-11"
+      "professor_count": 11,
+      "review_count": 240,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 2223",
       "course_name": "Elements of Statistics II",
-      "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 35,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 3110",
       "course_name": "Applied Regression",
       "professor_count": 3,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 3122",
       "course_name": "Probability and Statistics I",
-      "professor_count": 5,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 52,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 3123",
+      "course_name": "Probability and Statistics II",
+      "professor_count": 2,
+      "review_count": 30,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 3128",
       "course_name": "Probability and Statistics for Engineers",
-      "professor_count": 4,
-      "review_count": 13,
-      "last_updated": "2026-05-11"
+      "professor_count": 9,
+      "review_count": 188,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 3140",
+      "course_name": "Design of Experiments",
+      "professor_count": 1,
+      "review_count": 34,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 3150",
+      "course_name": "Time Series Analysis",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 3160",
       "course_name": "Applied Multivariate Analysis",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 31,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STAT 4116",
       "course_name": "Statistical Computing",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 4123",
+      "course_name": "Applied Statistics I",
+      "professor_count": 1,
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STAT 4227",
+      "course_name": "Loss Models and Applications",
+      "professor_count": 1,
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "TRAN 3601",
       "course_name": "Introduction to Translation and Interpreting Studies",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "TRAN 4422",
       "course_name": "Practicum in Translating I - Japanese",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "TRAN 4442",
       "course_name": "Practicum in Translating I - Spanish",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     }
   ],
   "unc": [
@@ -1483,1606 +2456,2096 @@
       "course_code": "ASTR 100",
       "course_name": "Understanding the Universe",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 113,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 101",
       "course_name": "Introduction to Astronomy: The Solar System",
-      "professor_count": 2,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 120,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 103",
       "course_name": "Alien Life in the Universe",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 111,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 202",
       "course_name": "Introduction to Astrophysics",
+      "professor_count": 2,
+      "review_count": 18,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ASTR 301",
+      "course_name": "Stars, Galaxies, and Cosmology",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 501",
       "course_name": "Stellar Astrophysics",
       "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 502",
       "course_name": "Modern Research in Astrophysics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 511",
       "course_name": "Atomic and Radiative Processes in Astrophysics",
       "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "review_count": 2,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ASTR 519",
       "course_name": "Observational Astronomy",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 101",
       "course_name": "Principles of Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 103",
       "course_name": "How Cells Function",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 300,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 105L",
       "course_name": "Biological Research Skills",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 117",
+      "course_name": "Pre-Health Thrive-1 Considering Health Professions",
+      "professor_count": 2,
+      "review_count": 101,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 201",
       "course_name": "Ecology and Evolution",
-      "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 36,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 202",
+      "course_name": "Molecular Biology and Genetics",
+      "professor_count": 5,
+      "review_count": 212,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 205",
       "course_name": "Cellular and Developmental Biology",
-      "professor_count": 1,
-      "review_count": 3,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 53,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 220",
       "course_name": "Molecular Genetics",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 170,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 221",
       "course_name": "Seafood Forensics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 14,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 240",
       "course_name": "Cell Biology",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 31,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 250",
       "course_name": "Evolutionary Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 22,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 252",
       "course_name": "Fundamentals of Human Anatomy and Physiology",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 436,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 252L",
       "course_name": "Fundamentals of Human Anatomy and Physiology Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 66,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 253",
       "course_name": "Advanced Human Anatomy and Physiology",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 166,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 278",
       "course_name": "Animal Behavior",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 14,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 405",
+      "course_name": "Good Genes: Human Reproduction in the Social Context",
+      "professor_count": 1,
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 421",
       "course_name": "Bacterial Genetics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 12,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 422",
       "course_name": "Microbiology",
-      "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 27,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 425",
       "course_name": "Human Genetics",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 427",
       "course_name": "Human Diversity and Population Genetics",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 439",
       "course_name": "Introduction to Signal Transduction",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 440",
       "course_name": "Stem Cell Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 443",
       "course_name": "Developmental Biology",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 445",
+      "course_name": "Cancer Biology",
+      "professor_count": 1,
+      "review_count": 70,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 447",
       "course_name": "Cell Biology: Beyond Core Basics",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 447L",
       "course_name": "Cell Biology: Beyond Core Basics Laboratory",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 31,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 450",
       "course_name": "Neurobiology",
       "professor_count": 2,
-      "review_count": 9,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 451",
       "course_name": "Comparative Physiology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 455",
       "course_name": "Behavioral Neuroscience",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 461",
       "course_name": "Fundamentals of Ecology",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 462",
+      "course_name": "Marine Ecology",
+      "professor_count": 1,
+      "review_count": 14,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 464",
       "course_name": "Global Change Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 466",
       "course_name": "Environmental Microbiology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 469",
       "course_name": "Behavioral Ecology",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 471",
       "course_name": "Evolutionary Mechanisms",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 22,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 473",
+      "course_name": "Mammalian Morphology and Development",
+      "professor_count": 1,
+      "review_count": 66,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 474",
       "course_name": "Evolution of Vertebrate Life",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 79,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 475",
       "course_name": "Biology of Marine Animals",
       "professor_count": 1,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 5,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "BIOL 480",
+      "course_name": "Discoveries in Prevention and Cure of Infectious Disease in London",
+      "professor_count": 1,
+      "review_count": 12,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 481",
       "course_name": "Biology, History, and Evolution of Epidemic Diseases",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 12,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 490",
       "course_name": "Advanced Topics in Biology",
-      "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 49,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 502",
       "course_name": "The Genome Editing Revolution",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 523",
       "course_name": "Sex Differences in Human Disease",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 528",
       "course_name": "Quantitative Personalized Genomics",
       "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "review_count": 3,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 537",
       "course_name": "Biotechnology and Synthetic Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 545",
       "course_name": "Exploring Brain, Gut, and Immunity",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 546",
       "course_name": "Biology of Aging",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 568H",
       "course_name": "Disease Ecology and Evolution",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 621",
       "course_name": "Principles of Genetic Analysis I",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 639",
       "course_name": "Seminar in Plant Molecular and Cell Biology",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "BIOL 680",
       "course_name": "Advanced Seminar in Recent Biological Research and Methods",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
-      "course_code": "CHEM 101",
-      "course_name": "General Descriptive Chemistry I",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
-    },
-    {
-      "course_code": "CHEM 102",
-      "course_name": "General Descriptive Chemistry II",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
-    },
-    {
-      "course_code": "CHEM 241",
-      "course_name": "Modern Analytical Methods for Separation and Characterization",
+      "course_code": "COMP 110",
+      "course_name": "Introduction to Programming",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 45,
+      "last_updated": "2026-05-12"
     },
     {
-      "course_code": "CHEM 261",
-      "course_name": "Introduction to Organic Chemistry I",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
-    },
-    {
-      "course_code": "CHEM 262",
-      "course_name": "Introduction to Organic Chemistry II",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
-    },
-    {
-      "course_code": "CHEM 430",
-      "course_name": "Introduction to Biological Chemistry",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
-    },
-    {
-      "course_code": "CHEM 481",
-      "course_name": "Physical Chemistry I",
-      "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "course_code": "COMP 116",
+      "course_name": "Introduction to Scientific Programming",
+      "professor_count": 2,
+      "review_count": 165,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 126",
       "course_name": "Practical Web Design and Development for Everyone",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 24,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 210",
       "course_name": "Data Structures and Analysis",
+      "professor_count": 4,
+      "review_count": 193,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 211",
+      "course_name": "Systems Fundamentals",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 165,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 227",
       "course_name": "Effective Peer Teaching in Computer Science",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 24,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 283",
       "course_name": "Discrete Structures",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 301",
       "course_name": "Foundations of Programming",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 75,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 311",
       "course_name": "Computer Organization",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 147,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 380",
+      "course_name": "Technology, Ethics, & Culture",
+      "professor_count": 1,
+      "review_count": 24,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 401",
+      "course_name": "Foundation of Programming",
+      "professor_count": 2,
+      "review_count": 75,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 410",
+      "course_name": "Data Structures",
+      "professor_count": 3,
+      "review_count": 21,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 411",
+      "course_name": "Computer Organization",
+      "professor_count": 4,
+      "review_count": 32,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 426",
       "course_name": "Modern Web Programming",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 65,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 431",
       "course_name": "Internet Services and Protocols",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 433",
       "course_name": "Mobile Computing Systems",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 435",
       "course_name": "Computer Security Concepts",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 46,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 455",
       "course_name": "Models of Languages and Computation",
-      "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 130,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 475",
       "course_name": "2D Computer Graphics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 488",
+      "course_name": "Data Science in the Business World",
+      "professor_count": 1,
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 520",
       "course_name": "Compilers",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 46,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 523",
       "course_name": "Software Engineering Laboratory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 524",
       "course_name": "Programming Language Concepts",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 530",
       "course_name": "Operating Systems",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 533",
       "course_name": "Distributed Systems and Concurrent Programming",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 537",
       "course_name": "Cryptography",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 14,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 541",
       "course_name": "Digital Logic and Computer Design",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 550",
       "course_name": "Algorithms and Analysis",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 144,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 555",
       "course_name": "Bioalgorithms",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 560",
       "course_name": "Artificial Intelligence",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 562",
       "course_name": "Introduction to Machine Learning",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 121,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 572",
       "course_name": "Computational Photography",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 581",
       "course_name": "Introduction to Robotics",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 590",
       "course_name": "Topics in Computer Science",
-      "professor_count": 8,
-      "review_count": 34,
-      "last_updated": "2026-05-11"
+      "professor_count": 10,
+      "review_count": 219,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 630",
+      "course_name": "Operating System Implementation",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 664",
       "course_name": "Deep Learning",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "COMP 730",
+      "course_name": "Operating Systems",
+      "professor_count": 1,
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 735",
       "course_name": "Distributed and Concurrent Algorithms",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 755",
       "course_name": "Machine Learning",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 776",
       "course_name": "Computer Vision in our 3D World",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "COMP 790",
       "course_name": "Topics in Computer Science",
-      "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 37,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "DATA 110",
       "course_name": "Introduction to Data Science",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 31,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "DATA 120",
       "course_name": "Ethics of AI and Societal Decision Making",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "DATA 130",
       "course_name": "Critical Data Literacy",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 23,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "DATA 140",
       "course_name": "Introduction to Data Structures and Management",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 101",
       "course_name": "Introduction to Economics",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 136,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 111",
       "course_name": "The Economics of Entrepreneurship and Innovation",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 370",
       "course_name": "Economic Applications of Data Science",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 400",
       "course_name": "Introduction to Data Science and Econometrics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 410",
       "course_name": "Intermediate Microeconomics",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 228,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 411",
+      "course_name": "Game Theory",
+      "professor_count": 1,
+      "review_count": 44,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 415",
       "course_name": "Market Failures",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 64,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 416",
       "course_name": "Behavioral Economics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 44,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 420",
       "course_name": "Intermediate Macroeconomics",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 136,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 423",
       "course_name": "Financial Markets and Economic Fluctuations",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 23,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 425",
       "course_name": "Financial Economics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 440",
       "course_name": "Analysis of Public Finance",
+      "professor_count": 2,
+      "review_count": 70,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 445",
+      "course_name": "Industrial Organization",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 460",
       "course_name": "International Economics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 468",
       "course_name": "Socialism, Planning, and the Contemporary Russian Economy",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 18,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 469",
+      "course_name": "Asian Economic Systems",
+      "professor_count": 1,
+      "review_count": 18,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 470",
       "course_name": "Econometrics",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 171,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 480",
+      "course_name": "Labor Economics",
+      "professor_count": 1,
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 510",
       "course_name": "Advanced Microeconomic Theory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 44,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 511",
+      "course_name": "Advanced Game Theory in Economics",
+      "professor_count": 1,
+      "review_count": 44,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 520",
       "course_name": "Advanced Macroeconomic Theory",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 18,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 525",
       "course_name": "Advanced Financial Economics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 545",
       "course_name": "Advanced Industrial Organization",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 552",
       "course_name": "The Economics of Health Care Markets and Policy",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 12,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 560",
       "course_name": "Advanced International Economics",
       "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "review_count": 4,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 571",
       "course_name": "Advanced Econometrics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 573",
       "course_name": "Machine Learning and Econometrics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 575",
       "course_name": "Applied Time Series Analysis and Forecasting",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 58,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 580",
       "course_name": "Advanced Labor Economics",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 700",
       "course_name": "Basic Quantitative Techniques",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 711",
+      "course_name": "Advanced Microeconomic Theory II",
+      "professor_count": 1,
+      "review_count": 44,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECON 720",
+      "course_name": "Advanced Macroeconomic Theory I",
+      "professor_count": 1,
+      "review_count": 8,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECON 770",
       "course_name": "Introduction to Econometric Theory",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 58,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ENEC 380",
+      "course_name": "Environmental Economics",
+      "professor_count": 1,
+      "review_count": 48,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "INLS 382",
       "course_name": "Information Systems Analysis and Design",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "INLS 509",
       "course_name": "Information Retrieval",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "INLS 560",
       "course_name": "Programming for Information Science",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "INLS 613",
       "course_name": "Text Mining",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "INLS 641",
       "course_name": "Visual Analytics",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 110",
+      "course_name": "Algebra",
+      "professor_count": 4,
+      "review_count": 338,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 115",
+      "course_name": "Reasoning with Data: Navigating a Quantitative World",
+      "professor_count": 1,
+      "review_count": 83,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 130",
+      "course_name": "Precalculus Mathematics",
+      "professor_count": 1,
+      "review_count": 55,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 152",
+      "course_name": "Calculus for Business and Social Sciences",
+      "professor_count": 2,
+      "review_count": 155,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 231",
       "course_name": "Calculus of Functions of One Variable I",
-      "professor_count": 4,
-      "review_count": 20,
-      "last_updated": "2026-05-11"
+      "professor_count": 15,
+      "review_count": 600,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 232",
       "course_name": "Calculus of Functions of One Variable II",
-      "professor_count": 4,
-      "review_count": 20,
-      "last_updated": "2026-05-11"
+      "professor_count": 16,
+      "review_count": 649,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 233",
       "course_name": "Calculus of Functions of Several Variables",
-      "professor_count": 12,
-      "review_count": 60,
-      "last_updated": "2026-05-11"
+      "professor_count": 19,
+      "review_count": 680,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 235",
       "course_name": "Mathematics for Data Science",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 66,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 347",
       "course_name": "Linear Algebra for Applications",
-      "professor_count": 7,
-      "review_count": 35,
-      "last_updated": "2026-05-11"
+      "professor_count": 13,
+      "review_count": 428,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 381",
       "course_name": "Discrete Mathematics",
-      "professor_count": 7,
-      "review_count": 35,
-      "last_updated": "2026-05-11"
+      "professor_count": 12,
+      "review_count": 454,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 383",
       "course_name": "First Course in Differential Equations",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 11,
+      "review_count": 317,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 521",
       "course_name": "Advanced Calculus I",
-      "professor_count": 5,
-      "review_count": 25,
-      "last_updated": "2026-05-11"
+      "professor_count": 13,
+      "review_count": 360,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 523",
       "course_name": "Functions of a Complex Variable with Applications",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 157,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 528",
       "course_name": "Mathematical Methods for the Physical Sciences I",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 149,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 529",
       "course_name": "Mathematical Methods for the Physical Sciences II",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 74,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 533",
+      "course_name": "Elementary Theory of Numbers",
+      "professor_count": 4,
+      "review_count": 116,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 534",
       "course_name": "Elements of Modern Algebra",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 100,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 548",
       "course_name": "Combinatorial Mathematics",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 84,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 550",
       "course_name": "Topology",
+      "professor_count": 4,
+      "review_count": 64,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 551",
+      "course_name": "Euclidean and Non-Euclidean Geometries",
       "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "review_count": 62,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 560",
       "course_name": "Optimization with Applications in Machine Learning",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 40,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 564",
+      "course_name": "Mathematical Modeling in the Life Sciences",
+      "professor_count": 1,
+      "review_count": 27,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 566",
+      "course_name": "Introduction to Numerical Analysis",
+      "professor_count": 4,
+      "review_count": 191,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 577",
+      "course_name": "Linear Algebra",
+      "professor_count": 3,
+      "review_count": 64,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 578",
+      "course_name": "Algebraic Structures",
+      "professor_count": 3,
+      "review_count": 79,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 590",
       "course_name": "Topics in Mathematics",
+      "professor_count": 4,
+      "review_count": 91,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 594",
+      "course_name": "Nonlinear Dynamics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 21,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 653",
+      "course_name": "Introductory Analysis",
+      "professor_count": 1,
+      "review_count": 13,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 661",
+      "course_name": "Scientific Computation I",
+      "professor_count": 1,
+      "review_count": 27,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 662",
+      "course_name": "Scientific Computation II",
+      "professor_count": 2,
+      "review_count": 72,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 676",
+      "course_name": "Modules, Linear Algebra, and Groups",
+      "professor_count": 1,
+      "review_count": 30,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 677",
+      "course_name": "Groups, Representations, and Fields",
+      "professor_count": 1,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "MATH 681",
+      "course_name": "Introductory Topology",
+      "professor_count": 1,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 751",
       "course_name": "Introduction to Partial Differential Equations",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "MATH 753",
       "course_name": "Measure and Integration",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 20,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 100",
       "course_name": "How Things Work",
+      "professor_count": 3,
+      "review_count": 82,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 101",
+      "course_name": "Basic Concepts of Physics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 42,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 114",
       "course_name": "General Physics I: For Students of the Life Sciences",
-      "professor_count": 4,
-      "review_count": 20,
-      "last_updated": "2026-05-11"
+      "professor_count": 6,
+      "review_count": 181,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 115",
       "course_name": "General Physics II: For Students of the Life Sciences",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 174,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 118",
       "course_name": "Introductory Calculus-based Mechanics and Relativity",
-      "professor_count": 5,
-      "review_count": 20,
-      "last_updated": "2026-05-11"
+      "professor_count": 7,
+      "review_count": 91,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 119",
       "course_name": "Introductory Calculus-based Electromagnetism and Quanta",
-      "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 77,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 231",
       "course_name": "Physical Computing",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 15,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 281L",
       "course_name": "Experimental Techniques in Physics",
-      "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 62,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 311",
       "course_name": "Electromagnetism I",
-      "professor_count": 2,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 15,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 331",
       "course_name": "Numerical Techniques for the Sciences I",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 332",
       "course_name": "Numerical Techniques for the Sciences II",
       "professor_count": 1,
-      "review_count": 1,
-      "last_updated": "2026-05-11"
+      "review_count": 2,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 401",
       "course_name": "Mechanics I",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 405",
       "course_name": "Biological Physics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 412",
       "course_name": "Electromagnetism II",
       "professor_count": 1,
       "review_count": 3,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 421",
       "course_name": "Introduction to Quantum Mechanics",
-      "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 447",
       "course_name": "Quantum Computing",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 451",
       "course_name": "Electronics I",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 461",
+      "course_name": "Introduction to Medical Physics",
+      "professor_count": 1,
+      "review_count": 11,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "PHYS 510",
+      "course_name": "Seminar for Physics and Astronomy Teaching Assistants",
+      "professor_count": 1,
+      "review_count": 42,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 521",
       "course_name": "Applications of Quantum Mechanics",
-      "professor_count": 1,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 13,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PHYS 543",
       "course_name": "Nuclear Physics",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 113",
       "course_name": "Decision Models for Business and Economics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 53,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 120",
       "course_name": "Foundations of Statistics and Data Science",
-      "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 145,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 151",
+      "course_name": "Introduction to Data Analysis",
+      "professor_count": 1,
+      "review_count": 25,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 155",
       "course_name": "Introduction to Data Models and Inference",
-      "professor_count": 3,
-      "review_count": 14,
-      "last_updated": "2026-05-11"
+      "professor_count": 9,
+      "review_count": 233,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 215",
       "course_name": "Foundations of Decision Sciences",
+      "professor_count": 2,
+      "review_count": 17,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 235",
+      "course_name": "Mathematics for Data Science",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 19,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 305",
       "course_name": "Introduction to Decision Analytics",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 108,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 320",
       "course_name": "Methods and Models of Data Science",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 114,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 390",
+      "course_name": "Special Topics in Statistics and Operations Research",
+      "professor_count": 1,
+      "review_count": 26,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 415",
       "course_name": "Introduction to Optimization",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 128,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 435",
       "course_name": "Introduction to Probability",
-      "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "professor_count": 7,
+      "review_count": 152,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 445",
       "course_name": "Stochastic Modeling",
       "professor_count": 3,
-      "review_count": 15,
-      "last_updated": "2026-05-11"
+      "review_count": 88,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 455",
       "course_name": "Methods of Data Analysis",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 152,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 535",
       "course_name": "Probability for Data Science",
       "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "review_count": 42,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 555",
       "course_name": "Mathematical Statistics",
       "professor_count": 2,
-      "review_count": 8,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 556",
       "course_name": "Time Series Data Analysis",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 33,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "STOR 565",
       "course_name": "Machine Learning",
-      "professor_count": 4,
-      "review_count": 18,
-      "last_updated": "2026-05-11"
+      "professor_count": 7,
+      "review_count": 70,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 566",
+      "course_name": "Introduction to Deep Learning",
+      "professor_count": 1,
+      "review_count": 16,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 572",
+      "course_name": "Simulation for Analytics",
+      "professor_count": 1,
+      "review_count": 56,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 612",
+      "course_name": "Foundations of Optimization",
+      "professor_count": 1,
+      "review_count": 53,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 634",
+      "course_name": "Probability I",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 641",
+      "course_name": "Stochastic Modeling I",
+      "professor_count": 2,
+      "review_count": 77,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 654",
+      "course_name": "Statistical Theory I",
+      "professor_count": 1,
+      "review_count": 3,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 665",
+      "course_name": "Applied Statistics II",
+      "professor_count": 1,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "STOR 674",
+      "course_name": "Statistical and Computational Tools for Reproducible Data Science",
+      "professor_count": 1,
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     }
   ],
   "ncsu": [
     {
+      "course_code": "CSC 110",
+      "course_name": "Computer Science Principles - The Beauty and Joy of Computing",
+      "professor_count": 1,
+      "review_count": 4,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 111",
+      "course_name": "Introduction to Computing: Python",
+      "professor_count": 1,
+      "review_count": 1,
+      "last_updated": "2026-05-12"
+    },
+    {
       "course_code": "CSC 113",
       "course_name": "Introduction to Computing - MATLAB",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 30,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 116",
       "course_name": "Introduction to Computing - Java",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 129,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 216",
       "course_name": "Software Development Fundamentals",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 99,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 226",
       "course_name": "Discrete Mathematics",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 73,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 230",
       "course_name": "C and Software Tools",
-      "professor_count": 2,
-      "review_count": 10,
-      "last_updated": "2026-05-11"
+      "professor_count": 5,
+      "review_count": 162,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 236",
+      "course_name": "Computer Organization and Assembly Language for Computer Scientists",
+      "professor_count": 1,
+      "review_count": 88,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 246",
       "course_name": "Concepts and Facilities of Operating Systems for Computer Scientists",
       "professor_count": 3,
-      "review_count": 11,
-      "last_updated": "2026-05-11"
+      "review_count": 98,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 251",
+      "course_name": "Python Applications",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 297",
       "course_name": "Cybersecurity Topics",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 316",
       "course_name": "Data Structures and Algorithms",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 35,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 326",
       "course_name": "Software Engineering",
-      "professor_count": 2,
-      "review_count": 9,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 50,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 401",
       "course_name": "Data and Computer Communications Networks",
-      "professor_count": 2,
-      "review_count": 2,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 32,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 405",
       "course_name": "Computer Security",
       "professor_count": 2,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 408",
       "course_name": "Software Product Management",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 411",
+      "course_name": "Introduction to Artificial Intelligence",
+      "professor_count": 1,
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 415",
       "course_name": "Software Security",
+      "professor_count": 2,
+      "review_count": 41,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 417",
+      "course_name": "Theory of Programming Languages",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 431",
+      "course_name": "File Organization and Processing",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 440",
       "course_name": "Database Management Systems",
       "professor_count": 2,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 450",
       "course_name": "Web Services",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 453",
       "course_name": "Introduction to Internet of Things (IoT) Systems",
       "professor_count": 2,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 454",
+      "course_name": "Human-Computer Interaction",
+      "professor_count": 1,
+      "review_count": 3,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 456",
       "course_name": "Computer Architecture and Multiprocessors",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 461",
       "course_name": "Computer Graphics",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 462",
+      "course_name": "Advanced Computer Graphics Projects",
+      "professor_count": 1,
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 474",
       "course_name": "Network Security",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 491",
       "course_name": "Special Topics in Computer Science",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 492",
+      "course_name": "Senior Design Project",
+      "professor_count": 1,
+      "review_count": 30,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 501",
+      "course_name": "Operating Systems Principles",
+      "professor_count": 1,
+      "review_count": 1,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 505",
       "course_name": "Design and Analysis Of Algorithms",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 14,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 510",
       "course_name": "Software Engineering",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 11,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 515",
       "course_name": "Software Security",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 520",
       "course_name": "Artificial Intelligence I",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 540",
       "course_name": "Database Management Concepts and Systems",
       "professor_count": 2,
-      "review_count": 4,
-      "last_updated": "2026-05-11"
+      "review_count": 5,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 541",
+      "course_name": "Advanced Data Structures",
+      "professor_count": 2,
+      "review_count": 5,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 548",
       "course_name": "Parallel Systems",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 549",
       "course_name": "Embedded/Real-Time Systems for Autonomous Driving with Machine Learning",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 554",
       "course_name": "Human-Computer Interaction",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 6,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 555",
       "course_name": "Social Computing and Decentralized Artificial Intelligence",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 561",
       "course_name": "Principles of Computer Graphics",
       "professor_count": 1,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 591",
       "course_name": "Special Topics In Computer Science",
-      "professor_count": 3,
-      "review_count": 11,
-      "last_updated": "2026-05-11"
+      "professor_count": 4,
+      "review_count": 19,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 742",
+      "course_name": "Database Management Systems",
+      "professor_count": 1,
+      "review_count": 3,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 750",
+      "course_name": "Service-Oriented Computing",
+      "professor_count": 1,
+      "review_count": 2,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "CSC 766",
+      "course_name": "Code Optimization for Scalar and Parallel Programs",
+      "professor_count": 1,
+      "review_count": 4,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "CSC 791",
       "course_name": "Advanced Topics In Computer Science",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 109",
       "course_name": "Introduction to Computer Systems",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 35,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 200",
       "course_name": "Introduction to Signals, Circuits and Systems",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 40,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 209",
       "course_name": "Computer Systems Programming",
       "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "review_count": 47,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 211",
       "course_name": "Electric Circuits",
       "professor_count": 3,
-      "review_count": 8,
-      "last_updated": "2026-05-11"
+      "review_count": 43,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 212",
       "course_name": "Fundamentals of Logic Design",
-      "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "professor_count": 2,
+      "review_count": 55,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 220",
       "course_name": "Analytical Foundations of Electrical and Computer Engineering",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 301",
       "course_name": "Linear Systems",
       "professor_count": 2,
-      "review_count": 9,
-      "last_updated": "2026-05-11"
+      "review_count": 18,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 303",
       "course_name": "Electromagnetic Fields",
-      "professor_count": 2,
-      "review_count": 7,
-      "last_updated": "2026-05-11"
+      "professor_count": 3,
+      "review_count": 36,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 305",
       "course_name": "Principles of Electromechanical Energy Conversion",
       "professor_count": 2,
-      "review_count": 9,
-      "last_updated": "2026-05-11"
+      "review_count": 10,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 306",
       "course_name": "Introduction to Embedded Systems",
       "professor_count": 1,
+      "review_count": 27,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECE 308",
+      "course_name": "Elements of Control Systems",
+      "professor_count": 2,
       "review_count": 5,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 309",
       "course_name": "Data Structures and Object-Oriented Programming for Electrical and Computer Engineers",
       "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "review_count": 24,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 310",
       "course_name": "Design of Complex Digital Systems",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 35,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 331",
       "course_name": "Principles of Electrical Engineering",
       "professor_count": 3,
-      "review_count": 12,
-      "last_updated": "2026-05-11"
+      "review_count": 28,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECE 403",
+      "course_name": "Electronics Engineering",
+      "professor_count": 1,
+      "review_count": 40,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 434",
       "course_name": "Fundamentals of Power Electronics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 12,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 451",
       "course_name": "Power System Analysis",
       "professor_count": 1,
       "review_count": 2,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 484",
       "course_name": "Electrical and Computer Engineering Senior Design I",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 485",
       "course_name": "Electrical and Computer Engineering Senior Design II",
       "professor_count": 1,
       "review_count": 4,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 511",
       "course_name": "Analog Electronics",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 558",
       "course_name": "Digital Imaging Systems",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECE 591",
+      "course_name": "Special Topics In Electrical Engineering",
+      "professor_count": 1,
+      "review_count": 20,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 592",
       "course_name": "Special Topics In Electrical Engineering",
+      "professor_count": 2,
+      "review_count": 22,
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECE 712",
+      "course_name": "Integrated Circuit Design for Wireless Communications",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 7,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "ECE 763",
       "course_name": "Computer Vision",
       "professor_count": 1,
       "review_count": 1,
-      "last_updated": "2026-05-11"
+      "last_updated": "2026-05-12"
+    },
+    {
+      "course_code": "ECE 786",
+      "course_name": "Advanced Computer Architecture: Data Parallel Processors",
+      "professor_count": 2,
+      "review_count": 22,
+      "last_updated": "2026-05-12"
     },
     {
       "course_code": "PY 208",
       "course_name": "Physics for Engineers and Scientists II",
       "professor_count": 1,
-      "review_count": 5,
-      "last_updated": "2026-05-11"
+      "review_count": 9,
+      "last_updated": "2026-05-12"
     }
   ]
 }
