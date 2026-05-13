@@ -101,24 +101,32 @@ _SOURCES = [
         "department":       "Psychology",
         "directory_url":    "https://psych.charlotte.edu/people/",
         "rmp_dept_aliases": ["Psychology", "Psychological Science", "Psychological Sciences", "Behavioral Science", "Cognitive Science", "Neuroscience"],
+        # Profile links use "Last, First" text — _flip_last_first is applied in _scrape_cci_names
     },
     {
         **_UNCC,
+        "scraper":          "playwright",
         "department":       "Sociology",
-        "directory_url":    "https://sociology.charlotte.edu/people/",
+        "directory_url":    "https://sociology.charlotte.edu/people/full-time-faculty/",
         "rmp_dept_aliases": ["Sociology", "Social Science", "Social Sciences", "Anthropology", "Criminology"],
+        # Profile links use /directory/<slug>/ — needs playwright + directory pattern
     },
     {
         **_UNCC,
+        "scraper":          "playwright",
         "department":       "History",
-        "directory_url":    "https://history.charlotte.edu/people/",
+        "directory_url":    "https://history.charlotte.edu/people/faculty/",
         "rmp_dept_aliases": ["History", "Historical Studies", "Humanities", "Social Studies"],
+        # Profile links use ALL-CAPS "FIRST LAST" text — _flip_last_first handles title-casing
     },
     {
         **_UNCC,
+        "scraper":          "playwright",
+        "name_selector":    ".name",
         "department":       "Political Science",
-        "directory_url":    "https://politicalscience.charlotte.edu/people/",
+        "directory_url":    "https://politicalscience.charlotte.edu/people/full-time-faculty/",
         "rmp_dept_aliases": ["Political Science", "Political Studies", "Government", "Public Policy", "International Studies"],
+        # Names rendered as ALL-CAPS text in .name cards, no profile links
     },
     {
         **_UNCC,
@@ -169,9 +177,9 @@ _SOURCES = [
     {
         **_UNC,
         "department":       "Chemistry",
-        "directory_url":    "https://chem.unc.edu/faculty/",
+        "directory_url":    "https://chem.unc.edu/people/",
         "rmp_dept_aliases": ["Chemistry", "Chemical Biology", "Biochemistry", "Organic Chemistry"],
-        # /faculty/<slug>/ links; one link per card has "Last, First" text
+        # /people/<slug>/ links with "First Last" text; /faculty/ returns 0 names via playwright
     },
     {
         **_UNC,
@@ -235,10 +243,10 @@ _CREDENTIAL_SUFFIX = re.compile(
 def _flip_last_first(text: str) -> str:
     """Convert 'Last, First [Middle]' → 'First [Middle] Last'. No-op if not that format.
 
-    Also normalizes ALL-CAPS input (e.g. 'ANDREONI, IGOR') to title case first.
+    Also normalizes ALL-CAPS input (with or without comma) to title case first.
     """
-    # Normalize all-caps "LAST, FIRST" → "Last, First"
-    if "," in text and text == text.upper():
+    # Normalize all-caps to title case (handles "ANDREONI, IGOR" and "CHRIS BOYER")
+    if any(c.isalpha() for c in text) and text == text.upper():
         text = text.title()
     m = _LAST_FIRST_RE.match(text)
     if not m:
@@ -292,7 +300,7 @@ def _scrape_cci_names(directory_url: str) -> list[str]:
         soup = BeautifulSoup(resp.text, "html.parser")
 
         for a in soup.find_all("a", href=re.compile(r"/(directory|people)/[a-z][a-z\-0-9]+/$")):
-            text = _clean_name(a.get_text(strip=True))
+            text = _flip_last_first(_clean_name(a.get_text(strip=True)))
             if _is_valid_faculty_name(text) and text not in seen:
                 seen.add(text)
                 names.append(text)
@@ -354,7 +362,7 @@ def _scrape_playwright_names(
         return []
 
     _PERSON_PATTERN = re.compile(
-        r"/(person|people|faculty-member|faculty-profile|faculty)/[a-z][a-z\-0-9]+/?$"
+        r"/(person|people|directory|faculty-member|faculty-profile|faculty)/[a-z][a-z\-0-9]+/?$"
     )
 
     seen:  set[str]  = set()
