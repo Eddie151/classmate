@@ -50,8 +50,11 @@ _DEPT_MAP = {
     "ARE":  "Agricultural and Resource Economics",
     "ANT":  "Anthropology",
     "SOC":  "Sociology",
+    "SOCY": "Sociology",
     "POL":  "Political Science",
+    "POLS": "Political Science",
     "HIS":  "History",
+    "HIST": "History",
     "PHIL": "Philosophy",
     "PSYC": "Psychology",
     # Communication & Media
