@@ -217,9 +217,14 @@ async def get_course_insights(school: str, code: str) -> dict:
 
     course_code = resolved["code"]
 
-    # Gate: only proceed for courses we have real data for
-    if _SUPPORTED_SET and course_code not in _SUPPORTED_SET.get(school, set()):
-        prefix = course_code.split()[0]
+    # Gate: only proceed for courses we have real data for.
+    # Check both the resolved code and its prefix alias (e.g. ITSC 1212 ↔ ITCS 1212).
+    _prefix     = course_code.split()[0]
+    _alias_code = (_PREFIX_ALIASES[_prefix] + course_code[len(_prefix):]) if _prefix in _PREFIX_ALIASES else None
+    if _SUPPORTED_SET and course_code not in _SUPPORTED_SET.get(school, set()) and (
+        _alias_code is None or _alias_code not in _SUPPORTED_SET.get(school, set())
+    ):
+        prefix = _prefix
         suggestions = [
             {"code": c["course_code"], "title": c["course_name"]}
             for c in _SUPPORTED.get(school, [])
@@ -237,7 +242,7 @@ async def get_course_insights(school: str, code: str) -> dict:
             "course_code": course_code,
             "message":     (
                 f"We don't have data for {course_code} yet. "
-                "ClassMate currently covers 440 courses across UNCC, UNC, and NC State."
+                "ClassMate currently covers 760 courses across UNCC, UNC, and NC State."
             ),
             "suggestions": suggestions,
         }
