@@ -10,3 +10,6 @@ backend/validate_schools.py
 backend/course_scraper.py
 docs/
 *.pdf
+.claude/
+data_audit_*.txt
+run_data_audit.py
