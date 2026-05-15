@@ -227,6 +227,13 @@ def resolve_course(school_slug: str, user_input: str) -> dict:
     if result:
         return result
 
+    if len(_meaningful_tokens(user_input)) < 2:
+        return {
+            "status": "no_match",
+            "stage": 0,
+            "reason": "query too vague — try a course code or specific course name",
+        }
+
     result = _stage2_fuzzy(user_input, courses)
     if result:
         return result

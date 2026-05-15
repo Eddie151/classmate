@@ -334,7 +334,12 @@ async def get_course_insights(school: str, code: str) -> dict:
             "_review_count": len(course_reviews),
         }
 
-    gathered = await asyncio.gather(*[_fetch_one(p) for p in professors[:3]])
+    tasks = [asyncio.ensure_future(_fetch_one(p)) for p in professors[:3]]
+    done, pending = await asyncio.wait(tasks, timeout=20)
+    for t in pending:
+        t.cancel()
+        logger.warning("_fetch_one timed out for %s/%s — partial results returned", school, course_code)
+    gathered = [t.result() for t in done if not t.cancelled() and t.exception() is None]
 
     professor_results = []
     for r in gathered:
