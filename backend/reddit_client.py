@@ -1,5 +1,6 @@
 """Fetches professor discussions from school subreddits via Reddit's public JSON endpoint."""
 import logging
+import time
 
 import requests
 
@@ -15,14 +16,26 @@ def fetch_reddit_posts(subreddit: str, query: str, limit: int = 20) -> list[dict
     params  = {"q": query, "restrict_sr": 1, "sort": "relevance", "limit": limit, "t": "year"}
     headers = {"User-Agent": _USER_AGENT}
 
-    try:
-        response = requests.get(url, params=params, headers=headers, timeout=_TIMEOUT)
-    except requests.exceptions.Timeout:
-        logger.warning("Reddit request timed out (subreddit=%s, query=%r)", subreddit, query)
-        return []
-    except requests.exceptions.RequestException as e:
-        logger.warning("Reddit request failed (subreddit=%s, query=%r): %s", subreddit, query, e)
-        return []
+    for attempt in range(2):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=_TIMEOUT)
+            break
+        except requests.exceptions.Timeout:
+            if attempt == 0:
+                logger.warning(
+                    "Reddit timeout attempt 1 (subreddit=%s, query=%r) — retrying in 1s",
+                    subreddit, query,
+                )
+                time.sleep(1)
+            else:
+                logger.warning(
+                    "Reddit timeout attempt 2 (subreddit=%s, query=%r) — giving up",
+                    subreddit, query,
+                )
+                return []
+        except requests.exceptions.RequestException as e:
+            logger.warning("Reddit request failed (subreddit=%s, query=%r): %s", subreddit, query, e)
+            return []
 
     if not response.ok:
         logger.warning(
