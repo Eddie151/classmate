@@ -301,6 +301,8 @@ async def get_course_insights(school: str, code: str) -> dict:
             deduped.append(p)
     professors = deduped
 
+    _course_key = course_code.replace(" ", "")
+
     async def _fetch_one(prof: dict) -> dict:
         reddit_posts: list = []
         insight = None
@@ -309,12 +311,16 @@ async def get_course_insights(school: str, code: str) -> dict:
                 reddit_client.get_professor_posts,
                 school_data["subreddit"], prof["name"], course_code, limit=10,
             )
+            course_reviews = [
+                r for r in prof.get("reviews", [])
+                if r.get("class_name", "").replace(" ", "") == _course_key
+            ]
             insight = await asyncio.to_thread(
                 insights.generate_insights,
                 professor_name=prof["name"],
                 course_code=course_code,
                 reddit_posts=reddit_posts,
-                rmp_reviews=prof.get("reviews", []),
+                rmp_reviews=course_reviews,
             )
         except Exception as e:
             logger.warning("generate_insights failed for %r: %s", prof["name"], e)
