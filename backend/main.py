@@ -305,6 +305,7 @@ async def get_course_insights(school: str, code: str) -> dict:
 
     async def _fetch_one(prof: dict) -> dict:
         reddit_posts: list = []
+        course_reviews: list = []
         insight = None
         try:
             reddit_posts = await asyncio.to_thread(
@@ -325,16 +326,32 @@ async def get_course_insights(school: str, code: str) -> dict:
         except Exception as e:
             logger.warning("generate_insights failed for %r: %s", prof["name"], e)
         return {
-            "name":        prof["name"],
-            "rating":      prof.get("rating"),
-            "num_ratings": prof.get("num_ratings", 0),
-            "insights":    insight,
-            "_posts":      reddit_posts,
+            "name":         prof["name"],
+            "rating":       prof.get("rating"),
+            "num_ratings":  prof.get("num_ratings", 0),
+            "insights":     insight,
+            "_posts":       reddit_posts,
+            "_review_count": len(course_reviews),
         }
 
     gathered = await asyncio.gather(*[_fetch_one(p) for p in professors[:3]])
-    professor_results = list(gathered)
+
+    professor_results = []
+    for r in gathered:
+        if r["_review_count"] >= 1 or len(r["_posts"]) >= 2:
+            professor_results.append(r)
+        else:
+            logger.info(
+                "Dropping %r from %s/%s — 0 course reviews, %d Reddit posts",
+                r["name"], school, course_code, len(r["_posts"]),
+            )
+
+    if not professor_results:
+        return _no_data_response(course_code, school)
+
     total_reddit_posts = sum(len(r.pop("_posts")) for r in professor_results)
+    for r in professor_results:
+        r.pop("_review_count")
     insights_error = any(r["insights"] is None for r in professor_results)
 
     return {
