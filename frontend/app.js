@@ -411,6 +411,15 @@ function renderCard(data, courseCode, professorName = null, rating = null, numRa
   header.appendChild(prof);
   card.appendChild(header);
 
+  if (!data) {
+    const unavailable = document.createElement("p");
+    unavailable.className   = "summary insights-unavailable";
+    unavailable.textContent = "Insights temporarily unavailable. Check back shortly.";
+    card.appendChild(unavailable);
+    resultsEl.appendChild(card);
+    return;
+  }
+
   // Chips
   const chips = document.createElement("div");
   chips.className = "chips";

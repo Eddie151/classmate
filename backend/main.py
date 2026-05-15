@@ -301,7 +301,9 @@ async def get_course_insights(school: str, code: str) -> dict:
             deduped.append(p)
     professors = deduped
 
-    async def _fetch_one(prof: dict) -> dict | None:
+    async def _fetch_one(prof: dict) -> dict:
+        reddit_posts: list = []
+        insight = None
         try:
             reddit_posts = await asyncio.to_thread(
                 reddit_client.get_professor_posts,
@@ -314,23 +316,20 @@ async def get_course_insights(school: str, code: str) -> dict:
                 reddit_posts=reddit_posts,
                 rmp_reviews=prof.get("reviews", []),
             )
-            return {
-                "name":        prof["name"],
-                "rating":      prof.get("rating"),
-                "num_ratings": prof.get("num_ratings", 0),
-                "insights":    insight,
-                "_posts":      reddit_posts,
-            }
         except Exception as e:
             logger.warning("generate_insights failed for %r: %s", prof["name"], e)
-            return None
+        return {
+            "name":        prof["name"],
+            "rating":      prof.get("rating"),
+            "num_ratings": prof.get("num_ratings", 0),
+            "insights":    insight,
+            "_posts":      reddit_posts,
+        }
 
     gathered = await asyncio.gather(*[_fetch_one(p) for p in professors[:3]])
-    professor_results = [r for r in gathered if r is not None]
+    professor_results = list(gathered)
     total_reddit_posts = sum(len(r.pop("_posts")) for r in professor_results)
-
-    if not professor_results:
-        return _no_data_response(course_code, school)
+    insights_error = any(r["insights"] is None for r in professor_results)
 
     return {
         "course_code":       course_code,
@@ -338,4 +337,5 @@ async def get_course_insights(school: str, code: str) -> dict:
         "professors":        professor_results,
         "source":            "real",
         "reddit_post_count": total_reddit_posts,
+        **( {"insights_error": True} if insights_error else {} ),
     }
