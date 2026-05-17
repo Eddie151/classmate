@@ -1,6 +1,6 @@
 # ClassMate
 
-Pick the right professor in 15 seconds. Enter a course at UNCC, UNC Chapel Hill, or NC State — ClassMate returns a ranked professor list with AI-synthesized insights drawn from Reddit and RateMyProfessor.
+Pick the right professor in 15 seconds. Enter a course at UNCC, UNC Chapel Hill, or NC State — ClassMate returns a ranked professor list with AI-synthesized insights drawn from Reddit and RateMyProfessor. deployed at: https://aadhyant-b.github.io/classmate/
 
 **[Live →](https://classmate-m8aj.onrender.com)**
 
@@ -70,4 +70,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-_Built by [Aadhyant Bhatnagar](https://github.com/aadhyantbhatnagar), CS @ UNC Charlotte._
+_Built by [Aadhyant Bhatnagar](https://github.com/aadhyantbhatnagar), CS @ NC state._
