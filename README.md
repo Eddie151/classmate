@@ -4,7 +4,7 @@ Pick the right professor in 15 seconds. Enter a course at UNCC, UNC Chapel Hill,
 
 **[Live →](https://classmate-m8aj.onrender.com)**
 
-Currently covers 440 courses across all three schools. Adding more weekly.
+Currently covers 760 courses across all three schools. Adding more weekly.
 
 ---
 
